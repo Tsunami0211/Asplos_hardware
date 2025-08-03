@@ -1,0 +1,1070 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : rs_decoder_76_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:16:04 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_2_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U15/X (SAEDRVT14_NR2_MM_10)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U36/X (SAEDRVT14_AOI21_V1_8)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U75/X (SAEDRVT14_ND2_16)     0.01       0.77 f
+  gf_mult_inst/mult_612/FS_1/U47/X (SAEDRVT14_INV_12)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/U73/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U83/X (SAEDRVT14_ND2_16)     0.01       0.79 r
+  gf_mult_inst/mult_612/FS_1/SUM[13] (gf256_mult_DW01_add_3)
+                                                          0.00       0.79 r
+  gf_mult_inst/mult_612/PRODUCT[15] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.79 r
+  gf_mult_inst/U9/X (SAEDRVT14_INV_12)                    0.00       0.80 f
+  gf_mult_inst/U24/X (SAEDRVT14_EN4_4)                    0.03       0.83 r
+  gf_mult_inst/U40/X (SAEDRVT14_EN2_4)                    0.03       0.86 f
+  gf_mult_inst/result[0] (gf256_mult)                     0.00       0.86 f
+  U3475/X (SAEDRVT14_OR2_MM_12)                           0.02       0.89 f
+  U3383/X (SAEDRVT14_INV_S_20)                            0.01       0.89 r
+  U3535/X (SAEDRVT14_OR2_4)                               0.01       0.91 r
+  U3292/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_2_reg[0]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_2_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_1_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U15/X (SAEDRVT14_NR2_MM_10)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U36/X (SAEDRVT14_AOI21_V1_8)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U75/X (SAEDRVT14_ND2_16)     0.01       0.77 f
+  gf_mult_inst/mult_612/FS_1/U47/X (SAEDRVT14_INV_12)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/U73/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U83/X (SAEDRVT14_ND2_16)     0.01       0.79 r
+  gf_mult_inst/mult_612/FS_1/SUM[13] (gf256_mult_DW01_add_3)
+                                                          0.00       0.79 r
+  gf_mult_inst/mult_612/PRODUCT[15] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.79 r
+  gf_mult_inst/U9/X (SAEDRVT14_INV_12)                    0.00       0.80 f
+  gf_mult_inst/U24/X (SAEDRVT14_EN4_4)                    0.03       0.83 r
+  gf_mult_inst/U40/X (SAEDRVT14_EN2_4)                    0.03       0.86 f
+  gf_mult_inst/result[0] (gf256_mult)                     0.00       0.86 f
+  U3475/X (SAEDRVT14_OR2_MM_12)                           0.02       0.89 f
+  U3383/X (SAEDRVT14_INV_S_20)                            0.01       0.89 r
+  U3626/X (SAEDRVT14_OR2_4)                               0.01       0.91 r
+  U3876/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_1_reg[0]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_1_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_3_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U15/X (SAEDRVT14_NR2_MM_10)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U36/X (SAEDRVT14_AOI21_V1_8)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U75/X (SAEDRVT14_ND2_16)     0.01       0.77 f
+  gf_mult_inst/mult_612/FS_1/U47/X (SAEDRVT14_INV_12)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/U73/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U83/X (SAEDRVT14_ND2_16)     0.01       0.79 r
+  gf_mult_inst/mult_612/FS_1/SUM[13] (gf256_mult_DW01_add_3)
+                                                          0.00       0.79 r
+  gf_mult_inst/mult_612/PRODUCT[15] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.79 r
+  gf_mult_inst/U9/X (SAEDRVT14_INV_12)                    0.00       0.80 f
+  gf_mult_inst/U24/X (SAEDRVT14_EN4_4)                    0.03       0.83 r
+  gf_mult_inst/U40/X (SAEDRVT14_EN2_4)                    0.03       0.86 f
+  gf_mult_inst/result[0] (gf256_mult)                     0.00       0.86 f
+  U3475/X (SAEDRVT14_OR2_MM_12)                           0.02       0.89 f
+  U3383/X (SAEDRVT14_INV_S_20)                            0.01       0.89 r
+  U3296/X (SAEDRVT14_OR2_MM_6)                            0.01       0.91 r
+  U3875/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_3_reg[0]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_3_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_5_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U55/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U77/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U38/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.76 f
+  gf_mult_inst/mult_612/FS_1/U49/X (SAEDRVT14_INV_S_10)
+                                                          0.01       0.77 r
+  gf_mult_inst/mult_612/FS_1/U48/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U53/X (SAEDRVT14_ND2_16)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/SUM[11] (gf256_mult_DW01_add_3)
+                                                          0.00       0.78 r
+  gf_mult_inst/mult_612/PRODUCT[13] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.78 r
+  gf_mult_inst/U12/X (SAEDRVT14_INV_S_16)                 0.01       0.79 f
+  gf_mult_inst/U34/X (SAEDRVT14_EN2_4)                    0.02       0.81 r
+  gf_mult_inst/U38/X (SAEDRVT14_EO4_2)                    0.04       0.86 f
+  gf_mult_inst/result[2] (gf256_mult)                     0.00       0.86 f
+  U4004/X (SAEDRVT14_BUF_16)                              0.02       0.87 f
+  U3294/X (SAEDRVT14_NR2_MM_12)                           0.01       0.88 r
+  U3758/X (SAEDRVT14_INV_S_20)                            0.01       0.89 f
+  U3724/X (SAEDRVT14_INV_S_20)                            0.01       0.90 r
+  U3477/X (SAEDRVT14_OR2_MM_12)                           0.01       0.91 r
+  U3404/X (SAEDRVT14_INV_S_10)                            0.01       0.91 f
+  U3372/X (SAEDRVT14_NR2_MM_12)                           0.00       0.92 r
+  syndrome_5_reg[2]/D (SAEDRVT14_FDPRBQ_V2LP_1)           0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_5_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_1)          0.00       0.56 r
+  library setup time                                     -0.01       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_1_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U55/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U77/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U38/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.76 f
+  gf_mult_inst/mult_612/FS_1/U49/X (SAEDRVT14_INV_S_10)
+                                                          0.01       0.77 r
+  gf_mult_inst/mult_612/FS_1/U48/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U53/X (SAEDRVT14_ND2_16)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/SUM[11] (gf256_mult_DW01_add_3)
+                                                          0.00       0.78 r
+  gf_mult_inst/mult_612/PRODUCT[13] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.78 r
+  gf_mult_inst/U12/X (SAEDRVT14_INV_S_16)                 0.01       0.79 f
+  gf_mult_inst/U34/X (SAEDRVT14_EN2_4)                    0.02       0.81 r
+  gf_mult_inst/U38/X (SAEDRVT14_EO4_2)                    0.04       0.86 f
+  gf_mult_inst/result[2] (gf256_mult)                     0.00       0.86 f
+  U4004/X (SAEDRVT14_BUF_16)                              0.02       0.87 f
+  U3294/X (SAEDRVT14_NR2_MM_12)                           0.01       0.88 r
+  U3758/X (SAEDRVT14_INV_S_20)                            0.01       0.89 f
+  U3468/X (SAEDRVT14_INV_12)                              0.01       0.90 r
+  U3621/X (SAEDRVT14_NR2_MM_6)                            0.01       0.91 f
+  U3375/X (SAEDRVT14_NR2_MM_16)                           0.01       0.92 r
+  syndrome_1_reg[2]/D (SAEDRVT14_FDPRBQ_V2LP_2)           0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_1_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.56 r
+  library setup time                                     -0.01       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_2_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U17/X (SAEDRVT14_BUF_16)     0.01       0.71 f
+  gf_mult_inst/mult_612/FS_1/U21/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U9/X (SAEDRVT14_ND2_4)       0.02       0.74 f
+  gf_mult_inst/mult_612/FS_1/U7/X (SAEDRVT14_ND2_6)       0.02       0.76 r
+  gf_mult_inst/mult_612/FS_1/U58/X (SAEDRVT14_ND2_16)     0.01       0.77 f
+  gf_mult_inst/mult_612/FS_1/SUM[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.77 f
+  gf_mult_inst/mult_612/PRODUCT[10] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.77 f
+  gf_mult_inst/U7/X (SAEDRVT14_INV_S_20)                  0.01       0.77 r
+  gf_mult_inst/U10/X (SAEDRVT14_ND2_8)                    0.01       0.78 f
+  gf_mult_inst/U13/X (SAEDRVT14_AN2_8)                    0.01       0.79 f
+  gf_mult_inst/U35/X (SAEDRVT14_EN2_4)                    0.02       0.81 f
+  gf_mult_inst/U29/X (SAEDRVT14_EN3_3)                    0.04       0.86 r
+  gf_mult_inst/U27/X (SAEDRVT14_INV_12)                   0.01       0.86 f
+  gf_mult_inst/result[7] (gf256_mult)                     0.00       0.86 f
+  U3482/X (SAEDRVT14_NR2_MM_16)                           0.02       0.88 r
+  U3649/X (SAEDRVT14_OR2_4)                               0.02       0.90 r
+  U3799/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_2_reg[7]/D (SAEDRVT14_FDPRBQ_V2LP_1)           0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_2_reg[7]/CK (SAEDRVT14_FDPRBQ_V2LP_1)          0.00       0.56 r
+  library setup time                                     -0.01       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_0_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U55/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U77/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U38/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.76 f
+  gf_mult_inst/mult_612/FS_1/U60/X (SAEDRVT14_ND2_8)      0.01       0.77 r
+  gf_mult_inst/mult_612/FS_1/U53/X (SAEDRVT14_ND2_16)     0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/SUM[11] (gf256_mult_DW01_add_3)
+                                                          0.00       0.78 f
+  gf_mult_inst/mult_612/PRODUCT[13] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.78 f
+  gf_mult_inst/U5/X (SAEDRVT14_EN2_4)                     0.03       0.81 r
+  gf_mult_inst/U41/X (SAEDRVT14_EO4_2)                    0.05       0.86 f
+  gf_mult_inst/result[3] (gf256_mult)                     0.00       0.86 f
+  U3797/X (SAEDRVT14_BUF_16)                              0.02       0.87 f
+  U3301/X (SAEDRVT14_NR2_MM_10)                           0.01       0.88 r
+  U3302/X (SAEDRVT14_INV_S_20)                            0.01       0.89 f
+  U3483/X (SAEDRVT14_INV_S_20)                            0.01       0.90 r
+  U3386/X (SAEDRVT14_OR2_MM_12)                           0.01       0.91 r
+  U3640/X (SAEDRVT14_ND2_16)                              0.01       0.92 f
+  U3366/X (SAEDRVT14_ND2_MM_10)                           0.01       0.92 r
+  syndrome_0_reg[3]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_0_reg[3]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_0_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U55/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U77/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U38/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.76 f
+  gf_mult_inst/mult_612/FS_1/U49/X (SAEDRVT14_INV_S_10)
+                                                          0.01       0.77 r
+  gf_mult_inst/mult_612/FS_1/U48/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U53/X (SAEDRVT14_ND2_16)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/SUM[11] (gf256_mult_DW01_add_3)
+                                                          0.00       0.78 r
+  gf_mult_inst/mult_612/PRODUCT[13] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.78 r
+  gf_mult_inst/U12/X (SAEDRVT14_INV_S_16)                 0.01       0.79 f
+  gf_mult_inst/U34/X (SAEDRVT14_EN2_4)                    0.02       0.81 r
+  gf_mult_inst/U38/X (SAEDRVT14_EO4_2)                    0.04       0.86 f
+  gf_mult_inst/result[2] (gf256_mult)                     0.00       0.86 f
+  U4004/X (SAEDRVT14_BUF_16)                              0.02       0.87 f
+  U3294/X (SAEDRVT14_NR2_MM_12)                           0.01       0.88 r
+  U3758/X (SAEDRVT14_INV_S_20)                            0.01       0.89 f
+  U3724/X (SAEDRVT14_INV_S_20)                            0.01       0.90 r
+  U3602/X (SAEDRVT14_OR2_MM_6)                            0.01       0.91 r
+  U3644/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_0_reg[2]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_0_reg[2]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_0_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 f
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.43 f
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 f
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 r
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 r
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 r
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.63 r
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 f
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 f
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 f
+  gf_mult_inst/mult_612/FS_1/U34/X (SAEDRVT14_OR2_MM_20)
+                                                          0.02       0.72 f
+  gf_mult_inst/mult_612/FS_1/U72/X (SAEDRVT14_INV_S_20)
+                                                          0.01       0.72 r
+  gf_mult_inst/mult_612/FS_1/U71/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U56/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U15/X (SAEDRVT14_NR2_MM_10)
+                                                          0.01       0.75 f
+  gf_mult_inst/mult_612/FS_1/U36/X (SAEDRVT14_AOI21_V1_8)
+                                                          0.01       0.76 r
+  gf_mult_inst/mult_612/FS_1/U75/X (SAEDRVT14_ND2_16)     0.01       0.77 f
+  gf_mult_inst/mult_612/FS_1/U47/X (SAEDRVT14_INV_12)     0.01       0.78 r
+  gf_mult_inst/mult_612/FS_1/U73/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U83/X (SAEDRVT14_ND2_16)     0.01       0.79 r
+  gf_mult_inst/mult_612/FS_1/SUM[13] (gf256_mult_DW01_add_3)
+                                                          0.00       0.79 r
+  gf_mult_inst/mult_612/PRODUCT[15] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.79 r
+  gf_mult_inst/U9/X (SAEDRVT14_INV_12)                    0.00       0.80 f
+  gf_mult_inst/U24/X (SAEDRVT14_EN4_4)                    0.03       0.83 r
+  gf_mult_inst/U40/X (SAEDRVT14_EN2_4)                    0.03       0.86 f
+  gf_mult_inst/result[0] (gf256_mult)                     0.00       0.86 f
+  U3475/X (SAEDRVT14_OR2_MM_12)                           0.02       0.89 f
+  U3383/X (SAEDRVT14_INV_S_20)                            0.01       0.89 r
+  U3686/X (SAEDRVT14_OR2_4)                               0.01       0.91 r
+  U3655/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_0_reg[0]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_0_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+  Startpoint: syndrome_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_0_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_76_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)          0.00       0.00 r
+  syndrome_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)           0.05       0.05 r
+  U3619/X (SAEDRVT14_BUF_16)                              0.02       0.06 r
+  U3836/X (SAEDRVT14_INV_S_20)                            0.01       0.07 f
+  U3751/X (SAEDRVT14_NR2_MM_16)                           0.01       0.08 r
+  U3750/X (SAEDRVT14_INV_S_20)                            0.01       0.09 f
+  U3755/X (SAEDRVT14_INV_S_20)                            0.01       0.09 r
+  U3806/X (SAEDRVT14_ND2_MM_16)                           0.01       0.10 f
+  U3728/X (SAEDRVT14_ND2_16)                              0.01       0.11 r
+  mult_474/A[2] (rs_decoder_76_64_DW02_mult_0)            0.00       0.11 r
+  mult_474/U51/X (SAEDRVT14_AN2_8)                        0.01       0.12 r
+  mult_474/S1_2_0/CO (SAEDRVT14_ADDF_V2_2)                0.04       0.16 r
+  mult_474/S4_0/S (SAEDRVT14_ADDF_V2_2)                   0.05       0.22 f
+  mult_474/PRODUCT[3] (rs_decoder_76_64_DW02_mult_0)      0.00       0.22 f
+  U3718/X (SAEDRVT14_AN2_MM_20)                           0.02       0.24 f
+  gf_pow_inst/exp[3] (gf256_power)                        0.00       0.24 f
+  gf_pow_inst/U46/X (SAEDRVT14_AN2_MM_12)                 0.02       0.25 f
+  gf_pow_inst/U31/X (SAEDRVT14_INV_12)                    0.00       0.26 r
+  gf_pow_inst/U42/X (SAEDRVT14_OAI311_4)                  0.03       0.29 f
+  gf_pow_inst/U96/X (SAEDRVT14_OR4_2)                     0.03       0.32 f
+  gf_pow_inst/U56/X (SAEDRVT14_AN2_8)                     0.01       0.33 f
+  gf_pow_inst/result[4] (gf256_power)                     0.00       0.33 f
+  U6121/X (SAEDRVT14_AO22_4)                              0.02       0.36 f
+  gf_mult_inst/b[4] (gf256_mult)                          0.00       0.36 f
+  gf_mult_inst/mult_612/B[4] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.36 f
+  gf_mult_inst/mult_612/U82/X (SAEDRVT14_BUF_16)          0.02       0.37 f
+  gf_mult_inst/mult_612/U67/X (SAEDRVT14_ND2_MM_16)       0.01       0.38 r
+  gf_mult_inst/mult_612/U72/X (SAEDRVT14_EN2_4)           0.02       0.40 r
+  gf_mult_inst/mult_612/S2_2_3/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.42 r
+  gf_mult_inst/mult_612/S2_3_3/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.47 r
+  gf_mult_inst/mult_612/S2_4_3/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.52 f
+  gf_mult_inst/mult_612/S2_5_2/CO (SAEDRVT14_ADDF_V1_2)
+                                                          0.03       0.55 f
+  gf_mult_inst/mult_612/S2_6_2/CO (SAEDRVT14_ADDF_V2_2)
+                                                          0.04       0.59 f
+  gf_mult_inst/mult_612/S4_2/CO (SAEDRVT14_ADDF_V2_2)     0.04       0.64 f
+  gf_mult_inst/mult_612/S14_10/S (SAEDRVT14_ADDF_V2_2)
+                                                          0.05       0.68 r
+  gf_mult_inst/mult_612/FS_1/A[8] (gf256_mult_DW01_add_3)
+                                                          0.00       0.68 r
+  gf_mult_inst/mult_612/FS_1/U12/X (SAEDRVT14_BUF_16)     0.02       0.70 r
+  gf_mult_inst/mult_612/FS_1/U17/X (SAEDRVT14_BUF_16)     0.01       0.71 r
+  gf_mult_inst/mult_612/FS_1/U65/X (SAEDRVT14_AN2_MM_12)
+                                                          0.02       0.73 r
+  gf_mult_inst/mult_612/FS_1/U26/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.73 f
+  gf_mult_inst/mult_612/FS_1/U89/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.74 r
+  gf_mult_inst/mult_612/FS_1/U69/X (SAEDRVT14_AN2_8)      0.02       0.76 r
+  gf_mult_inst/mult_612/FS_1/U78/X (SAEDRVT14_NR2_MM_16)
+                                                          0.01       0.76 f
+  gf_mult_inst/mult_612/FS_1/U75/X (SAEDRVT14_ND2_16)     0.01       0.77 r
+  gf_mult_inst/mult_612/FS_1/U47/X (SAEDRVT14_INV_12)     0.01       0.78 f
+  gf_mult_inst/mult_612/FS_1/U73/X (SAEDRVT14_ND2_MM_16)
+                                                          0.01       0.79 r
+  gf_mult_inst/mult_612/FS_1/U83/X (SAEDRVT14_ND2_16)     0.01       0.79 f
+  gf_mult_inst/mult_612/FS_1/SUM[13] (gf256_mult_DW01_add_3)
+                                                          0.00       0.79 f
+  gf_mult_inst/mult_612/PRODUCT[15] (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.79 f
+  gf_mult_inst/U8/X (SAEDRVT14_BUF_12)                    0.01       0.81 f
+  gf_mult_inst/U32/X (SAEDRVT14_EN3_3)                    0.04       0.85 r
+  gf_mult_inst/U31/X (SAEDRVT14_INV_12)                   0.01       0.86 f
+  gf_mult_inst/result[4] (gf256_mult)                     0.00       0.86 f
+  U3612/X (SAEDRVT14_NR2_MM_16)                           0.01       0.87 r
+  U3601/X (SAEDRVT14_INV_S_20)                            0.01       0.88 f
+  U3666/X (SAEDRVT14_INV_S_20)                            0.01       0.89 r
+  U3596/X (SAEDRVT14_OR2_4)                               0.01       0.90 r
+  U3795/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.92 r
+  syndrome_0_reg[4]/D (SAEDRVT14_FDPRBQ_V2LP_2)           0.00       0.92 r
+  data arrival time                                                  0.92
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  syndrome_0_reg[4]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.56 r
+  library setup time                                     -0.01       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.36
+
+
+1

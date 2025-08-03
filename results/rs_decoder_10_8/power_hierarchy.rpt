@@ -1,0 +1,46 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : rs_decoder_10_8
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:13:58 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+rs_decoder_10_8        8000              saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+rs_decoder_10_8                           0.715    0.477 5.21e+05    1.192 100.0
+  gf_pow_inst (gf256_power)               0.218 6.70e-02 2.67e+05    0.285  23.9
+  gf_inv_inst (gf256_inverse)          3.80e-03 4.59e-04 1.01e+04 4.27e-03   0.4
+  gf_mult_inst (gf256_mult)            5.39e-02 6.71e-03 4.90e+04 6.07e-02   5.1
+    mult_436 (gf256_mult_DW02_mult_0)  4.50e-02 2.60e-03 3.74e+04 4.77e-02   4.0
+1

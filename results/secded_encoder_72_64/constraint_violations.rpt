@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : secded_encoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:29:25 2025
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   secded_encoder_72_64         0.00          89.76         -89.76  (VIOLATED)
+
+
+1

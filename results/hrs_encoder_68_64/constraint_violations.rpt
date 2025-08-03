@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : hrs_encoder_68_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:12:44 2025
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   hrs_encoder_68_64            0.00       13451.20       -13451.20 (VIOLATED)
+
+
+1

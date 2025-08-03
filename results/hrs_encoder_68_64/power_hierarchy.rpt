@@ -1,0 +1,222 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : hrs_encoder_68_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:12:44 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+hrs_encoder_68_64      8000              saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+hrs_encoder_68_64                         1.055    1.599 2.76e+06    2.657 100.0
+  rs128_final_inst_7 (rs_encoder_12_8_1)
+                                       1.61e-02    0.103 2.05e+05    0.119   4.5
+    mult3 (gf256_mult_1)                  0.000    0.000 4.72e+04 4.72e-05   0.0
+      mult_557 (gf256_mult_1_DW02_mult_0_DW02_mult_3)
+                                          0.000    0.000 3.82e+04 3.82e-05   0.0
+    mult2 (gf256_mult_2)                  0.000    0.000 4.04e+04 4.04e-05   0.0
+      mult_557 (gf256_mult_2_DW02_mult_0_DW02_mult_2)
+                                          0.000    0.000 3.20e+04 3.20e-05   0.0
+    mult1 (gf256_mult_3)                  0.000    0.000 3.98e+04 3.98e-05   0.0
+      mult_557 (gf256_mult_3_DW02_mult_0_DW02_mult_1)
+                                          0.000    0.000 3.16e+04 3.16e-05   0.0
+    mult0 (gf256_mult_4)                  0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_4_DW02_mult_0)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_final_inst_6 (rs_encoder_12_8_2)
+                                       1.62e-02    0.103 2.06e+05    0.119   4.5
+    mult3 (gf256_mult_5)                  0.000    0.000 4.55e+04 4.55e-05   0.0
+      mult_557 (gf256_mult_5_DW02_mult_0_DW02_mult_7)
+                                          0.000    0.000 3.55e+04 3.55e-05   0.0
+    mult2 (gf256_mult_6)                  0.000    0.000 4.23e+04 4.23e-05   0.0
+      mult_557 (gf256_mult_6_DW02_mult_0_DW02_mult_6)
+                                          0.000    0.000 3.25e+04 3.25e-05   0.0
+    mult1 (gf256_mult_7)                  0.000    0.000 4.00e+04 4.00e-05   0.0
+      mult_557 (gf256_mult_7_DW02_mult_0_DW02_mult_5)
+                                          0.000    0.000 3.17e+04 3.17e-05   0.0
+    mult0 (gf256_mult_8)                  0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_8_DW02_mult_0_DW02_mult_4)
+                                          0.000    0.000 3.13e+04 3.13e-05   0.0
+  rs128_final_inst_5 (rs_encoder_12_8_3)
+                                       1.63e-02    0.102 2.03e+05    0.118   4.5
+    mult3 (gf256_mult_9)                  0.000    0.000 4.37e+04 4.37e-05   0.0
+      mult_557 (gf256_mult_9_DW02_mult_0_DW02_mult_11)
+                                          0.000    0.000 3.52e+04 3.52e-05   0.0
+    mult2 (gf256_mult_10)                 0.000    0.000 4.08e+04 4.08e-05   0.0
+      mult_557 (gf256_mult_10_DW02_mult_0_DW02_mult_10)
+                                          0.000    0.000 3.24e+04 3.24e-05   0.0
+    mult1 (gf256_mult_11)                 0.000    0.000 3.97e+04 3.97e-05   0.0
+      mult_557 (gf256_mult_11_DW02_mult_0_DW02_mult_9)
+                                          0.000    0.000 3.15e+04 3.15e-05   0.0
+    mult0 (gf256_mult_12)                 0.000    0.000 3.94e+04 3.94e-05   0.0
+      mult_557 (gf256_mult_12_DW02_mult_0_DW02_mult_8)
+                                          0.000    0.000 3.11e+04 3.11e-05   0.0
+  rs128_final_inst_4 (rs_encoder_12_8_4)
+                                       1.62e-02    0.103 2.02e+05    0.119   4.5
+    mult3 (gf256_mult_13)                 0.000    0.000 4.34e+04 4.34e-05   0.0
+      mult_557 (gf256_mult_13_DW02_mult_0_DW02_mult_15)
+                                          0.000    0.000 3.50e+04 3.50e-05   0.0
+    mult2 (gf256_mult_14)                 0.000    0.000 4.10e+04 4.10e-05   0.0
+      mult_557 (gf256_mult_14_DW02_mult_0_DW02_mult_14)
+                                          0.000    0.000 3.25e+04 3.25e-05   0.0
+    mult1 (gf256_mult_15)                 0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_15_DW02_mult_0_DW02_mult_13)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+    mult0 (gf256_mult_16)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_16_DW02_mult_0_DW02_mult_12)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_final_inst_3 (rs_encoder_12_8_5)
+                                       1.62e-02    0.103 2.07e+05    0.119   4.5
+    mult3 (gf256_mult_17)                 0.000    0.000 4.79e+04 4.79e-05   0.0
+      mult_557 (gf256_mult_17_DW02_mult_0_DW02_mult_19)
+                                          0.000    0.000 3.68e+04 3.68e-05   0.0
+    mult2 (gf256_mult_18)                 0.000    0.000 4.08e+04 4.08e-05   0.0
+      mult_557 (gf256_mult_18_DW02_mult_0_DW02_mult_18)
+                                          0.000    0.000 3.24e+04 3.24e-05   0.0
+    mult1 (gf256_mult_19)                 0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_19_DW02_mult_0_DW02_mult_17)
+                                          0.000    0.000 3.13e+04 3.13e-05   0.0
+    mult0 (gf256_mult_20)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_20_DW02_mult_0_DW02_mult_16)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_final_inst_2 (rs_encoder_12_8_6)
+                                       1.62e-02    0.102 2.07e+05    0.119   4.5
+    mult3 (gf256_mult_21)                 0.000    0.000 5.01e+04 5.01e-05   0.0
+      mult_557 (gf256_mult_21_DW02_mult_0_DW02_mult_23)
+                                          0.000    0.000 3.88e+04 3.88e-05   0.0
+    mult2 (gf256_mult_22)                 0.000    0.000 4.04e+04 4.04e-05   0.0
+      mult_557 (gf256_mult_22_DW02_mult_0_DW02_mult_22)
+                                          0.000    0.000 3.21e+04 3.21e-05   0.0
+    mult1 (gf256_mult_23)                 0.000    0.000 4.02e+04 4.02e-05   0.0
+      mult_557 (gf256_mult_23_DW02_mult_0_DW02_mult_21)
+                                          0.000    0.000 3.20e+04 3.20e-05   0.0
+    mult0 (gf256_mult_24)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_24_DW02_mult_0_DW02_mult_20)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_final_inst_1 (rs_encoder_12_8_7)
+                                       1.62e-02    0.103 2.08e+05    0.119   4.5
+    mult3 (gf256_mult_25)                 0.000    0.000 4.82e+04 4.82e-05   0.0
+      mult_557 (gf256_mult_25_DW02_mult_0_DW02_mult_27)
+                                          0.000    0.000 3.85e+04 3.85e-05   0.0
+    mult2 (gf256_mult_26)                 0.000    0.000 4.27e+04 4.27e-05   0.0
+      mult_557 (gf256_mult_26_DW02_mult_0_DW02_mult_26)
+                                          0.000    0.000 3.40e+04 3.40e-05   0.0
+    mult1 (gf256_mult_27)                 0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_27_DW02_mult_0_DW02_mult_25)
+                                          0.000    0.000 3.13e+04 3.13e-05   0.0
+    mult0 (gf256_mult_28)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_28_DW02_mult_0_DW02_mult_24)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_final_inst_0 (rs_encoder_12_8_8)
+                                       1.61e-02    0.103 2.03e+05    0.119   4.5
+    mult3 (gf256_mult_29)                 0.000    0.000 4.39e+04 4.39e-05   0.0
+      mult_557 (gf256_mult_29_DW02_mult_0_DW02_mult_31)
+                                          0.000    0.000 3.56e+04 3.56e-05   0.0
+    mult2 (gf256_mult_30)                 0.000    0.000 4.04e+04 4.04e-05   0.0
+      mult_557 (gf256_mult_30_DW02_mult_0_DW02_mult_30)
+                                          0.000    0.000 3.19e+04 3.19e-05   0.0
+    mult1 (gf256_mult_31)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_31_DW02_mult_0_DW02_mult_29)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+    mult0 (gf256_mult_32)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_32_DW02_mult_0_DW02_mult_28)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_inst_3 (rs_encoder_12_8_9)     1.63e-02    0.103 2.01e+05    0.120   4.5
+    mult3 (gf256_mult_33)                 0.000    0.000 4.27e+04 4.27e-05   0.0
+      mult_557 (gf256_mult_33_DW02_mult_0_DW02_mult_35)
+                                          0.000    0.000 3.43e+04 3.43e-05   0.0
+    mult2 (gf256_mult_34)                 0.000    0.000 4.18e+04 4.18e-05   0.0
+      mult_557 (gf256_mult_34_DW02_mult_0_DW02_mult_34)
+                                          0.000    0.000 3.19e+04 3.19e-05   0.0
+    mult1 (gf256_mult_35)                 0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_35_DW02_mult_0_DW02_mult_33)
+                                          0.000    0.000 3.13e+04 3.13e-05   0.0
+    mult0 (gf256_mult_36)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_36_DW02_mult_0_DW02_mult_32)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_inst_2 (rs_encoder_12_8_10)    1.64e-02    0.102 2.05e+05    0.119   4.5
+    mult3 (gf256_mult_37)                 0.000    0.000 4.54e+04 4.54e-05   0.0
+      mult_557 (gf256_mult_37_DW02_mult_0_DW02_mult_39)
+                                          0.000    0.000 3.71e+04 3.71e-05   0.0
+    mult2 (gf256_mult_38)                 0.000    0.000 4.06e+04 4.06e-05   0.0
+      mult_557 (gf256_mult_38_DW02_mult_0_DW02_mult_38)
+                                          0.000    0.000 3.24e+04 3.24e-05   0.0
+    mult1 (gf256_mult_39)                 0.000    0.000 3.97e+04 3.97e-05   0.0
+      mult_557 (gf256_mult_39_DW02_mult_0_DW02_mult_37)
+                                          0.000    0.000 3.14e+04 3.14e-05   0.0
+    mult0 (gf256_mult_40)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_40_DW02_mult_0_DW02_mult_36)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_inst_1 (rs_encoder_12_8_11)    1.63e-02    0.102 2.00e+05    0.119   4.5
+    mult3 (gf256_mult_41)                 0.000    0.000 4.32e+04 4.32e-05   0.0
+      mult_557 (gf256_mult_41_DW02_mult_0_DW02_mult_43)
+                                          0.000    0.000 3.45e+04 3.45e-05   0.0
+    mult2 (gf256_mult_42)                 0.000    0.000 4.05e+04 4.05e-05   0.0
+      mult_557 (gf256_mult_42_DW02_mult_0_DW02_mult_42)
+                                          0.000    0.000 3.23e+04 3.23e-05   0.0
+    mult1 (gf256_mult_43)                 0.000    0.000 4.00e+04 4.00e-05   0.0
+      mult_557 (gf256_mult_43_DW02_mult_0_DW02_mult_41)
+                                          0.000    0.000 3.17e+04 3.17e-05   0.0
+    mult0 (gf256_mult_44)                 0.000    0.000 3.95e+04 3.95e-05   0.0
+      mult_557 (gf256_mult_44_DW02_mult_0_DW02_mult_40)
+                                          0.000    0.000 3.12e+04 3.12e-05   0.0
+  rs128_inst_0 (rs_encoder_12_8_0)     1.59e-02    0.103 2.02e+05    0.119   4.5
+    mult3 (gf256_mult_45)                 0.000    0.000 4.53e+04 4.53e-05   0.0
+      mult_557 (gf256_mult_45_DW02_mult_0_DW02_mult_47)
+                                          0.000    0.000 3.60e+04 3.60e-05   0.0
+    mult2 (gf256_mult_46)                 0.000    0.000 4.06e+04 4.06e-05   0.0
+      mult_557 (gf256_mult_46_DW02_mult_0_DW02_mult_46)
+                                          0.000    0.000 3.21e+04 3.21e-05   0.0
+    mult1 (gf256_mult_47)                 0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_47_DW02_mult_0_DW02_mult_45)
+                                          0.000    0.000 3.13e+04 3.13e-05   0.0
+    mult0 (gf256_mult_48)                 0.000    0.000 3.96e+04 3.96e-05   0.0
+      mult_557 (gf256_mult_48_DW02_mult_0_DW02_mult_44)
+                                          0.000    0.000 3.13e+04 3.13e-05   0.0
+  rs98_inst_3 (rs_encoder_9_8_1)          0.205 7.48e-02 7.48e+04    0.280  10.5
+    mult_inst (gf256_mult_49)          9.84e-02 1.82e-02 4.79e+04    0.117   4.4
+      mult_557 (gf256_mult_49_DW02_mult_0_DW02_mult_48)
+                                       8.53e-02 9.44e-03 3.89e+04 9.47e-02   3.6
+  rs98_inst_2 (rs_encoder_9_8_2)          0.205 7.74e-02 7.64e+04    0.283  10.6
+    mult_inst (gf256_mult_50)          9.99e-02 2.02e-02 4.94e+04    0.120   4.5
+      mult_557 (gf256_mult_50_DW02_mult_0_DW02_mult_49)
+                                       8.61e-02 9.96e-03 3.93e+04 9.61e-02   3.6
+  rs98_inst_1 (rs_encoder_9_8_3)          0.206 7.64e-02 7.51e+04    0.282  10.6
+    mult_inst (gf256_mult_51)          9.91e-02 1.90e-02 4.72e+04    0.118   4.4
+      mult_557 (gf256_mult_51_DW02_mult_0_DW02_mult_50)
+                                       8.51e-02 8.78e-03 3.72e+04 9.39e-02   3.5
+  rs98_inst_0 (rs_encoder_9_8_0)          0.209 7.50e-02 7.44e+04    0.284  10.7
+    mult_inst (gf256_mult_0)           9.67e-02 1.95e-02 4.77e+04    0.116   4.4
+      mult_557 (gf256_mult_0_DW02_mult_0_DW02_mult_51)
+                                       8.28e-02 8.95e-03 3.73e+04 9.18e-02   3.5
+1

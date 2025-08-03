@@ -1,0 +1,51 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : rs_decoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:18:31 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+rs_decoder_90_64       8000              saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+rs_decoder_90_64                          2.171    2.341 1.33e+06    4.513 100.0
+  mult_494 (rs_decoder_90_64_DW02_mult_0)
+                                       2.17e-02 4.38e-03 4.60e+04 2.61e-02   0.6
+  add_310 (rs_decoder_90_64_DW01_inc_0)
+                                       1.92e-03 6.84e-04 1.43e+03 2.60e-03   0.1
+  gf_pow_inst (gf256_power)            8.05e-02 2.45e-02 8.18e+04    0.105   2.3
+  gf_inv_inst (gf256_inverse)             0.000    0.000 4.27e+04 4.27e-05   0.0
+  gf_mult_inst (gf256_mult)               0.253 7.89e-02 1.92e+05    0.332   7.4
+    mult_663 (gf256_mult_DW02_mult_0_DW02_mult_1)
+                                          0.215 5.34e-02 1.63e+05    0.268   5.9
+1

@@ -1,0 +1,75 @@
+ 
+****************************************
+Report : area
+Design : rs_decoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:18:23 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         1430
+Number of nets:                          5309
+Number of cells:                         4358
+Number of combinational cells:           3743
+Number of sequential cells:               608
+Number of macros/black boxes:               0
+Number of buf/inv:                       1600
+Number of references:                     144
+
+Combinational area:               1839.092390
+Buf/Inv area:                      496.169997
+Noncombinational area:             660.982820
+Macro/Black Box area:                0.000000
+Net Interconnect area:            2412.502381
+
+Total cell area:                  2500.075210
+Total area:                       4912.577591
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ----------------------------------
+rs_decoder_90_64                  2500.0752    100.0  1369.2072   660.9828  0.0000  rs_decoder_90_64
+add_310                              3.8184      0.2     3.8184     0.0000  0.0000  rs_decoder_90_64_DW01_inc_0
+gf_inv_inst                         51.9924      2.1    51.9924     0.0000  0.0000  gf256_inverse
+gf_mult_inst                       250.9488     10.0    29.6148     0.0000  0.0000  gf256_mult
+gf_mult_inst/mult_663              221.3340      8.9   133.6884     0.0000  0.0000  gf256_mult_DW02_mult_0_DW02_mult_1
+gf_mult_inst/mult_663/FS_1          87.6456      3.5    87.6456     0.0000  0.0000  gf256_mult_DW01_add_1
+gf_pow_inst                         98.3904      3.9    98.3904     0.0000  0.0000  gf256_power
+mult_494                            64.7352      2.6    64.7352     0.0000  0.0000  rs_decoder_90_64_DW02_mult_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ----------------------------------
+Total                                                 1839.0924   660.9828  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+                                      Perc. of
+  Module    Implem.  Count      Area cell area
+  --------- -------  ----- --------- ---------
+  DW01_inc      rpl      1    3.8184      0.2%
+  DW02_mult     csa      2  286.0692     11.4%
+  --------- -------  ----- --------- ---------
+  Total:                 3  289.8876     11.6%
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                            Estimated  Perc. of
+  Module    Implem.  Count       Area cell area
+  --------- -------  ----- ---------- ---------
+  DW01_cmp2     rpl      1     0.6111      0.0%
+  DW01_inc      rpl      1     2.0952      0.1%
+  --------- -------  ----- ---------- ---------
+  Total:                 2     2.7063      0.1%
+
+Total synthetic cell area:              292.5939  11.7%  (estimated)
+
+1

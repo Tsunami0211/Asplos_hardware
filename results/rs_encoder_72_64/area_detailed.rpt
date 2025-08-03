@@ -1,0 +1,90 @@
+ 
+****************************************
+Report : area
+Design : rs_encoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:20:54 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         1900
+Number of nets:                          4372
+Number of cells:                         2802
+Number of combinational cells:           2707
+Number of sequential cells:                71
+Number of macros/black boxes:               0
+Number of buf/inv:                        640
+Number of references:                     125
+
+Combinational area:               1809.433180
+Buf/Inv area:                      360.572393
+Noncombinational area:              87.867601
+Macro/Black Box area:                0.000000
+Net Interconnect area:            1222.151786
+
+Total cell area:                  1897.300781
+Total area:                       3119.452567
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------------------
+rs_encoder_72_64                  1897.3008    100.0   822.6876    87.8676  0.0000  rs_encoder_72_64
+mult0                              100.5660      5.3    15.3180     0.0000  0.0000  gf256_mult_0
+mult0/mult_278                      85.2480      4.5    75.2580     0.0000  0.0000  gf256_mult_0_DW02_mult_0_DW02_mult_7
+mult0/mult_278/FS_1                  9.9900      0.5     9.9900     0.0000  0.0000  gf256_mult_0_DW01_add_0_DW01_add_7
+mult1                              105.3612      5.6    18.6480     0.0000  0.0000  gf256_mult_7
+mult1/mult_278                      86.7132      4.6    76.7232     0.0000  0.0000  gf256_mult_7_DW02_mult_0
+mult1/mult_278/FS_1                  9.9900      0.5     9.9900     0.0000  0.0000  gf256_mult_7_DW01_add_0
+mult2                              115.4400      6.1    21.7560     0.0000  0.0000  gf256_mult_6
+mult2/mult_278                      93.6840      4.9    83.6496     0.0000  0.0000  gf256_mult_6_DW02_mult_0_DW02_mult_1
+mult2/mult_278/FS_1                 10.0344      0.5    10.0344     0.0000  0.0000  gf256_mult_6_DW01_add_0_DW01_add_1
+mult3                              120.2796      6.3    18.7368     0.0000  0.0000  gf256_mult_5
+mult3/mult_278                     101.5428      5.4    86.2692     0.0000  0.0000  gf256_mult_5_DW02_mult_0_DW02_mult_2
+mult3/mult_278/FS_1                 15.2736      0.8    15.2736     0.0000  0.0000  gf256_mult_5_DW01_add_0_DW01_add_2
+mult4                              123.6540      6.5    20.7792     0.0000  0.0000  gf256_mult_4
+mult4/mult_278                     102.8748      5.4    88.3560     0.0000  0.0000  gf256_mult_4_DW02_mult_0_DW02_mult_3
+mult4/mult_278/FS_1                 14.5188      0.8    14.5188     0.0000  0.0000  gf256_mult_4_DW01_add_0_DW01_add_3
+mult5                              132.2676      7.0    22.6440     0.0000  0.0000  gf256_mult_3
+mult5/mult_278                     109.6236      5.8    93.5508     0.0000  0.0000  gf256_mult_3_DW02_mult_0_DW02_mult_4
+mult5/mult_278/FS_1                 16.0728      0.8    16.0728     0.0000  0.0000  gf256_mult_3_DW01_add_0_DW01_add_4
+mult6                              147.4080      7.8    22.3776     0.0000  0.0000  gf256_mult_2
+mult6/mult_278                     125.0304      6.6   101.2320     0.0000  0.0000  gf256_mult_2_DW02_mult_0_DW02_mult_5
+mult6/mult_278/FS_1                 23.7984      1.3    23.7984     0.0000  0.0000  gf256_mult_2_DW01_add_0_DW01_add_5
+mult7                              141.7692      7.5    21.8448     0.0000  0.0000  gf256_mult_1
+mult7/mult_278                     119.9244      6.3    96.5700     0.0000  0.0000  gf256_mult_1_DW02_mult_0_DW02_mult_6
+mult7/mult_278/FS_1                 23.3544      1.2    23.3544     0.0000  0.0000  gf256_mult_1_DW01_add_0_DW01_add_6
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------------------
+Total                                                 1809.4332    87.8676  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+                                      Perc. of
+  Module    Implem.  Count      Area cell area
+  --------- -------  ----- --------- ---------
+  DW02_mult     csa      8  824.6415     43.5%
+  --------- -------  ----- --------- ---------
+  Total:                 8  824.6415     43.5%
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                           Estimated  Perc. of
+  Module   Implem.  Count       Area cell area
+  -------- -------  ----- ---------- ---------
+  DW01_inc     rpl      1     4.2180      0.2%
+  -------- -------  ----- ---------- ---------
+  Total:                1     4.2180      0.2%
+
+Total synthetic cell area:              828.8595  43.7%  (estimated)
+
+1

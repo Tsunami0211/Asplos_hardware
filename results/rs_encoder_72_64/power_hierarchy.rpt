@@ -1,0 +1,66 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : rs_encoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:21:02 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+rs_encoder_72_64       8000              saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+rs_encoder_72_64                          1.842    0.839 1.30e+06    2.682 100.0
+  mult7 (gf256_mult_1)                    0.189 6.78e-02 8.95e+04    0.257   9.6
+    mult_278 (gf256_mult_1_DW02_mult_0_DW02_mult_6)
+                                          0.148 4.09e-02 7.18e+04    0.189   7.1
+  mult6 (gf256_mult_2)                    0.190 7.29e-02 9.70e+04    0.263   9.8
+    mult_278 (gf256_mult_2_DW02_mult_0_DW02_mult_5)
+                                          0.154 4.23e-02 7.85e+04    0.196   7.3
+  mult5 (gf256_mult_3)                    0.172 5.70e-02 8.05e+04    0.229   8.5
+    mult_278 (gf256_mult_3_DW02_mult_0_DW02_mult_4)
+                                          0.133 3.31e-02 6.17e+04    0.167   6.2
+  mult4 (gf256_mult_4)                    0.161 4.85e-02 7.05e+04    0.209   7.8
+    mult_278 (gf256_mult_4_DW02_mult_0_DW02_mult_3)
+                                          0.124 2.77e-02 5.49e+04    0.152   5.7
+  mult3 (gf256_mult_5)                    0.142 4.23e-02 6.57e+04    0.184   6.9
+    mult_278 (gf256_mult_5_DW02_mult_0_DW02_mult_2)
+                                          0.119 2.53e-02 5.27e+04    0.144   5.4
+  mult2 (gf256_mult_6)                    0.132 3.63e-02 5.93e+04    0.169   6.3
+    mult_278 (gf256_mult_6_DW02_mult_0_DW02_mult_1)
+                                          0.104 1.77e-02 4.41e+04    0.122   4.6
+  mult1 (gf256_mult_7)                    0.107 2.26e-02 4.88e+04    0.129   4.8
+    mult_278 (gf256_mult_7_DW02_mult_0)
+                                       8.82e-02 9.00e-03 3.62e+04 9.72e-02   3.6
+  mult0 (gf256_mult_0)                 8.97e-02 1.29e-02 4.32e+04    0.103   3.8
+    mult_278 (gf256_mult_0_DW02_mult_0_DW02_mult_7)
+                                       8.07e-02 6.52e-03 3.48e+04 8.73e-02   3.3
+1

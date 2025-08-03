@@ -1,0 +1,51 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : xed_decoder_9
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:50:05 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+xed_decoder_9          8000              saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+xed_decoder_9                            22.257    8.120 3.78e+06   30.381 100.0
+  crc_xor_check (crc_atm_8bit_1)          1.280    0.535 1.50e+05    1.814   6.0
+  crc_check7 (crc_atm_8bit_2)             1.899    0.744 2.68e+05    2.643   8.7
+  crc_check6 (crc_atm_8bit_3)             1.903    0.726 2.59e+05    2.629   8.7
+  crc_check5 (crc_atm_8bit_4)             1.909    0.731 2.69e+05    2.641   8.7
+  crc_check4 (crc_atm_8bit_5)             1.855    0.711 2.42e+05    2.566   8.4
+  crc_check3 (crc_atm_8bit_6)             1.914    0.732 2.61e+05    2.646   8.7
+  crc_check2 (crc_atm_8bit_7)             1.860    0.702 2.46e+05    2.563   8.4
+  crc_check1 (crc_atm_8bit_8)             1.860    0.705 2.38e+05    2.565   8.4
+  crc_check0 (crc_atm_8bit_0)             1.901    0.683 2.35e+05    2.585   8.5
+1

@@ -1,0 +1,51 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : crs_decoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:10:53 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+crs_decoder_72_64      8000              saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+crs_decoder_72_64                         1.508    3.545 1.04e+06    5.053 100.0
+  rs72_corrector (rs_decoder_72_64_single_corrector)
+                                          1.038    1.937 5.40e+05    2.975  58.9
+  rs68_detector (rs_decoder_68_64_detector_simple)
+                                          0.191 4.93e-02 1.14e+05    0.241   4.8
+    add_337 (rs_decoder_68_64_detector_simple_DW01_inc_0_DW01_inc_1)
+                                       2.49e-03 7.05e-04 1.51e+03 3.20e-03   0.1
+    gf_mult_inst (gf256_mult)          5.75e-02 3.31e-03 3.93e+04 6.08e-02   1.2
+      mult_652 (gf256_mult_DW02_mult_0)
+                                       5.62e-02 1.34e-03 3.11e+04 5.76e-02   1.1
+1

@@ -1,0 +1,274 @@
+ 
+****************************************
+Report : area
+Design : hrs_encoder_68_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:12:34 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         9768
+Number of nets:                         22355
+Number of cells:                        13469
+Number of combinational cells:          12797
+Number of sequential cells:               500
+Number of macros/black boxes:               0
+Number of buf/inv:                       1837
+Number of references:                      36
+
+Combinational area:               6194.599072
+Buf/Inv area:                      471.883203
+Noncombinational area:             536.973617
+Macro/Black Box area:                0.000000
+Net Interconnect area:            6719.624827
+
+Total cell area:                  6731.572690
+Total area:                      13451.197517
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  --------------------------------------
+hrs_encoder_68_64                 6731.5727    100.0    16.5168    21.3120  0.0000  hrs_encoder_68_64
+rs128_final_inst_0                 500.6988      7.4    63.1368    38.4504  0.0000  rs_encoder_12_8_8
+rs128_final_inst_0/mult0            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_32
+rs128_final_inst_0/mult0/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_32_DW02_mult_0_DW02_mult_28
+rs128_final_inst_0/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_32_DW01_add_0_DW01_add_28
+rs128_final_inst_0/mult1            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_31
+rs128_final_inst_0/mult1/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_31_DW02_mult_0_DW02_mult_29
+rs128_final_inst_0/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_31_DW01_add_0_DW01_add_29
+rs128_final_inst_0/mult2            99.3672      1.5    15.5400     0.0000  0.0000  gf256_mult_30
+rs128_final_inst_0/mult2/mult_557   83.8272      1.2    73.7484     0.0000  0.0000  gf256_mult_30_DW02_mult_0_DW02_mult_30
+rs128_final_inst_0/mult2/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_30_DW01_add_0_DW01_add_30
+rs128_final_inst_0/mult3           102.2532      1.5    15.4512     0.0000  0.0000  gf256_mult_29
+rs128_final_inst_0/mult3/mult_557   86.8020      1.3    74.6364     0.0000  0.0000  gf256_mult_29_DW02_mult_0_DW02_mult_31
+rs128_final_inst_0/mult3/mult_557/FS_1
+                                    12.1656      0.2    12.1656     0.0000  0.0000  gf256_mult_29_DW01_add_0_DW01_add_31
+rs128_final_inst_1                 508.8240      7.6    64.0248    38.3616  0.0000  rs_encoder_12_8_7
+rs128_final_inst_1/mult0            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_28
+rs128_final_inst_1/mult0/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_28_DW02_mult_0_DW02_mult_24
+rs128_final_inst_1/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_28_DW01_add_0_DW01_add_24
+rs128_final_inst_1/mult1            98.7900      1.5    15.4512     0.0000  0.0000  gf256_mult_27
+rs128_final_inst_1/mult1/mult_557   83.3388      1.2    73.2600     0.0000  0.0000  gf256_mult_27_DW02_mult_0_DW02_mult_25
+rs128_final_inst_1/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_27_DW01_add_0_DW01_add_25
+rs128_final_inst_1/mult2           102.2088      1.5    15.8064     0.0000  0.0000  gf256_mult_26
+rs128_final_inst_1/mult2/mult_557   86.4024      1.3    76.3236     0.0000  0.0000  gf256_mult_26_DW02_mult_0_DW02_mult_26
+rs128_final_inst_1/mult2/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_26_DW01_add_0_DW01_add_26
+rs128_final_inst_1/mult3           106.6932      1.6    16.5612     0.0000  0.0000  gf256_mult_25
+rs128_final_inst_1/mult3/mult_557   90.1320      1.3    78.8988     0.0000  0.0000  gf256_mult_25_DW02_mult_0_DW02_mult_27
+rs128_final_inst_1/mult3/mult_557/FS_1
+                                    11.2332      0.2    11.2332     0.0000  0.0000  gf256_mult_25_DW01_add_0_DW01_add_27
+rs128_final_inst_2                 505.8048      7.5    62.3820    38.4060  0.0000  rs_encoder_12_8_6
+rs128_final_inst_2/mult0            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_24
+rs128_final_inst_2/mult0/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_24_DW02_mult_0_DW02_mult_20
+rs128_final_inst_2/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_24_DW01_add_0_DW01_add_20
+rs128_final_inst_2/mult1            99.7224      1.5    15.4512     0.0000  0.0000  gf256_mult_23
+rs128_final_inst_2/mult1/mult_557   84.2712      1.3    74.1924     0.0000  0.0000  gf256_mult_23_DW02_mult_0_DW02_mult_21
+rs128_final_inst_2/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_23_DW01_add_0_DW01_add_21
+rs128_final_inst_2/mult2            99.6780      1.5    15.4512     0.0000  0.0000  gf256_mult_22
+rs128_final_inst_2/mult2/mult_557   84.2268      1.3    74.1480     0.0000  0.0000  gf256_mult_22_DW02_mult_0_DW02_mult_22
+rs128_final_inst_2/mult2/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_22_DW01_add_0_DW01_add_22
+rs128_final_inst_2/mult3           106.8708      1.6    17.8932     0.0000  0.0000  gf256_mult_21
+rs128_final_inst_2/mult3/mult_557   88.9776      1.3    78.2328     0.0000  0.0000  gf256_mult_21_DW02_mult_0_DW02_mult_23
+rs128_final_inst_2/mult3/mult_557/FS_1
+                                    10.7448      0.2    10.7448     0.0000  0.0000  gf256_mult_21_DW01_add_0_DW01_add_23
+rs128_final_inst_3                 505.4052      7.5    63.1368    38.4948  0.0000  rs_encoder_12_8_5
+rs128_final_inst_3/mult0            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_20
+rs128_final_inst_3/mult0/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_20_DW02_mult_0_DW02_mult_16
+rs128_final_inst_3/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_20_DW01_add_0_DW01_add_16
+rs128_final_inst_3/mult1            98.9676      1.5    15.4512     0.0000  0.0000  gf256_mult_19
+rs128_final_inst_3/mult1/mult_557   83.5164      1.2    73.4376     0.0000  0.0000  gf256_mult_19_DW02_mult_0_DW02_mult_17
+rs128_final_inst_3/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_19_DW01_add_0_DW01_add_17
+rs128_final_inst_3/mult2           100.4772      1.5    15.4956     0.0000  0.0000  gf256_mult_18
+rs128_final_inst_3/mult2/mult_557   84.9816      1.3    74.8584     0.0000  0.0000  gf256_mult_18_DW02_mult_0_DW02_mult_18
+rs128_final_inst_3/mult2/mult_557/FS_1
+                                    10.1232      0.2    10.1232     0.0000  0.0000  gf256_mult_18_DW01_add_0_DW01_add_18
+rs128_final_inst_3/mult3           105.5832      1.6    17.4048     0.0000  0.0000  gf256_mult_17
+rs128_final_inst_3/mult3/mult_557   88.1784      1.3    76.7676     0.0000  0.0000  gf256_mult_17_DW02_mult_0_DW02_mult_19
+rs128_final_inst_3/mult3/mult_557/FS_1
+                                    11.4108      0.2    11.4108     0.0000  0.0000  gf256_mult_17_DW01_add_0_DW01_add_19
+rs128_final_inst_4                 499.7220      7.4    62.5152    38.4948  0.0000  rs_encoder_12_8_4
+rs128_final_inst_4/mult0            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_16
+rs128_final_inst_4/mult0/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_16_DW02_mult_0_DW02_mult_12
+rs128_final_inst_4/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_16_DW01_add_0_DW01_add_12
+rs128_final_inst_4/mult1            98.7900      1.5    15.4956     0.0000  0.0000  gf256_mult_15
+rs128_final_inst_4/mult1/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_15_DW02_mult_0_DW02_mult_13
+rs128_final_inst_4/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_15_DW01_add_0_DW01_add_13
+rs128_final_inst_4/mult2            99.6780      1.5    15.7620     0.0000  0.0000  gf256_mult_14
+rs128_final_inst_4/mult2/mult_557   83.9160      1.2    73.8372     0.0000  0.0000  gf256_mult_14_DW02_mult_0_DW02_mult_14
+rs128_final_inst_4/mult2/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_14_DW01_add_0_DW01_add_14
+rs128_final_inst_4/mult3           101.4984      1.5    15.4512     0.0000  0.0000  gf256_mult_13
+rs128_final_inst_4/mult3/mult_557   86.0472      1.3    75.5244     0.0000  0.0000  gf256_mult_13_DW02_mult_0_DW02_mult_15
+rs128_final_inst_4/mult3/mult_557/FS_1
+                                    10.5228      0.2    10.5228     0.0000  0.0000  gf256_mult_13_DW01_add_0_DW01_add_15
+rs128_final_inst_5                 503.4960      7.5    64.2912    38.4504  0.0000  rs_encoder_12_8_3
+rs128_final_inst_5/mult0            98.8344      1.5    15.4512     0.0000  0.0000  gf256_mult_12
+rs128_final_inst_5/mult0/mult_557   83.3832      1.2    73.3044     0.0000  0.0000  gf256_mult_12_DW02_mult_0_DW02_mult_8
+rs128_final_inst_5/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_12_DW01_add_0_DW01_add_8
+rs128_final_inst_5/mult1            99.0120      1.5    15.4512     0.0000  0.0000  gf256_mult_11
+rs128_final_inst_5/mult1/mult_557   83.5608      1.2    73.4820     0.0000  0.0000  gf256_mult_11_DW02_mult_0_DW02_mult_9
+rs128_final_inst_5/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_11_DW01_add_0_DW01_add_9
+rs128_final_inst_5/mult2           100.0776      1.5    15.4956     0.0000  0.0000  gf256_mult_10
+rs128_final_inst_5/mult2/mult_557   84.5820      1.3    74.5032     0.0000  0.0000  gf256_mult_10_DW02_mult_0_DW02_mult_10
+rs128_final_inst_5/mult2/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_10_DW01_add_0_DW01_add_10
+rs128_final_inst_5/mult3           102.8304      1.5    15.5400     0.0000  0.0000  gf256_mult_9
+rs128_final_inst_5/mult3/mult_557   87.2904      1.3    75.2580     0.0000  0.0000  gf256_mult_9_DW02_mult_0_DW02_mult_11
+rs128_final_inst_5/mult3/mult_557/FS_1
+                                    12.0324      0.2    12.0324     0.0000  0.0000  gf256_mult_9_DW01_add_0_DW01_add_11
+rs128_final_inst_6                 504.7392      7.5    64.1136    38.4948  0.0000  rs_encoder_12_8_2
+rs128_final_inst_6/mult0            98.9676      1.5    15.4512     0.0000  0.0000  gf256_mult_8
+rs128_final_inst_6/mult0/mult_557   83.5164      1.2    73.4376     0.0000  0.0000  gf256_mult_8_DW02_mult_0_DW02_mult_4
+rs128_final_inst_6/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_8_DW01_add_0_DW01_add_4
+rs128_final_inst_6/mult1            99.5004      1.5    15.4512     0.0000  0.0000  gf256_mult_7
+rs128_final_inst_6/mult1/mult_557   84.0492      1.2    73.9704     0.0000  0.0000  gf256_mult_7_DW02_mult_0_DW02_mult_5
+rs128_final_inst_6/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_7_DW01_add_0_DW01_add_5
+rs128_final_inst_6/mult2           101.0100      1.5    16.7832     0.0000  0.0000  gf256_mult_6
+rs128_final_inst_6/mult2/mult_557   84.2268      1.3    74.3256     0.0000  0.0000  gf256_mult_6_DW02_mult_0_DW02_mult_6
+rs128_final_inst_6/mult2/mult_557/FS_1
+                                     9.9012      0.1     9.9012     0.0000  0.0000  gf256_mult_6_DW01_add_0_DW01_add_6
+rs128_final_inst_6/mult3           102.6528      1.5    16.6056     0.0000  0.0000  gf256_mult_5
+rs128_final_inst_6/mult3/mult_557   86.0472      1.3    75.4800     0.0000  0.0000  gf256_mult_5_DW02_mult_0_DW02_mult_7
+rs128_final_inst_6/mult3/mult_557/FS_1
+                                    10.5672      0.2    10.5672     0.0000  0.0000  gf256_mult_5_DW01_add_0_DW01_add_7
+rs128_final_inst_7                 502.8300      7.5    62.1600    38.4948  0.0000  rs_encoder_12_8_1
+rs128_final_inst_7/mult0            98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_4
+rs128_final_inst_7/mult0/mult_557   83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_4_DW02_mult_0
+rs128_final_inst_7/mult0/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_4_DW01_add_0
+rs128_final_inst_7/mult1            99.1896      1.5    15.4512     0.0000  0.0000  gf256_mult_3
+rs128_final_inst_7/mult1/mult_557   83.7384      1.2    73.6596     0.0000  0.0000  gf256_mult_3_DW02_mult_0_DW02_mult_1
+rs128_final_inst_7/mult1/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_3_DW01_add_0_DW01_add_1
+rs128_final_inst_7/mult2            99.5004      1.5    15.4512     0.0000  0.0000  gf256_mult_2
+rs128_final_inst_7/mult2/mult_557   84.0492      1.2    73.9704     0.0000  0.0000  gf256_mult_2_DW02_mult_0_DW02_mult_2
+rs128_final_inst_7/mult2/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_2_DW01_add_0_DW01_add_2
+rs128_final_inst_7/mult3           104.7396      1.6    15.9840     0.0000  0.0000  gf256_mult_1
+rs128_final_inst_7/mult3/mult_557   88.7556      1.3    77.6556     0.0000  0.0000  gf256_mult_1_DW02_mult_0_DW02_mult_3
+rs128_final_inst_7/mult3/mult_557/FS_1
+                                    11.1000      0.2    11.1000     0.0000  0.0000  gf256_mult_1_DW01_add_0_DW01_add_3
+rs128_inst_0                       501.8088      7.5    61.0944    38.4060  0.0000  rs_encoder_12_8_0
+rs128_inst_0/mult0                  98.9676      1.5    15.4512     0.0000  0.0000  gf256_mult_48
+rs128_inst_0/mult0/mult_557         83.5164      1.2    73.4376     0.0000  0.0000  gf256_mult_48_DW02_mult_0_DW02_mult_44
+rs128_inst_0/mult0/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_48_DW01_add_0_DW01_add_44
+rs128_inst_0/mult1                  98.9676      1.5    15.4512     0.0000  0.0000  gf256_mult_47
+rs128_inst_0/mult1/mult_557         83.5164      1.2    73.4376     0.0000  0.0000  gf256_mult_47_DW02_mult_0_DW02_mult_45
+rs128_inst_0/mult1/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_47_DW01_add_0_DW01_add_45
+rs128_inst_0/mult2                  99.7668      1.5    15.7620     0.0000  0.0000  gf256_mult_46
+rs128_inst_0/mult2/mult_557         84.0048      1.2    73.8816     0.0000  0.0000  gf256_mult_46_DW02_mult_0_DW02_mult_46
+rs128_inst_0/mult2/mult_557/FS_1    10.1232      0.2    10.1232     0.0000  0.0000  gf256_mult_46_DW01_add_0_DW01_add_46
+rs128_inst_0/mult3                 104.6064      1.6    16.2060     0.0000  0.0000  gf256_mult_45
+rs128_inst_0/mult3/mult_557         88.4004      1.3    75.6576     0.0000  0.0000  gf256_mult_45_DW02_mult_0_DW02_mult_47
+rs128_inst_0/mult3/mult_557/FS_1    12.7428      0.2    12.7428     0.0000  0.0000  gf256_mult_45_DW01_add_0_DW01_add_47
+rs128_inst_1                       500.0772      7.4    61.4496    38.4504  0.0000  rs_encoder_12_8_11
+rs128_inst_1/mult0                  98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_44
+rs128_inst_1/mult0/mult_557         83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_44_DW02_mult_0_DW02_mult_40
+rs128_inst_1/mult0/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_44_DW01_add_0_DW01_add_40
+rs128_inst_1/mult1                  99.2340      1.5    15.4512     0.0000  0.0000  gf256_mult_43
+rs128_inst_1/mult1/mult_557         83.7828      1.2    73.7040     0.0000  0.0000  gf256_mult_43_DW02_mult_0_DW02_mult_41
+rs128_inst_1/mult1/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_43_DW01_add_0_DW01_add_41
+rs128_inst_1/mult2                  99.4116      1.5    15.4512     0.0000  0.0000  gf256_mult_42
+rs128_inst_1/mult2/mult_557         83.9604      1.2    73.8816     0.0000  0.0000  gf256_mult_42_DW02_mult_0_DW02_mult_42
+rs128_inst_1/mult2/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_42_DW01_add_0_DW01_add_42
+rs128_inst_1/mult3                 102.7860      1.5    15.8064     0.0000  0.0000  gf256_mult_41
+rs128_inst_1/mult3/mult_557         86.9796      1.3    75.0360     0.0000  0.0000  gf256_mult_41_DW02_mult_0_DW02_mult_43
+rs128_inst_1/mult3/mult_557/FS_1    11.9436      0.2    11.9436     0.0000  0.0000  gf256_mult_41_DW01_add_0_DW01_add_43
+rs128_inst_2                       504.6060      7.5    63.6252    38.4060  0.0000  rs_encoder_12_8_10
+rs128_inst_2/mult0                  98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_40
+rs128_inst_2/mult0/mult_557         83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_40_DW02_mult_0_DW02_mult_36
+rs128_inst_2/mult0/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_40_DW01_add_0_DW01_add_36
+rs128_inst_2/mult1                  99.2340      1.5    15.4512     0.0000  0.0000  gf256_mult_39
+rs128_inst_2/mult1/mult_557         83.7828      1.2    73.7040     0.0000  0.0000  gf256_mult_39_DW02_mult_0_DW02_mult_37
+rs128_inst_2/mult1/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_39_DW01_add_0_DW01_add_37
+rs128_inst_2/mult2                  99.6336      1.5    15.4512     0.0000  0.0000  gf256_mult_38
+rs128_inst_2/mult2/mult_557         84.1824      1.3    74.1036     0.0000  0.0000  gf256_mult_38_DW02_mult_0_DW02_mult_38
+rs128_inst_2/mult2/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_38_DW01_add_0_DW01_add_38
+rs128_inst_2/mult3                 104.9616      1.6    15.4512     0.0000  0.0000  gf256_mult_37
+rs128_inst_2/mult3/mult_557         89.5104      1.3    77.3004     0.0000  0.0000  gf256_mult_37_DW02_mult_0_DW02_mult_39
+rs128_inst_2/mult3/mult_557/FS_1    12.2100      0.2    12.2100     0.0000  0.0000  gf256_mult_37_DW01_add_0_DW01_add_39
+rs128_inst_3                       500.2104      7.4    61.5828    38.4504  0.0000  rs_encoder_12_8_9
+rs128_inst_3/mult0                  98.7456      1.5    15.4512     0.0000  0.0000  gf256_mult_36
+rs128_inst_3/mult0/mult_557         83.2944      1.2    73.2156     0.0000  0.0000  gf256_mult_36_DW02_mult_0_DW02_mult_32
+rs128_inst_3/mult0/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_36_DW01_add_0_DW01_add_32
+rs128_inst_3/mult1                  98.9676      1.5    15.4512     0.0000  0.0000  gf256_mult_35
+rs128_inst_3/mult1/mult_557         83.5164      1.2    73.4376     0.0000  0.0000  gf256_mult_35_DW02_mult_0_DW02_mult_33
+rs128_inst_3/mult1/mult_557/FS_1    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_35_DW01_add_0_DW01_add_33
+rs128_inst_3/mult2                 100.7436      1.5    16.8276     0.0000  0.0000  gf256_mult_34
+rs128_inst_3/mult2/mult_557         83.9160      1.2    73.7928     0.0000  0.0000  gf256_mult_34_DW02_mult_0_DW02_mult_34
+rs128_inst_3/mult2/mult_557/FS_1    10.1232      0.2    10.1232     0.0000  0.0000  gf256_mult_34_DW01_add_0_DW01_add_34
+rs128_inst_3/mult3                 101.7204      1.5    15.4956     0.0000  0.0000  gf256_mult_33
+rs128_inst_3/mult3/mult_557         86.2248      1.3    74.8140     0.0000  0.0000  gf256_mult_33_DW02_mult_0_DW02_mult_35
+rs128_inst_3/mult3/mult_557/FS_1    11.4108      0.2    11.4108     0.0000  0.0000  gf256_mult_33_DW01_add_0_DW01_add_35
+rs98_inst_0                        163.6584      2.4    45.4656    13.4088  0.0000  rs_encoder_9_8_0
+rs98_inst_0/mult_inst              104.7840      1.6    17.1384     0.0000  0.0000  gf256_mult_0
+rs98_inst_0/mult_inst/mult_557      87.6456      1.3    77.5668     0.0000  0.0000  gf256_mult_0_DW02_mult_0_DW02_mult_51
+rs98_inst_0/mult_inst/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_0_DW01_add_0_DW01_add_51
+rs98_inst_1                        163.9248      2.4    46.7532    13.6308  0.0000  rs_encoder_9_8_3
+rs98_inst_1/mult_inst              103.5408      1.5    16.8276     0.0000  0.0000  gf256_mult_51
+rs98_inst_1/mult_inst/mult_557      86.7132      1.3    76.6344     0.0000  0.0000  gf256_mult_51_DW02_mult_0_DW02_mult_50
+rs98_inst_1/mult_inst/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_51_DW01_add_0_DW01_add_50
+rs98_inst_2                        164.7684      2.4    45.5100    13.6308  0.0000  rs_encoder_9_8_2
+rs98_inst_2/mult_inst              105.6276      1.6    16.8276     0.0000  0.0000  gf256_mult_50
+rs98_inst_2/mult_inst/mult_557      88.8000      1.3    78.7212     0.0000  0.0000  gf256_mult_50_DW02_mult_0_DW02_mult_49
+rs98_inst_2/mult_inst/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_50_DW01_add_0_DW01_add_49
+rs98_inst_3                        163.1700      2.4    45.2880    13.6308  0.0000  rs_encoder_9_8_1
+rs98_inst_3/mult_inst              104.2512      1.5    16.0284     0.0000  0.0000  gf256_mult_49
+rs98_inst_3/mult_inst/mult_557      88.2228      1.3    78.1440     0.0000  0.0000  gf256_mult_49_DW02_mult_0_DW02_mult_48
+rs98_inst_3/mult_inst/mult_557/FS_1
+                                    10.0788      0.1    10.0788     0.0000  0.0000  gf256_mult_49_DW01_add_0_DW01_add_48
+--------------------------------  ---------  -------  ---------  ---------  ------  --------------------------------------
+Total                                                 6194.5991   536.9736  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+                                       Perc. of
+  Module    Implem.  Count       Area cell area
+  --------- -------  ----- ---------- ---------
+  DW02_mult     csa     52  4420.7292     65.7%
+  --------- -------  ----- ---------- ---------
+  Total:                52  4420.7292     65.7%
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                           Estimated  Perc. of
+  Module   Implem.  Count       Area cell area
+  -------- -------  ----- ---------- ---------
+  DW01_inc     rpl     16    23.4432      0.3%
+  -------- -------  ----- ---------- ---------
+  Total:               16    23.4432      0.3%
+
+Total synthetic cell area:              4444.1724  66.0%  (estimated)
+
+1

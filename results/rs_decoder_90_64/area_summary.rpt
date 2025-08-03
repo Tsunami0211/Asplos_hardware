@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : rs_decoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:18:23 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         1430
+Number of nets:                          5309
+Number of cells:                         4358
+Number of combinational cells:           3743
+Number of sequential cells:               608
+Number of macros/black boxes:               0
+Number of buf/inv:                       1600
+Number of references:                     144
+
+Combinational area:               1839.092390
+Buf/Inv area:                      496.169997
+Noncombinational area:             660.982820
+Macro/Black Box area:                0.000000
+Net Interconnect area:            2412.502381
+
+Total cell area:                  2500.075210
+Total area:                       4912.577591
+1

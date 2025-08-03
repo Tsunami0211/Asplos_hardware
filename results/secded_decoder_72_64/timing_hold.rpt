@@ -1,0 +1,245 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : secded_decoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:28:38 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: code_in[60]
+              (input port)
+  Endpoint: data_out[53]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[60] (in)                         0.00       0.00 r
+  U369/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[53] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[56]
+              (input port)
+  Endpoint: data_out[49]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[56] (in)                         0.00       0.00 r
+  U375/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[49] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[50]
+              (input port)
+  Endpoint: data_out[43]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[50] (in)                         0.00       0.00 r
+  U381/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[43] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[49]
+              (input port)
+  Endpoint: data_out[42]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[49] (in)                         0.00       0.00 r
+  U382/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[42] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[47]
+              (input port)
+  Endpoint: data_out[40]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[47] (in)                         0.00       0.00 r
+  U384/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[40] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[42]
+              (input port)
+  Endpoint: data_out[35]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[42] (in)                         0.00       0.00 r
+  U392/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[35] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[41]
+              (input port)
+  Endpoint: data_out[34]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[41] (in)                         0.00       0.00 r
+  U394/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[34] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[40]
+              (input port)
+  Endpoint: data_out[33]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[40] (in)                         0.00       0.00 r
+  U395/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[33] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[37]
+              (input port)
+  Endpoint: data_out[30]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[37] (in)                         0.00       0.00 r
+  U399/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[30] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[35]
+              (input port)
+  Endpoint: data_out[28]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  code_in[35] (in)                         0.00       0.00 r
+  U402/X (SAEDRVT14_EN2_1)                 0.02       0.02 r
+  data_out[28] (out)                       0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

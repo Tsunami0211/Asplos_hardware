@@ -1,0 +1,206 @@
+ 
+****************************************
+Report : area
+Design : xed_encoder_10
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:53:45 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         7972
+Number of nets:                         30265
+Number of cells:                        22774
+Number of combinational cells:          22619
+Number of sequential cells:                 1
+Number of macros/black boxes:               0
+Number of buf/inv:                       4029
+Number of references:                      57
+
+Combinational area:              12764.289422
+Buf/Inv area:                     1745.985576
+Noncombinational area:               1.065600
+Macro/Black Box area:                0.000000
+Net Interconnect area:           13138.510646
+
+Total cell area:                 12765.355022
+Total area:                      25903.865668
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------------------
+xed_encoder_10                    12765.3550    100.0    862.5588     1.0656  0.0000  xed_encoder_10
+crc0                                349.7832      2.7    349.7832     0.0000  0.0000  crc_atm_8bit_0
+crc1                                345.4320      2.7    345.4320     0.0000  0.0000  crc_atm_8bit_9
+crc2                                324.9192      2.5    324.9192     0.0000  0.0000  crc_atm_8bit_8
+crc3                                334.5984      2.6    334.5984     0.0000  0.0000  crc_atm_8bit_7
+crc4                                345.6540      2.7    345.6540     0.0000  0.0000  crc_atm_8bit_6
+crc5                                364.4796      2.9    364.4796     0.0000  0.0000  crc_atm_8bit_5
+crc6                                337.3068      2.6    337.3068     0.0000  0.0000  crc_atm_8bit_4
+crc7                                331.7124      2.6    331.7124     0.0000  0.0000  crc_atm_8bit_3
+crc_simple_xor                      349.9608      2.7    349.9608     0.0000  0.0000  crc_atm_8bit_2
+crc_weighted_xor                    522.7212      4.1    522.7212     0.0000  0.0000  crc_atm_8bit_1
+mult0_g0                            475.7016      3.7      0.0000     0.0000  0.0000  gf256_mult_64bit_0
+mult0_g0/mult_byte0                  53.5464      0.4     53.5464     0.0000  0.0000  gf256_mult_single_0
+mult0_g0/mult_byte1                  53.5020      0.4     53.5020     0.0000  0.0000  gf256_mult_single_127
+mult0_g0/mult_byte2                  61.8048      0.5     61.8048     0.0000  0.0000  gf256_mult_single_126
+mult0_g0/mult_byte3                  60.9612      0.5     60.9612     0.0000  0.0000  gf256_mult_single_125
+mult0_g0/mult_byte4                  62.2044      0.5     62.2044     0.0000  0.0000  gf256_mult_single_124
+mult0_g0/mult_byte5                  59.8512      0.5     59.8512     0.0000  0.0000  gf256_mult_single_123
+mult0_g0/mult_byte6                  62.1156      0.5     62.1156     0.0000  0.0000  gf256_mult_single_122
+mult0_g0/mult_byte7                  61.7160      0.5     61.7160     0.0000  0.0000  gf256_mult_single_121
+mult0_g1                            494.7048      3.9      0.0000     0.0000  0.0000  gf256_mult_64bit_15
+mult0_g1/mult_byte0                  60.9612      0.5     60.9612     0.0000  0.0000  gf256_mult_single_120
+mult0_g1/mult_byte1                  62.3376      0.5     62.3376     0.0000  0.0000  gf256_mult_single_119
+mult0_g1/mult_byte2                  61.1832      0.5     61.1832     0.0000  0.0000  gf256_mult_single_118
+mult0_g1/mult_byte3                  61.1388      0.5     61.1388     0.0000  0.0000  gf256_mult_single_117
+mult0_g1/mult_byte4                  61.4052      0.5     61.4052     0.0000  0.0000  gf256_mult_single_116
+mult0_g1/mult_byte5                  60.9612      0.5     60.9612     0.0000  0.0000  gf256_mult_single_115
+mult0_g1/mult_byte6                  63.4476      0.5     63.4476     0.0000  0.0000  gf256_mult_single_114
+mult0_g1/mult_byte7                  63.2700      0.5     63.2700     0.0000  0.0000  gf256_mult_single_113
+mult1_g0                            485.6028      3.8      0.0000     0.0000  0.0000  gf256_mult_64bit_14
+mult1_g0/mult_byte0                  54.0348      0.4     54.0348     0.0000  0.0000  gf256_mult_single_112
+mult1_g0/mult_byte1                  57.0540      0.4     57.0540     0.0000  0.0000  gf256_mult_single_111
+mult1_g0/mult_byte2                  63.7140      0.5     63.7140     0.0000  0.0000  gf256_mult_single_110
+mult1_g0/mult_byte3                  61.2720      0.5     61.2720     0.0000  0.0000  gf256_mult_single_109
+mult1_g0/mult_byte4                  62.9148      0.5     62.9148     0.0000  0.0000  gf256_mult_single_108
+mult1_g0/mult_byte5                  61.7160      0.5     61.7160     0.0000  0.0000  gf256_mult_single_107
+mult1_g0/mult_byte6                  62.4264      0.5     62.4264     0.0000  0.0000  gf256_mult_single_106
+mult1_g0/mult_byte7                  62.4708      0.5     62.4708     0.0000  0.0000  gf256_mult_single_105
+mult1_g1                            503.3184      3.9      0.0000     0.0000  0.0000  gf256_mult_64bit_13
+mult1_g1/mult_byte0                  61.2276      0.5     61.2276     0.0000  0.0000  gf256_mult_single_104
+mult1_g1/mult_byte1                  62.4708      0.5     62.4708     0.0000  0.0000  gf256_mult_single_103
+mult1_g1/mult_byte2                  62.2488      0.5     62.2488     0.0000  0.0000  gf256_mult_single_102
+mult1_g1/mult_byte3                  61.8048      0.5     61.8048     0.0000  0.0000  gf256_mult_single_101
+mult1_g1/mult_byte4                  62.3376      0.5     62.3376     0.0000  0.0000  gf256_mult_single_100
+mult1_g1/mult_byte5                  61.8936      0.5     61.8936     0.0000  0.0000  gf256_mult_single_99
+mult1_g1/mult_byte6                  62.6040      0.5     62.6040     0.0000  0.0000  gf256_mult_single_98
+mult1_g1/mult_byte7                  68.7312      0.5     68.7312     0.0000  0.0000  gf256_mult_single_97
+mult2_g0                            496.2144      3.9      0.0000     0.0000  0.0000  gf256_mult_64bit_12
+mult2_g0/mult_byte0                  55.4556      0.4     55.4556     0.0000  0.0000  gf256_mult_single_96
+mult2_g0/mult_byte1                  59.9400      0.5     59.9400     0.0000  0.0000  gf256_mult_single_95
+mult2_g0/mult_byte2                  64.3800      0.5     64.3800     0.0000  0.0000  gf256_mult_single_94
+mult2_g0/mult_byte3                  62.3820      0.5     62.3820     0.0000  0.0000  gf256_mult_single_93
+mult2_g0/mult_byte4                  63.3144      0.5     63.3144     0.0000  0.0000  gf256_mult_single_92
+mult2_g0/mult_byte5                  62.7372      0.5     62.7372     0.0000  0.0000  gf256_mult_single_91
+mult2_g0/mult_byte6                  63.7584      0.5     63.7584     0.0000  0.0000  gf256_mult_single_90
+mult2_g0/mult_byte7                  64.2468      0.5     64.2468     0.0000  0.0000  gf256_mult_single_89
+mult2_g1                            514.5072      4.0      0.0000     0.0000  0.0000  gf256_mult_64bit_11
+mult2_g1/mult_byte0                  63.1368      0.5     63.1368     0.0000  0.0000  gf256_mult_single_88
+mult2_g1/mult_byte1                  63.5364      0.5     63.5364     0.0000  0.0000  gf256_mult_single_87
+mult2_g1/mult_byte2                  63.4920      0.5     63.4920     0.0000  0.0000  gf256_mult_single_86
+mult2_g1/mult_byte3                  63.4032      0.5     63.4032     0.0000  0.0000  gf256_mult_single_85
+mult2_g1/mult_byte4                  63.6696      0.5     63.6696     0.0000  0.0000  gf256_mult_single_84
+mult2_g1/mult_byte5                  66.5112      0.5     66.5112     0.0000  0.0000  gf256_mult_single_83
+mult2_g1/mult_byte6                  63.8472      0.5     63.8472     0.0000  0.0000  gf256_mult_single_82
+mult2_g1/mult_byte7                  66.9108      0.5     66.9108     0.0000  0.0000  gf256_mult_single_81
+mult3_g0                            498.2568      3.9      0.0000     0.0000  0.0000  gf256_mult_64bit_10
+mult3_g0/mult_byte0                  59.1852      0.5     59.1852     0.0000  0.0000  gf256_mult_single_80
+mult3_g0/mult_byte1                  58.8300      0.5     58.8300     0.0000  0.0000  gf256_mult_single_79
+mult3_g0/mult_byte2                  63.3588      0.5     63.3588     0.0000  0.0000  gf256_mult_single_78
+mult3_g0/mult_byte3                  63.3144      0.5     63.3144     0.0000  0.0000  gf256_mult_single_77
+mult3_g0/mult_byte4                  64.3800      0.5     64.3800     0.0000  0.0000  gf256_mult_single_76
+mult3_g0/mult_byte5                  62.6928      0.5     62.6928     0.0000  0.0000  gf256_mult_single_75
+mult3_g0/mult_byte6                  63.1368      0.5     63.1368     0.0000  0.0000  gf256_mult_single_74
+mult3_g0/mult_byte7                  63.3588      0.5     63.3588     0.0000  0.0000  gf256_mult_single_73
+mult3_g1                            522.6768      4.1      0.0000     0.0000  0.0000  gf256_mult_64bit_9
+mult3_g1/mult_byte0                  62.8704      0.5     62.8704     0.0000  0.0000  gf256_mult_single_72
+mult3_g1/mult_byte1                  63.5808      0.5     63.5808     0.0000  0.0000  gf256_mult_single_71
+mult3_g1/mult_byte2                  63.5364      0.5     63.5364     0.0000  0.0000  gf256_mult_single_70
+mult3_g1/mult_byte3                  63.2256      0.5     63.2256     0.0000  0.0000  gf256_mult_single_69
+mult3_g1/mult_byte4                  65.4456      0.5     65.4456     0.0000  0.0000  gf256_mult_single_68
+mult3_g1/mult_byte5                  65.8896      0.5     65.8896     0.0000  0.0000  gf256_mult_single_67
+mult3_g1/mult_byte6                  70.4628      0.6     70.4628     0.0000  0.0000  gf256_mult_single_66
+mult3_g1/mult_byte7                  67.6656      0.5     67.6656     0.0000  0.0000  gf256_mult_single_65
+mult4_g0                            501.5424      3.9      0.0000     0.0000  0.0000  gf256_mult_64bit_8
+mult4_g0/mult_byte0                  54.6564      0.4     54.6564     0.0000  0.0000  gf256_mult_single_64
+mult4_g0/mult_byte1                  60.2064      0.5     60.2064     0.0000  0.0000  gf256_mult_single_63
+mult4_g0/mult_byte2                  63.8472      0.5     63.8472     0.0000  0.0000  gf256_mult_single_62
+mult4_g0/mult_byte3                  65.7564      0.5     65.7564     0.0000  0.0000  gf256_mult_single_61
+mult4_g0/mult_byte4                  66.2892      0.5     66.2892     0.0000  0.0000  gf256_mult_single_60
+mult4_g0/mult_byte5                  63.4032      0.5     63.4032     0.0000  0.0000  gf256_mult_single_59
+mult4_g0/mult_byte6                  63.6696      0.5     63.6696     0.0000  0.0000  gf256_mult_single_58
+mult4_g0/mult_byte7                  63.7140      0.5     63.7140     0.0000  0.0000  gf256_mult_single_57
+mult4_g1                            562.6368      4.4      0.0000     0.0000  0.0000  gf256_mult_64bit_7
+mult4_g1/mult_byte0                  63.4476      0.5     63.4476     0.0000  0.0000  gf256_mult_single_56
+mult4_g1/mult_byte1                  65.3124      0.5     65.3124     0.0000  0.0000  gf256_mult_single_55
+mult4_g1/mult_byte2                  63.9804      0.5     63.9804     0.0000  0.0000  gf256_mult_single_54
+mult4_g1/mult_byte3                  71.5728      0.6     71.5728     0.0000  0.0000  gf256_mult_single_53
+mult4_g1/mult_byte4                  73.8816      0.6     73.8816     0.0000  0.0000  gf256_mult_single_52
+mult4_g1/mult_byte5                  70.0632      0.5     70.0632     0.0000  0.0000  gf256_mult_single_51
+mult4_g1/mult_byte6                  76.0128      0.6     76.0128     0.0000  0.0000  gf256_mult_single_50
+mult4_g1/mult_byte7                  78.3660      0.6     78.3660     0.0000  0.0000  gf256_mult_single_49
+mult5_g0                            501.3648      3.9      0.0000     0.0000  0.0000  gf256_mult_64bit_6
+mult5_g0/mult_byte0                  58.8300      0.5     58.8300     0.0000  0.0000  gf256_mult_single_48
+mult5_g0/mult_byte1                  60.9612      0.5     60.9612     0.0000  0.0000  gf256_mult_single_47
+mult5_g0/mult_byte2                  59.0520      0.5     59.0520     0.0000  0.0000  gf256_mult_single_46
+mult5_g0/mult_byte3                  65.6676      0.5     65.6676     0.0000  0.0000  gf256_mult_single_45
+mult5_g0/mult_byte4                  64.0692      0.5     64.0692     0.0000  0.0000  gf256_mult_single_44
+mult5_g0/mult_byte5                  64.0248      0.5     64.0248     0.0000  0.0000  gf256_mult_single_43
+mult5_g0/mult_byte6                  64.7796      0.5     64.7796     0.0000  0.0000  gf256_mult_single_42
+mult5_g0/mult_byte7                  63.9804      0.5     63.9804     0.0000  0.0000  gf256_mult_single_41
+mult5_g1                            578.2212      4.5      0.0000     0.0000  0.0000  gf256_mult_64bit_5
+mult5_g1/mult_byte0                  65.4456      0.5     65.4456     0.0000  0.0000  gf256_mult_single_40
+mult5_g1/mult_byte1                  66.3336      0.5     66.3336     0.0000  0.0000  gf256_mult_single_39
+mult5_g1/mult_byte2                  66.3780      0.5     66.3780     0.0000  0.0000  gf256_mult_single_38
+mult5_g1/mult_byte3                  69.7524      0.5     69.7524     0.0000  0.0000  gf256_mult_single_37
+mult5_g1/mult_byte4                  76.6344      0.6     76.6344     0.0000  0.0000  gf256_mult_single_36
+mult5_g1/mult_byte5                  74.6808      0.6     74.6808     0.0000  0.0000  gf256_mult_single_35
+mult5_g1/mult_byte6                  79.4316      0.6     79.4316     0.0000  0.0000  gf256_mult_single_34
+mult5_g1/mult_byte7                  79.5648      0.6     79.5648     0.0000  0.0000  gf256_mult_single_33
+mult6_g0                            507.2700      4.0      0.0000     0.0000  0.0000  gf256_mult_64bit_4
+mult6_g0/mult_byte0                  58.5192      0.5     58.5192     0.0000  0.0000  gf256_mult_single_32
+mult6_g0/mult_byte1                  62.4708      0.5     62.4708     0.0000  0.0000  gf256_mult_single_31
+mult6_g0/mult_byte2                  64.1580      0.5     64.1580     0.0000  0.0000  gf256_mult_single_30
+mult6_g0/mult_byte3                  64.3800      0.5     64.3800     0.0000  0.0000  gf256_mult_single_29
+mult6_g0/mult_byte4                  64.2024      0.5     64.2024     0.0000  0.0000  gf256_mult_single_28
+mult6_g0/mult_byte5                  64.0248      0.5     64.0248     0.0000  0.0000  gf256_mult_single_27
+mult6_g0/mult_byte6                  64.6020      0.5     64.6020     0.0000  0.0000  gf256_mult_single_26
+mult6_g0/mult_byte7                  64.9128      0.5     64.9128     0.0000  0.0000  gf256_mult_single_25
+mult6_g1                            565.7448      4.4      0.0000     0.0000  0.0000  gf256_mult_64bit_3
+mult6_g1/mult_byte0                  63.5808      0.5     63.5808     0.0000  0.0000  gf256_mult_single_24
+mult6_g1/mult_byte1                  66.9108      0.5     66.9108     0.0000  0.0000  gf256_mult_single_23
+mult6_g1/mult_byte2                  64.6464      0.5     64.6464     0.0000  0.0000  gf256_mult_single_22
+mult6_g1/mult_byte3                  67.4436      0.5     67.4436     0.0000  0.0000  gf256_mult_single_21
+mult6_g1/mult_byte4                  70.4628      0.6     70.4628     0.0000  0.0000  gf256_mult_single_20
+mult6_g1/mult_byte5                  75.5244      0.6     75.5244     0.0000  0.0000  gf256_mult_single_19
+mult6_g1/mult_byte6                  76.8120      0.6     76.8120     0.0000  0.0000  gf256_mult_single_18
+mult6_g1/mult_byte7                  80.3640      0.6     80.3640     0.0000  0.0000  gf256_mult_single_17
+mult7_g0                            512.6424      4.0      0.0000     0.0000  0.0000  gf256_mult_64bit_2
+mult7_g0/mult_byte0                  61.5828      0.5     61.5828     0.0000  0.0000  gf256_mult_single_16
+mult7_g0/mult_byte1                  63.3144      0.5     63.3144     0.0000  0.0000  gf256_mult_single_15
+mult7_g0/mult_byte2                  65.7120      0.5     65.7120     0.0000  0.0000  gf256_mult_single_14
+mult7_g0/mult_byte3                  62.7372      0.5     62.7372     0.0000  0.0000  gf256_mult_single_13
+mult7_g0/mult_byte4                  64.9572      0.5     64.9572     0.0000  0.0000  gf256_mult_single_12
+mult7_g0/mult_byte5                  64.5132      0.5     64.5132     0.0000  0.0000  gf256_mult_single_11
+mult7_g0/mult_byte6                  64.2024      0.5     64.2024     0.0000  0.0000  gf256_mult_single_10
+mult7_g0/mult_byte7                  65.6232      0.5     65.6232     0.0000  0.0000  gf256_mult_single_9
+mult7_g1                            574.7580      4.5      0.0000     0.0000  0.0000  gf256_mult_64bit_1
+mult7_g1/mult_byte0                  64.2468      0.5     64.2468     0.0000  0.0000  gf256_mult_single_8
+mult7_g1/mult_byte1                  64.4688      0.5     64.4688     0.0000  0.0000  gf256_mult_single_7
+mult7_g1/mult_byte2                  66.4668      0.5     66.4668     0.0000  0.0000  gf256_mult_single_6
+mult7_g1/mult_byte3                  70.1520      0.5     70.1520     0.0000  0.0000  gf256_mult_single_5
+mult7_g1/mult_byte4                  74.1036      0.6     74.1036     0.0000  0.0000  gf256_mult_single_4
+mult7_g1/mult_byte5                  79.4760      0.6     79.4760     0.0000  0.0000  gf256_mult_single_3
+mult7_g1/mult_byte6                  78.1440      0.6     78.1440     0.0000  0.0000  gf256_mult_single_2
+mult7_g1/mult_byte7                  77.7000      0.6     77.7000     0.0000  0.0000  gf256_mult_single_1
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------------------
+Total                                                  12764.2894     1.0656  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+  No DW parts to report!
+
+Total synthetic cell area:              0.0000  0.0%  
+
+1

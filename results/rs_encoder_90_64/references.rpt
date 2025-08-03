@@ -1,0 +1,309 @@
+ 
+****************************************
+Report : reference
+Design : rs_encoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:27:05 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+SAEDRVT14_AN2B_MM_12
+                   saed14rvt_base_tt0p8v25c
+                                  1.154400       2      2.308800  
+SAEDRVT14_AN2B_MM_16
+                   saed14rvt_base_tt0p8v25c
+                                  1.420800       1      1.420800  
+SAEDRVT14_AN2B_MM_20
+                   saed14rvt_base_tt0p8v25c
+                                  1.687200       2      3.374400  
+SAEDRVT14_AN2_4    saed14rvt_base_tt0p8v25c
+                                  0.532800      75     39.960001  
+SAEDRVT14_AN2_8    saed14rvt_base_tt0p8v25c
+                                  0.888000       3      2.664000  
+SAEDRVT14_AN2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_AN2_MM_12
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600       2      2.131200  
+SAEDRVT14_AN3_4    saed14rvt_base_tt0p8v25c
+                                  0.621600       1      0.621600  
+SAEDRVT14_AN3_8    saed14rvt_base_tt0p8v25c
+                                  1.065600       2      2.131200  
+SAEDRVT14_AN4_1    saed14rvt_base_tt0p8v25c
+                                  0.399600       2      0.799200  
+SAEDRVT14_AN4_4    saed14rvt_base_tt0p8v25c
+                                  0.754800      26     19.624801  
+SAEDRVT14_AN4_8    saed14rvt_base_tt0p8v25c
+                                  1.287600      49     63.092402  
+SAEDRVT14_AO2BB2_4 saed14rvt_base_tt0p8v25c
+                                  0.710400       1      0.710400  
+SAEDRVT14_AO21_4   saed14rvt_base_tt0p8v25c
+                                  0.621600       1      0.621600  
+SAEDRVT14_AO32_2   saed14rvt_base_tt0p8v25c
+                                  0.488400       1      0.488400  
+SAEDRVT14_AOI21_0P75
+                   saed14rvt_base_tt0p8v25c
+                                  0.266400       1      0.266400  
+SAEDRVT14_AOI21_V1_6
+                   saed14rvt_base_tt0p8v25c
+                                  0.976800       1      0.976800  
+SAEDRVT14_AOI21_V1_8
+                   saed14rvt_base_tt0p8v25c
+                                  1.243200       1      1.243200  
+SAEDRVT14_AOI22_3  saed14rvt_base_tt0p8v25c
+                                  0.621600       1      0.621600  
+SAEDRVT14_AOI22_4  saed14rvt_base_tt0p8v25c
+                                  0.621600       2      1.243200  
+SAEDRVT14_BUF_3    saed14rvt_base_tt0p8v25c
+                                  0.355200      31     11.011200  
+SAEDRVT14_BUF_8    saed14rvt_base_tt0p8v25c
+                                  0.621600       4      2.486400  
+SAEDRVT14_BUF_10   saed14rvt_base_tt0p8v25c
+                                  0.710400       2      1.420800  
+SAEDRVT14_BUF_12   saed14rvt_base_tt0p8v25c
+                                  0.843600       1      0.843600  
+SAEDRVT14_BUF_16   saed14rvt_base_tt0p8v25c
+                                  1.065600      15     15.984001  
+SAEDRVT14_BUF_20   saed14rvt_base_tt0p8v25c
+                                  1.287600      26     33.477601  
+SAEDRVT14_BUF_CDC_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.310800       5      1.554000  
+SAEDRVT14_BUF_ECO_8
+                   saed14rvt_base_tt0p8v25c
+                                  1.420800       1      1.420800  
+SAEDRVT14_BUF_S_1  saed14rvt_base_tt0p8v25c
+                                  0.266400      35      9.324000  
+SAEDRVT14_BUF_S_4  saed14rvt_base_tt0p8v25c
+                                  0.399600       4      1.598400  
+SAEDRVT14_BUF_S_6  saed14rvt_base_tt0p8v25c
+                                  0.488400       4      1.953600  
+SAEDRVT14_BUF_UCDC_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.266400       2      0.532800  
+SAEDRVT14_CLKSPLT_1
+                   saed14rvt_base_tt0p8v25c
+                                  1.154400       1      1.154400  
+SAEDRVT14_EN2_1    saed14rvt_base_tt0p8v25c
+                                  0.532800      26     13.852800  
+SAEDRVT14_EN2_3    saed14rvt_base_tt0p8v25c
+                                  0.710400      15     10.656000  
+SAEDRVT14_EN2_4    saed14rvt_base_tt0p8v25c
+                                  0.888000     157    139.416002  
+SAEDRVT14_EO2_1    saed14rvt_base_tt0p8v25c
+                                  0.488400       2      0.976800  
+SAEDRVT14_EO2_3    saed14rvt_base_tt0p8v25c
+                                  0.710400       6      4.262400  
+SAEDRVT14_EO2_V1_1P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.532800       3      1.598400  
+SAEDRVT14_FDPRBQ_V2LP_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600       4      4.262400  n
+SAEDRVT14_FDPRBQ_V2LP_1
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600     159    169.430406  n
+SAEDRVT14_FDPRBQ_V2LP_2
+                   saed14rvt_base_tt0p8v25c
+                                  1.110000       2      2.220000  n
+SAEDRVT14_FDPRBQ_V2_1
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600       1      1.065600  n
+SAEDRVT14_FDPRBQ_V2_2
+                   saed14rvt_base_tt0p8v25c
+                                  1.110000       1      1.110000  n
+SAEDRVT14_FDPRBQ_V2_4
+                   saed14rvt_base_tt0p8v25c
+                                  1.198800       5      5.994000  n
+SAEDRVT14_FDPRBSBQ_V2_4
+                   saed14rvt_base_tt0p8v25c
+                                  1.420800       1      1.420800  n
+SAEDRVT14_FDPRB_V3_2
+                   saed14rvt_base_tt0p8v25c
+                                  1.598400      42     67.132800  n
+SAEDRVT14_INV_2    saed14rvt_base_tt0p8v25c
+                                  0.222000     139     30.858000  
+SAEDRVT14_INV_3    saed14rvt_base_tt0p8v25c
+                                  0.266400       4      1.065600  
+SAEDRVT14_INV_4    saed14rvt_base_tt0p8v25c
+                                  0.310800     188     58.430397  
+SAEDRVT14_INV_6    saed14rvt_base_tt0p8v25c
+                                  0.399600      16      6.393600  
+SAEDRVT14_INV_12   saed14rvt_base_tt0p8v25c
+                                  0.666000      34     22.644000  
+SAEDRVT14_INV_20   saed14rvt_base_tt0p8v25c
+                                  1.021200       1      1.021200  
+SAEDRVT14_INV_ECO_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.355200       1      0.355200  
+SAEDRVT14_INV_ECO_3
+                   saed14rvt_base_tt0p8v25c
+                                  0.488400       2      0.976800  
+SAEDRVT14_INV_S_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.177600       3      0.532800  
+SAEDRVT14_INV_S_1  saed14rvt_base_tt0p8v25c
+                                  0.177600     213     37.828799  
+SAEDRVT14_INV_S_1P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000       2      0.444000  
+SAEDRVT14_INV_S_3  saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_INV_S_4  saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_INV_S_5  saed14rvt_base_tt0p8v25c
+                                  0.399600       4      1.598400  
+SAEDRVT14_INV_S_8  saed14rvt_base_tt0p8v25c
+                                  0.488400      12      5.860800  
+SAEDRVT14_INV_S_9  saed14rvt_base_tt0p8v25c
+                                  0.577200       3      1.731600  
+SAEDRVT14_INV_S_10 saed14rvt_base_tt0p8v25c
+                                  0.577200      11      6.349200  
+SAEDRVT14_INV_S_16 saed14rvt_base_tt0p8v25c
+                                  0.843600      31     26.151599  
+SAEDRVT14_INV_S_20 saed14rvt_base_tt0p8v25c
+                                  1.021200     106    108.247194  
+SAEDRVT14_MUX2_MM_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.444000       1      0.444000  
+SAEDRVT14_MUXI2_1  saed14rvt_base_tt0p8v25c
+                                  0.532800       1      0.532800  
+SAEDRVT14_ND2_8    saed14rvt_base_tt0p8v25c
+                                  0.932400       3      2.797200  
+SAEDRVT14_ND2_16   saed14rvt_base_tt0p8v25c
+                                  1.554000      10     15.540000  
+SAEDRVT14_ND2_MM_10
+                   saed14rvt_base_tt0p8v25c
+                                  1.198800       2      2.397600  
+SAEDRVT14_ND2_MM_12
+                   saed14rvt_base_tt0p8v25c
+                                  1.465200       2      2.930400  
+SAEDRVT14_ND3_8    saed14rvt_base_tt0p8v25c
+                                  1.998000       1      1.998000  
+SAEDRVT14_NR2_1P5  saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_NR2_2    saed14rvt_base_tt0p8v25c
+                                  0.310800       2      0.621600  
+SAEDRVT14_NR2_4    saed14rvt_base_tt0p8v25c
+                                  0.488400       2      0.976800  
+SAEDRVT14_NR2_5    saed14rvt_base_tt0p8v25c
+                                  0.754800       1      0.754800  
+SAEDRVT14_NR2_MM_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000       3      0.666000  
+SAEDRVT14_NR2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.222000      31      6.882000  
+SAEDRVT14_NR2_MM_4 saed14rvt_base_tt0p8v25c
+                                  0.488400       5      2.442000  
+SAEDRVT14_NR2_MM_6 saed14rvt_base_tt0p8v25c
+                                  0.666000      12      7.992000  
+SAEDRVT14_NR2_MM_8 saed14rvt_base_tt0p8v25c
+                                  0.843600      84     70.862398  
+SAEDRVT14_NR2_MM_10
+                   saed14rvt_base_tt0p8v25c
+                                  1.021200       6      6.127200  
+SAEDRVT14_NR2_MM_12
+                   saed14rvt_base_tt0p8v25c
+                                  1.198800       8      9.590400  
+SAEDRVT14_NR2_MM_16
+                   saed14rvt_base_tt0p8v25c
+                                  1.554000       7     10.878000  
+SAEDRVT14_OA2BB2_V1_1
+                   saed14rvt_base_tt0p8v25c
+                                  0.444000       1      0.444000  
+SAEDRVT14_OA2BB2_V1_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.888000       3      2.664000  
+SAEDRVT14_OA2BB2_V1_4
+                   saed14rvt_base_tt0p8v25c
+                                  1.198800      49     58.741198  
+SAEDRVT14_OA21B_1  saed14rvt_base_tt0p8v25c
+                                  0.355200       2      0.710400  
+SAEDRVT14_OA22_0P75
+                   saed14rvt_base_tt0p8v25c
+                                  0.399600      36     14.385600  
+SAEDRVT14_OA22_2   saed14rvt_base_tt0p8v25c
+                                  0.444000      80     35.520000  
+SAEDRVT14_OA22_4   saed14rvt_base_tt0p8v25c
+                                  0.532800      61     32.500801  
+SAEDRVT14_OA22_U_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.399600       8      3.196800  
+SAEDRVT14_OA221_2  saed14rvt_base_tt0p8v25c
+                                  0.843600       3      2.530800  
+SAEDRVT14_OA221_4  saed14rvt_base_tt0p8v25c
+                                  1.065600       1      1.065600  
+SAEDRVT14_OAI21_V1_8
+                   saed14rvt_base_tt0p8v25c
+                                  1.243200       1      1.243200  
+SAEDRVT14_OAI22_4  saed14rvt_base_tt0p8v25c
+                                  0.888000       2      1.776000  
+SAEDRVT14_OR2_4    saed14rvt_base_tt0p8v25c
+                                  0.532800       8      4.262400  
+SAEDRVT14_OR2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.310800       6      1.864800  
+SAEDRVT14_OR2_MM_3 saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+SAEDRVT14_OR2_MM_6 saed14rvt_base_tt0p8v25c
+                                  0.621600       1      0.621600  
+SAEDRVT14_OR2_MM_8 saed14rvt_base_tt0p8v25c
+                                  0.799200       7      5.594400  
+SAEDRVT14_OR2_MM_12
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600      23     24.508801  
+SAEDRVT14_OR2_MM_16
+                   saed14rvt_base_tt0p8v25c
+                                  1.243200       3      3.729600  
+SAEDRVT14_OR2_MM_20
+                   saed14rvt_base_tt0p8v25c
+                                  1.509600      47     70.951202  
+SAEDRVT14_OR3_4    saed14rvt_base_tt0p8v25c
+                                  0.621600       5      3.108000  
+SAEDRVT14_OR4_2    saed14rvt_base_tt0p8v25c
+                                  0.444000       3      1.332000  
+SAEDRVT14_TIE0_V1_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.488400       1      0.488400  
+SAEDRVT14_TIE1_4   saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+gf256_mult_0                     99.633598       1     99.633598  h
+gf256_mult_1                    113.841598       1    113.841598  h
+gf256_mult_2                    196.425600       1    196.425600  h
+gf256_mult_3                    179.953200       1    179.953200  h
+gf256_mult_4                    202.330801       1    202.330801  h
+gf256_mult_5                    204.595201       1    204.595201  h
+gf256_mult_6                    172.050000       1    172.050000  h
+gf256_mult_7                    168.764400       1    168.764400  h
+gf256_mult_8                    168.142800       1    168.142800  h
+gf256_mult_9                    176.045999       1    176.045999  h
+gf256_mult_10                   157.797599       1    157.797599  h
+gf256_mult_11                   157.975199       1    157.975199  h
+gf256_mult_12                   146.475598       1    146.475598  h
+gf256_mult_13                   183.150000       1    183.150000  h
+gf256_mult_14                   227.328000       1    227.328000  h
+gf256_mult_15                   177.244800       1    177.244800  h
+gf256_mult_16                   200.466000       1    200.466000  h
+gf256_mult_17                   182.306400       1    182.306400  h
+gf256_mult_18                   164.413200       1    164.413200  h
+gf256_mult_19                   118.547998       1    118.547998  h
+gf256_mult_20                   120.101998       1    120.101998  h
+gf256_mult_21                   116.372398       1    116.372398  h
+gf256_mult_22                   110.333998       1    110.333998  h
+gf256_mult_23                   107.225998       1    107.225998  h
+gf256_mult_24                   101.986797       1    101.986797  h
+gf256_mult_25                   100.832398       1    100.832398  h
+-----------------------------------------------------------------------------
+Total 135 references                                 5433.005980
+1

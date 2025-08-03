@@ -1,0 +1,196 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : xed_encoder_10
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:53:58 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+xed_encoder_10         16000             saed14rvt_base_tt0p8v25c
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+xed_encoder_10                           62.947   12.615 7.62e+06   75.569 100.0
+  crc_weighted_xor (crc_atm_8bit_1)       6.104    1.412 4.49e+05    7.516   9.9
+  crc_simple_xor (crc_atm_8bit_2)         3.862    0.946 2.95e+05    4.809   6.4
+  crc7 (crc_atm_8bit_3)                   3.245    0.786 2.78e+05    4.031   5.3
+  crc6 (crc_atm_8bit_4)                   3.304    0.812 2.84e+05    4.116   5.4
+  crc5 (crc_atm_8bit_5)                   3.518    0.839 3.16e+05    4.357   5.8
+  crc4 (crc_atm_8bit_6)                   3.436    0.838 2.94e+05    4.275   5.7
+  crc3 (crc_atm_8bit_7)                   3.326    0.803 2.83e+05    4.129   5.5
+  crc2 (crc_atm_8bit_8)                   3.185    0.799 2.72e+05    3.985   5.3
+  crc1 (crc_atm_8bit_9)                   3.377    0.806 2.91e+05    4.183   5.5
+  crc0 (crc_atm_8bit_0)                   3.416    0.826 2.95e+05    4.243   5.6
+  mult7_g1 (gf256_mult_64bit_1)           1.538    0.277 3.19e+05    1.816   2.4
+    mult_byte7 (gf256_mult_single_1)      0.168 3.23e-02 4.49e+04    0.200   0.3
+    mult_byte6 (gf256_mult_single_2)      0.175 3.90e-02 4.92e+04    0.214   0.3
+    mult_byte5 (gf256_mult_single_3)      0.199 4.01e-02 4.80e+04    0.239   0.3
+    mult_byte4 (gf256_mult_single_4)      0.199 3.73e-02 4.35e+04    0.237   0.3
+    mult_byte3 (gf256_mult_single_5)      0.197 3.67e-02 3.84e+04    0.234   0.3
+    mult_byte2 (gf256_mult_single_6)      0.201 3.24e-02 3.30e+04    0.234   0.3
+    mult_byte1 (gf256_mult_single_7)      0.199 3.02e-02 3.05e+04    0.229   0.3
+    mult_byte0 (gf256_mult_single_8)      0.199 2.94e-02 3.11e+04    0.228   0.3
+  mult7_g0 (gf256_mult_64bit_2)           1.548    0.228 2.43e+05    1.777   2.4
+    mult_byte7 (gf256_mult_single_9)      0.196 3.04e-02 3.11e+04    0.227   0.3
+    mult_byte6 (gf256_mult_single_10)     0.201 2.93e-02 3.06e+04    0.230   0.3
+    mult_byte5 (gf256_mult_single_11)     0.196 2.98e-02 3.05e+04    0.226   0.3
+    mult_byte4 (gf256_mult_single_12)     0.201 3.03e-02 3.14e+04    0.232   0.3
+    mult_byte3 (gf256_mult_single_13)     0.195 2.77e-02 2.85e+04    0.223   0.3
+    mult_byte2 (gf256_mult_single_14)     0.197 3.15e-02 3.12e+04    0.229   0.3
+    mult_byte1 (gf256_mult_single_15)     0.190 2.52e-02 3.15e+04    0.215   0.3
+    mult_byte0 (gf256_mult_single_16)     0.172 2.37e-02 2.84e+04    0.196   0.3
+  mult6_g1 (gf256_mult_64bit_3)           1.488    0.253 3.10e+05    1.741   2.3
+    mult_byte7 (gf256_mult_single_17)     0.166 3.48e-02 4.83e+04    0.201   0.3
+    mult_byte6 (gf256_mult_single_18)     0.187 3.68e-02 4.79e+04    0.224   0.3
+    mult_byte5 (gf256_mult_single_19)     0.194 3.68e-02 4.48e+04    0.231   0.3
+    mult_byte4 (gf256_mult_single_20)     0.189 3.28e-02 4.05e+04    0.222   0.3
+    mult_byte3 (gf256_mult_single_21)     0.184 2.96e-02 3.42e+04    0.213   0.3
+    mult_byte2 (gf256_mult_single_22)     0.189 2.71e-02 3.09e+04    0.216   0.3
+    mult_byte1 (gf256_mult_single_23)     0.192 2.93e-02 3.42e+04    0.222   0.3
+    mult_byte0 (gf256_mult_single_24)     0.187 2.58e-02 2.94e+04    0.213   0.3
+  mult6_g0 (gf256_mult_64bit_4)           1.469    0.203 2.43e+05    1.672   2.2
+    mult_byte7 (gf256_mult_single_25)     0.191 2.76e-02 3.11e+04    0.219   0.3
+    mult_byte6 (gf256_mult_single_26)     0.191 2.65e-02 3.11e+04    0.218   0.3
+    mult_byte5 (gf256_mult_single_27)     0.186 2.67e-02 3.04e+04    0.213   0.3
+    mult_byte4 (gf256_mult_single_28)     0.191 2.55e-02 3.07e+04    0.217   0.3
+    mult_byte3 (gf256_mult_single_29)     0.190 2.67e-02 3.14e+04    0.217   0.3
+    mult_byte2 (gf256_mult_single_30)     0.190 2.74e-02 3.09e+04    0.218   0.3
+    mult_byte1 (gf256_mult_single_31)     0.171 2.26e-02 3.06e+04    0.194   0.3
+    mult_byte0 (gf256_mult_single_32)     0.157 1.96e-02 2.72e+04    0.177   0.2
+  mult5_g1 (gf256_mult_64bit_5)           1.477    0.231 3.16e+05    1.708   2.3
+    mult_byte7 (gf256_mult_single_33)     0.172 3.04e-02 4.74e+04    0.203   0.3
+    mult_byte6 (gf256_mult_single_34)     0.188 3.29e-02 4.79e+04    0.221   0.3
+    mult_byte5 (gf256_mult_single_35)     0.188 3.42e-02 4.48e+04    0.222   0.3
+    mult_byte4 (gf256_mult_single_36)     0.190 3.18e-02 4.30e+04    0.222   0.3
+    mult_byte3 (gf256_mult_single_37)     0.183 2.92e-02 3.74e+04    0.213   0.3
+    mult_byte2 (gf256_mult_single_38)     0.186 2.48e-02 3.25e+04    0.211   0.3
+    mult_byte1 (gf256_mult_single_39)     0.184 2.33e-02 3.16e+04    0.208   0.3
+    mult_byte0 (gf256_mult_single_40)     0.185 2.41e-02 3.09e+04    0.210   0.3
+  mult5_g0 (gf256_mult_64bit_6)           1.436    0.171 2.34e+05    1.608   2.1
+    mult_byte7 (gf256_mult_single_41)     0.186 2.10e-02 2.95e+04    0.207   0.3
+    mult_byte6 (gf256_mult_single_42)     0.183 2.17e-02 2.99e+04    0.204   0.3
+    mult_byte5 (gf256_mult_single_43)     0.188 2.34e-02 3.04e+04    0.211   0.3
+    mult_byte4 (gf256_mult_single_44)     0.184 2.11e-02 2.96e+04    0.205   0.3
+    mult_byte3 (gf256_mult_single_45)     0.186 2.44e-02 3.12e+04    0.210   0.3
+    mult_byte2 (gf256_mult_single_46)     0.171 1.96e-02 2.72e+04    0.191   0.3
+    mult_byte1 (gf256_mult_single_47)     0.172 1.98e-02 2.90e+04    0.192   0.3
+    mult_byte0 (gf256_mult_single_48)     0.168 2.01e-02 2.66e+04    0.188   0.2
+  mult4_g1 (gf256_mult_64bit_7)           1.402    0.192 3.00e+05    1.595   2.1
+    mult_byte7 (gf256_mult_single_49)     0.172 2.90e-02 4.88e+04    0.201   0.3
+    mult_byte6 (gf256_mult_single_50)     0.170 2.75e-02 4.59e+04    0.197   0.3
+    mult_byte5 (gf256_mult_single_51)     0.173 2.52e-02 3.76e+04    0.198   0.3
+    mult_byte4 (gf256_mult_single_52)     0.181 2.58e-02 4.09e+04    0.207   0.3
+    mult_byte3 (gf256_mult_single_53)     0.181 2.50e-02 3.86e+04    0.206   0.3
+    mult_byte2 (gf256_mult_single_54)     0.173 2.03e-02 2.94e+04    0.194   0.3
+    mult_byte1 (gf256_mult_single_55)     0.177 2.01e-02 3.07e+04    0.198   0.3
+    mult_byte0 (gf256_mult_single_56)     0.175 1.93e-02 2.85e+04    0.194   0.3
+  mult4_g0 (gf256_mult_64bit_8)           1.375    0.158 2.34e+05    1.534   2.0
+    mult_byte7 (gf256_mult_single_57)     0.173 1.97e-02 2.89e+04    0.193   0.3
+    mult_byte6 (gf256_mult_single_58)     0.176 1.94e-02 2.88e+04    0.195   0.3
+    mult_byte5 (gf256_mult_single_59)     0.173 2.00e-02 2.88e+04    0.193   0.3
+    mult_byte4 (gf256_mult_single_60)     0.181 2.11e-02 3.28e+04    0.202   0.3
+    mult_byte3 (gf256_mult_single_61)     0.178 2.19e-02 3.17e+04    0.199   0.3
+    mult_byte2 (gf256_mult_single_62)     0.175 2.03e-02 2.99e+04    0.196   0.3
+    mult_byte1 (gf256_mult_single_63)     0.170 1.89e-02 2.83e+04    0.189   0.3
+    mult_byte0 (gf256_mult_single_64)     0.149 1.70e-02 2.45e+04    0.165   0.2
+  mult3_g1 (gf256_mult_64bit_9)           1.329    0.160 2.60e+05    1.490   2.0
+    mult_byte7 (gf256_mult_single_65)     0.159 2.11e-02 3.61e+04    0.180   0.2
+    mult_byte6 (gf256_mult_single_66)     0.164 2.18e-02 3.84e+04    0.186   0.2
+    mult_byte5 (gf256_mult_single_67)     0.167 2.09e-02 3.41e+04    0.188   0.2
+    mult_byte4 (gf256_mult_single_68)     0.168 2.07e-02 3.33e+04    0.188   0.2
+    mult_byte3 (gf256_mult_single_69)     0.168 1.91e-02 2.95e+04    0.187   0.2
+    mult_byte2 (gf256_mult_single_70)     0.168 1.94e-02 3.05e+04    0.187   0.2
+    mult_byte1 (gf256_mult_single_71)     0.168 1.88e-02 2.94e+04    0.187   0.2
+    mult_byte0 (gf256_mult_single_72)     0.168 1.85e-02 2.91e+04    0.187   0.2
+  mult3_g0 (gf256_mult_64bit_10)          1.315    0.146 2.30e+05    1.461   1.9
+    mult_byte7 (gf256_mult_single_73)     0.163 1.84e-02 2.90e+04    0.181   0.2
+    mult_byte6 (gf256_mult_single_74)     0.167 1.80e-02 2.88e+04    0.185   0.2
+    mult_byte5 (gf256_mult_single_75)     0.167 1.91e-02 2.99e+04    0.186   0.2
+    mult_byte4 (gf256_mult_single_76)     0.165 1.91e-02 2.98e+04    0.185   0.2
+    mult_byte3 (gf256_mult_single_77)     0.169 1.82e-02 2.99e+04    0.187   0.2
+    mult_byte2 (gf256_mult_single_78)     0.166 1.87e-02 2.92e+04    0.184   0.2
+    mult_byte1 (gf256_mult_single_79)     0.161 1.56e-02 2.65e+04    0.176   0.2
+    mult_byte0 (gf256_mult_single_80)     0.157 1.87e-02 2.67e+04    0.176   0.2
+  mult2_g1 (gf256_mult_64bit_11)          1.287    0.139 2.45e+05    1.427   1.9
+    mult_byte7 (gf256_mult_single_81)     0.163 1.80e-02 3.53e+04    0.181   0.2
+    mult_byte6 (gf256_mult_single_82)     0.162 1.78e-02 3.12e+04    0.180   0.2
+    mult_byte5 (gf256_mult_single_83)     0.158 1.94e-02 3.35e+04    0.177   0.2
+    mult_byte4 (gf256_mult_single_84)     0.160 1.71e-02 2.99e+04    0.177   0.2
+    mult_byte3 (gf256_mult_single_85)     0.159 1.67e-02 2.84e+04    0.176   0.2
+    mult_byte2 (gf256_mult_single_86)     0.159 1.68e-02 2.87e+04    0.176   0.2
+    mult_byte1 (gf256_mult_single_87)     0.166 1.70e-02 2.95e+04    0.183   0.2
+    mult_byte0 (gf256_mult_single_88)     0.160 1.66e-02 2.83e+04    0.177   0.2
+  mult2_g0 (gf256_mult_64bit_12)          1.265    0.136 2.27e+05    1.402   1.9
+    mult_byte7 (gf256_mult_single_89)     0.162 1.76e-02 2.98e+04    0.180   0.2
+    mult_byte6 (gf256_mult_single_90)     0.162 1.70e-02 2.88e+04    0.179   0.2
+    mult_byte5 (gf256_mult_single_91)     0.156 1.70e-02 2.82e+04    0.173   0.2
+    mult_byte4 (gf256_mult_single_92)     0.166 1.69e-02 2.91e+04    0.183   0.2
+    mult_byte3 (gf256_mult_single_93)     0.162 1.64e-02 2.78e+04    0.178   0.2
+    mult_byte2 (gf256_mult_single_94)     0.163 1.80e-02 3.02e+04    0.181   0.2
+    mult_byte1 (gf256_mult_single_95)     0.151 1.64e-02 2.78e+04    0.167   0.2
+    mult_byte0 (gf256_mult_single_96)     0.143 1.69e-02 2.51e+04    0.160   0.2
+  mult1_g1 (gf256_mult_64bit_13)          1.259    0.122 2.37e+05    1.381   1.8
+    mult_byte7 (gf256_mult_single_97)     0.167 1.78e-02 3.69e+04    0.185   0.2
+    mult_byte6 (gf256_mult_single_98)     0.158 1.56e-02 3.10e+04    0.174   0.2
+    mult_byte5 (gf256_mult_single_99)     0.155 1.61e-02 2.98e+04    0.171   0.2
+    mult_byte4 (gf256_mult_single_100)    0.154 1.50e-02 2.86e+04    0.169   0.2
+    mult_byte3 (gf256_mult_single_101)    0.154 1.47e-02 2.71e+04    0.169   0.2
+    mult_byte2 (gf256_mult_single_102)    0.157 1.48e-02 2.90e+04    0.171   0.2
+    mult_byte1 (gf256_mult_single_103)    0.157 1.42e-02 2.78e+04    0.172   0.2
+    mult_byte0 (gf256_mult_single_104)    0.156 1.40e-02 2.66e+04    0.170   0.2
+  mult1_g0 (gf256_mult_64bit_14)          1.211    0.118 2.16e+05    1.329   1.8
+    mult_byte7 (gf256_mult_single_105)    0.155 1.44e-02 2.79e+04    0.170   0.2
+    mult_byte6 (gf256_mult_single_106)    0.157 1.36e-02 2.74e+04    0.170   0.2
+    mult_byte5 (gf256_mult_single_107)    0.150 1.54e-02 2.80e+04    0.166   0.2
+    mult_byte4 (gf256_mult_single_108)    0.153 1.41e-02 2.75e+04    0.167   0.2
+    mult_byte3 (gf256_mult_single_109)    0.158 1.41e-02 2.67e+04    0.172   0.2
+    mult_byte2 (gf256_mult_single_110)    0.152 1.56e-02 2.93e+04    0.167   0.2
+    mult_byte1 (gf256_mult_single_111)    0.148 1.46e-02 2.53e+04    0.163   0.2
+    mult_byte0 (gf256_mult_single_112)    0.138 1.59e-02 2.40e+04    0.154   0.2
+  mult0_g1 (gf256_mult_64bit_15)          1.232    0.111 2.24e+05    1.343   1.8
+    mult_byte7 (gf256_mult_single_113)    0.157 1.41e-02 3.03e+04    0.171   0.2
+    mult_byte6 (gf256_mult_single_114)    0.153 1.40e-02 2.98e+04    0.167   0.2
+    mult_byte5 (gf256_mult_single_115)    0.150 1.41e-02 2.79e+04    0.164   0.2
+    mult_byte4 (gf256_mult_single_116)    0.155 1.41e-02 2.80e+04    0.169   0.2
+    mult_byte3 (gf256_mult_single_117)    0.154 1.38e-02 2.71e+04    0.168   0.2
+    mult_byte2 (gf256_mult_single_118)    0.154 1.37e-02 2.71e+04    0.168   0.2
+    mult_byte1 (gf256_mult_single_119)    0.154 1.34e-02 2.77e+04    0.168   0.2
+    mult_byte0 (gf256_mult_single_120)    0.154 1.35e-02 2.66e+04    0.167   0.2
+  mult0_g0 (gf256_mult_64bit_0)           1.175    0.107 2.10e+05    1.283   1.7
+    mult_byte7 (gf256_mult_single_121)    0.151 1.38e-02 2.77e+04    0.165   0.2
+    mult_byte6 (gf256_mult_single_122)    0.153 1.31e-02 2.72e+04    0.166   0.2
+    mult_byte5 (gf256_mult_single_123)    0.149 1.37e-02 2.63e+04    0.162   0.2
+    mult_byte4 (gf256_mult_single_124)    0.153 1.30e-02 2.72e+04    0.166   0.2
+    mult_byte3 (gf256_mult_single_125)    0.154 1.35e-02 2.66e+04    0.167   0.2
+    mult_byte2 (gf256_mult_single_126)    0.150 1.37e-02 2.76e+04    0.163   0.2
+    mult_byte1 (gf256_mult_single_127)    0.132 1.30e-02 2.37e+04    0.145   0.2
+    mult_byte0 (gf256_mult_single_0)      0.134 1.32e-02 2.41e+04    0.148   0.2
+1

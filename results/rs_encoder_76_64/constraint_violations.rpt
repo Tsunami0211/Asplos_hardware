@@ -1,0 +1,214 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : rs_encoder_76_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:23:17 2025
+****************************************
+
+
+   max_delay/setup ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   parity_symbols_reg[10][2]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[11][0]/D
+                                0.56           0.76 r        -0.19  (VIOLATED)
+   parity_symbols_reg[10][0]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[9][0]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[10][3]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[11][7]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[11][2]/D
+                                0.56           0.74 r        -0.19  (VIOLATED)
+   parity_symbols_reg[11][3]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[9][3]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[8][3]/D
+                                0.55           0.74 r        -0.19  (VIOLATED)
+   parity_symbols_reg[8][0]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[10][4]/D
+                                0.56           0.75 r        -0.19  (VIOLATED)
+   parity_symbols_reg[10][7]/D
+                                0.56           0.75 r        -0.18  (VIOLATED)
+   parity_symbols_reg[11][1]/D
+                                0.55           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[8][2]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[8][5]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[9][7]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[10][1]/D
+                                0.55           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[9][6]/D
+                                0.55           0.73 r        -0.18  (VIOLATED)
+   parity_symbols_reg[9][2]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[9][1]/D
+                                0.55           0.73 r        -0.18  (VIOLATED)
+   parity_symbols_reg[8][6]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[11][4]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[8][1]/D
+                                0.56           0.74 r        -0.18  (VIOLATED)
+   parity_symbols_reg[8][7]/D
+                                0.56           0.73 r        -0.17  (VIOLATED)
+   parity_symbols_reg[11][6]/D
+                                0.56           0.73 r        -0.17  (VIOLATED)
+   parity_symbols_reg[8][4]/D
+                                0.56           0.73 r        -0.17  (VIOLATED)
+   parity_symbols_reg[10][6]/D
+                                0.56           0.73 r        -0.17  (VIOLATED)
+   parity_symbols_reg[10][5]/D
+                                0.56           0.72 r        -0.16  (VIOLATED)
+   parity_symbols_reg[6][7]/D
+                                0.55           0.71 r        -0.16  (VIOLATED)
+   parity_symbols_reg[6][0]/D
+                                0.55           0.71 r        -0.16  (VIOLATED)
+   parity_symbols_reg[9][4]/D
+                                0.55           0.71 r        -0.15  (VIOLATED)
+   parity_symbols_reg[7][4]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[9][5]/D
+                                0.56           0.71 r        -0.15  (VIOLATED)
+   parity_symbols_reg[7][6]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[6][3]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[2][2]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[3][0]/D
+                                0.56           0.71 r        -0.15  (VIOLATED)
+   parity_symbols_reg[4][0]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[5][1]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[6][6]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[2][6]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[11][5]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[3][6]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[5][4]/D
+                                0.55           0.69 r        -0.15  (VIOLATED)
+   parity_symbols_reg[5][0]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[2][7]/D
+                                0.55           0.69 r        -0.15  (VIOLATED)
+   parity_symbols_reg[3][7]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[5][6]/D
+                                0.55           0.70 r        -0.15  (VIOLATED)
+   parity_symbols_reg[7][1]/D
+                                0.55           0.70 r        -0.14  (VIOLATED)
+   parity_symbols_reg[3][2]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[5][7]/D
+                                0.55           0.70 r        -0.14  (VIOLATED)
+   parity_symbols_reg[1][7]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[7][3]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[4][7]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[3][3]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[7][5]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[5][2]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[7][0]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[3][1]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   parity_symbols_reg[2][3]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   parity_symbols_reg[2][5]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   parity_symbols_reg[7][7]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[2][0]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[4][6]/D
+                                0.55           0.69 r        -0.14  (VIOLATED)
+   parity_symbols_reg[5][3]/D
+                                0.55           0.69 r        -0.13  (VIOLATED)
+   parity_symbols_reg[2][4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[1][4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[2][1]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[7][2]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[6][1]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[4][2]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[3][4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   parity_symbols_reg[1][6]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[6][2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[1][2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[6][4]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[6][5]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[1][0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[3][5]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   parity_symbols_reg[4][4]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   parity_symbols_reg[4][1]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   parity_symbols_reg[4][5]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   parity_symbols_reg[1][5]/D
+                                0.55           0.65 r        -0.10  (VIOLATED)
+   parity_symbols_reg[5][5]/D
+                                0.55           0.65 r        -0.10  (VIOLATED)
+   parity_symbols_reg[0][1]/D
+                                0.55           0.64 r        -0.09  (VIOLATED)
+   parity_symbols_reg[4][3]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   parity_symbols_reg[1][1]/D
+                                0.55           0.62 r        -0.08  (VIOLATED)
+   parity_symbols_reg[0][4]/D
+                                0.56           0.63 f        -0.07  (VIOLATED)
+   parity_symbols_reg[0][7]/D
+                                0.54           0.59 r        -0.05  (VIOLATED)
+   parity_symbols_reg[0][6]/D
+                                0.55           0.60 r        -0.04  (VIOLATED)
+   parity_symbols_reg[0][0]/D
+                                0.54           0.59 r        -0.04  (VIOLATED)
+   parity_symbols_reg[0][3]/D
+                                0.55           0.59 r        -0.04  (VIOLATED)
+   parity_symbols_reg[0][5]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   rs_encoder_76_64             0.00        4352.95       -4352.95  (VIOLATED)
+
+
+1

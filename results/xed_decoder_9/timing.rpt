@@ -1,0 +1,904 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : xed_decoder_9
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:49:55 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: chip3_data[122]
+              (input port clocked by clk)
+  Endpoint: corrected_chip3_data[119]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip3_data[122] (in)                                    0.00       0.12 f
+  crc_check3/data_in[122] (crc_atm_8bit_6)                0.00       0.12 f
+  crc_check3/U224/X (SAEDRVT14_EN2_4)                     0.03       0.15 r
+  crc_check3/U314/X (SAEDRVT14_EO4_2)                     0.05       0.21 f
+  crc_check3/U285/X (SAEDRVT14_EN4_4)                     0.05       0.25 f
+  crc_check3/U284/X (SAEDRVT14_EN2_4)                     0.02       0.28 r
+  crc_check3/U311/X (SAEDRVT14_EO4_2)                     0.04       0.32 r
+  crc_check3/U148/X (SAEDRVT14_INV_S_8)                   0.01       0.33 f
+  crc_check3/U310/X (SAEDRVT14_EN3_3)                     0.05       0.38 f
+  crc_check3/U157/X (SAEDRVT14_INV_6)                     0.01       0.39 r
+  crc_check3/U43/X (SAEDRVT14_EN4_4)                      0.04       0.43 r
+  crc_check3/U274/X (SAEDRVT14_EO4_2)                     0.06       0.48 f
+  crc_check3/U24/X (SAEDRVT14_INV_S_8)                    0.01       0.50 r
+  crc_check3/U104/X (SAEDRVT14_EN2_4)                     0.03       0.52 f
+  crc_check3/U73/X (SAEDRVT14_EN2_4)                      0.03       0.55 f
+  crc_check3/U89/X (SAEDRVT14_EN2_4)                      0.03       0.58 r
+  crc_check3/U137/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check3/U356/X (SAEDRVT14_EN3_1)                     0.05       0.67 r
+  crc_check3/U281/X (SAEDRVT14_EO4_2)                     0.06       0.73 r
+  crc_check3/U288/X (SAEDRVT14_EO2_3)                     0.04       0.77 f
+  crc_check3/U66/X (SAEDRVT14_EN3_3)                      0.05       0.82 r
+  crc_check3/U69/X (SAEDRVT14_INV_ECO_3)                  0.02       0.83 f
+  crc_check3/U156/X (SAEDRVT14_EN3_3)                     0.05       0.88 r
+  crc_check3/U114/X (SAEDRVT14_INV_6)                     0.01       0.89 f
+  crc_check3/U335/X (SAEDRVT14_EN3_3)                     0.04       0.94 r
+  crc_check3/U315/X (SAEDRVT14_EO4_2)                     0.06       1.00 f
+  crc_check3/U245/X (SAEDRVT14_EN2_4)                     0.04       1.04 f
+  crc_check3/U219/X (SAEDRVT14_EN3_3)                     0.04       1.08 f
+  crc_check3/U230/X (SAEDRVT14_EO4_2)                     0.06       1.14 r
+  crc_check3/U147/X (SAEDRVT14_INV_S_8)                   0.01       1.15 f
+  crc_check3/U229/X (SAEDRVT14_EN3_3)                     0.04       1.19 r
+  crc_check3/U158/X (SAEDRVT14_INV_1)                     0.02       1.21 f
+  crc_check3/U336/X (SAEDRVT14_EN3_3)                     0.05       1.26 f
+  crc_check3/U175/X (SAEDRVT14_INV_S_7)                   0.01       1.27 r
+  crc_check3/U376/X (SAEDRVT14_EO4_2)                     0.05       1.32 f
+  crc_check3/U286/X (SAEDRVT14_EN2_4)                     0.03       1.36 r
+  crc_check3/U214/X (SAEDRVT14_EO4_2)                     0.05       1.41 f
+  crc_check3/U87/X (SAEDRVT14_INV_12)                     0.01       1.42 r
+  crc_check3/U377/X (SAEDRVT14_EO4_2)                     0.05       1.46 f
+  crc_check3/crc_out[3] (crc_atm_8bit_6)                  0.00       1.46 f
+  U5408/X (SAEDRVT14_EN2_4)                               0.02       1.49 f
+  U6190/X (SAEDRVT14_OR3_4)                               0.02       1.51 f
+  U6185/X (SAEDRVT14_OR4_2)                               0.03       1.54 f
+  U6182/X (SAEDRVT14_BUF_16)                              0.02       1.55 f
+  U5688/X (SAEDRVT14_OR2_MM_8)                            0.01       1.57 f
+  U6184/X (SAEDRVT14_AO21B_0P5)                           0.03       1.59 r
+  U6177/X (SAEDRVT14_AO32_2)                              0.04       1.63 r
+  U6191/X (SAEDRVT14_BUF_16)                              0.02       1.65 r
+  U5188/X (SAEDRVT14_INV_S_20)                            0.01       1.66 f
+  U6192/X (SAEDRVT14_OR4_2)                               0.03       1.69 f
+  U5601/X (SAEDRVT14_BUF_16)                              0.02       1.70 f
+  U5705/X (SAEDRVT14_BUF_20)                              0.01       1.72 f
+  U5884/X (SAEDRVT14_INV_S_20)                            0.01       1.73 r
+  U4791/X (SAEDRVT14_INV_S_20)                            0.01       1.73 f
+  U5582/X (SAEDRVT14_INV_S_20)                            0.01       1.74 r
+  U5588/X (SAEDRVT14_MUX2_MM_2)                           0.03       1.77 f
+  corrected_chip3_data[119] (out)                         0.00       1.77 f
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip3_data[122]
+              (input port clocked by clk)
+  Endpoint: corrected_chip3_data[59]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip3_data[122] (in)                                    0.00       0.12 f
+  crc_check3/data_in[122] (crc_atm_8bit_6)                0.00       0.12 f
+  crc_check3/U224/X (SAEDRVT14_EN2_4)                     0.03       0.15 r
+  crc_check3/U314/X (SAEDRVT14_EO4_2)                     0.05       0.21 f
+  crc_check3/U285/X (SAEDRVT14_EN4_4)                     0.05       0.25 f
+  crc_check3/U284/X (SAEDRVT14_EN2_4)                     0.02       0.28 r
+  crc_check3/U311/X (SAEDRVT14_EO4_2)                     0.04       0.32 r
+  crc_check3/U148/X (SAEDRVT14_INV_S_8)                   0.01       0.33 f
+  crc_check3/U310/X (SAEDRVT14_EN3_3)                     0.05       0.38 f
+  crc_check3/U157/X (SAEDRVT14_INV_6)                     0.01       0.39 r
+  crc_check3/U43/X (SAEDRVT14_EN4_4)                      0.04       0.43 r
+  crc_check3/U274/X (SAEDRVT14_EO4_2)                     0.06       0.48 f
+  crc_check3/U24/X (SAEDRVT14_INV_S_8)                    0.01       0.50 r
+  crc_check3/U104/X (SAEDRVT14_EN2_4)                     0.03       0.52 f
+  crc_check3/U73/X (SAEDRVT14_EN2_4)                      0.03       0.55 f
+  crc_check3/U89/X (SAEDRVT14_EN2_4)                      0.03       0.58 r
+  crc_check3/U137/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check3/U356/X (SAEDRVT14_EN3_1)                     0.05       0.67 r
+  crc_check3/U281/X (SAEDRVT14_EO4_2)                     0.06       0.73 r
+  crc_check3/U288/X (SAEDRVT14_EO2_3)                     0.04       0.77 f
+  crc_check3/U66/X (SAEDRVT14_EN3_3)                      0.05       0.82 r
+  crc_check3/U69/X (SAEDRVT14_INV_ECO_3)                  0.02       0.83 f
+  crc_check3/U156/X (SAEDRVT14_EN3_3)                     0.05       0.88 r
+  crc_check3/U114/X (SAEDRVT14_INV_6)                     0.01       0.89 f
+  crc_check3/U335/X (SAEDRVT14_EN3_3)                     0.04       0.94 r
+  crc_check3/U315/X (SAEDRVT14_EO4_2)                     0.06       1.00 f
+  crc_check3/U245/X (SAEDRVT14_EN2_4)                     0.04       1.04 f
+  crc_check3/U219/X (SAEDRVT14_EN3_3)                     0.04       1.08 f
+  crc_check3/U230/X (SAEDRVT14_EO4_2)                     0.06       1.14 r
+  crc_check3/U147/X (SAEDRVT14_INV_S_8)                   0.01       1.15 f
+  crc_check3/U229/X (SAEDRVT14_EN3_3)                     0.04       1.19 r
+  crc_check3/U158/X (SAEDRVT14_INV_1)                     0.02       1.21 f
+  crc_check3/U336/X (SAEDRVT14_EN3_3)                     0.05       1.26 f
+  crc_check3/U175/X (SAEDRVT14_INV_S_7)                   0.01       1.27 r
+  crc_check3/U376/X (SAEDRVT14_EO4_2)                     0.05       1.32 f
+  crc_check3/U286/X (SAEDRVT14_EN2_4)                     0.03       1.36 r
+  crc_check3/U214/X (SAEDRVT14_EO4_2)                     0.05       1.41 f
+  crc_check3/U87/X (SAEDRVT14_INV_12)                     0.01       1.42 r
+  crc_check3/U377/X (SAEDRVT14_EO4_2)                     0.05       1.46 f
+  crc_check3/crc_out[3] (crc_atm_8bit_6)                  0.00       1.46 f
+  U5408/X (SAEDRVT14_EN2_4)                               0.02       1.49 f
+  U6190/X (SAEDRVT14_OR3_4)                               0.02       1.51 f
+  U6185/X (SAEDRVT14_OR4_2)                               0.03       1.54 f
+  U6182/X (SAEDRVT14_BUF_16)                              0.02       1.55 f
+  U5688/X (SAEDRVT14_OR2_MM_8)                            0.01       1.57 f
+  U6184/X (SAEDRVT14_AO21B_0P5)                           0.03       1.59 r
+  U6177/X (SAEDRVT14_AO32_2)                              0.04       1.63 r
+  U6191/X (SAEDRVT14_BUF_16)                              0.02       1.65 r
+  U5188/X (SAEDRVT14_INV_S_20)                            0.01       1.66 f
+  U6192/X (SAEDRVT14_OR4_2)                               0.03       1.69 f
+  U5601/X (SAEDRVT14_BUF_16)                              0.02       1.70 f
+  U5705/X (SAEDRVT14_BUF_20)                              0.01       1.72 f
+  U5884/X (SAEDRVT14_INV_S_20)                            0.01       1.73 r
+  U4791/X (SAEDRVT14_INV_S_20)                            0.01       1.73 f
+  U5582/X (SAEDRVT14_INV_S_20)                            0.01       1.74 r
+  U6095/X (SAEDRVT14_MUX2_MM_2)                           0.03       1.77 f
+  corrected_chip3_data[59] (out)                          0.00       1.77 f
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip3_data[122]
+              (input port clocked by clk)
+  Endpoint: corrected_chip3_data[23]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip3_data[122] (in)                                    0.00       0.12 f
+  crc_check3/data_in[122] (crc_atm_8bit_6)                0.00       0.12 f
+  crc_check3/U224/X (SAEDRVT14_EN2_4)                     0.03       0.15 r
+  crc_check3/U314/X (SAEDRVT14_EO4_2)                     0.05       0.21 f
+  crc_check3/U285/X (SAEDRVT14_EN4_4)                     0.05       0.25 f
+  crc_check3/U284/X (SAEDRVT14_EN2_4)                     0.02       0.28 r
+  crc_check3/U311/X (SAEDRVT14_EO4_2)                     0.04       0.32 r
+  crc_check3/U148/X (SAEDRVT14_INV_S_8)                   0.01       0.33 f
+  crc_check3/U310/X (SAEDRVT14_EN3_3)                     0.05       0.38 f
+  crc_check3/U157/X (SAEDRVT14_INV_6)                     0.01       0.39 r
+  crc_check3/U43/X (SAEDRVT14_EN4_4)                      0.04       0.43 r
+  crc_check3/U274/X (SAEDRVT14_EO4_2)                     0.06       0.48 f
+  crc_check3/U24/X (SAEDRVT14_INV_S_8)                    0.01       0.50 r
+  crc_check3/U104/X (SAEDRVT14_EN2_4)                     0.03       0.52 f
+  crc_check3/U73/X (SAEDRVT14_EN2_4)                      0.03       0.55 f
+  crc_check3/U89/X (SAEDRVT14_EN2_4)                      0.03       0.58 r
+  crc_check3/U137/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check3/U356/X (SAEDRVT14_EN3_1)                     0.05       0.67 r
+  crc_check3/U281/X (SAEDRVT14_EO4_2)                     0.06       0.73 r
+  crc_check3/U288/X (SAEDRVT14_EO2_3)                     0.04       0.77 f
+  crc_check3/U66/X (SAEDRVT14_EN3_3)                      0.05       0.82 r
+  crc_check3/U69/X (SAEDRVT14_INV_ECO_3)                  0.02       0.83 f
+  crc_check3/U156/X (SAEDRVT14_EN3_3)                     0.05       0.88 r
+  crc_check3/U114/X (SAEDRVT14_INV_6)                     0.01       0.89 f
+  crc_check3/U335/X (SAEDRVT14_EN3_3)                     0.04       0.94 r
+  crc_check3/U315/X (SAEDRVT14_EO4_2)                     0.06       1.00 f
+  crc_check3/U245/X (SAEDRVT14_EN2_4)                     0.04       1.04 f
+  crc_check3/U219/X (SAEDRVT14_EN3_3)                     0.04       1.08 f
+  crc_check3/U230/X (SAEDRVT14_EO4_2)                     0.06       1.14 r
+  crc_check3/U147/X (SAEDRVT14_INV_S_8)                   0.01       1.15 f
+  crc_check3/U229/X (SAEDRVT14_EN3_3)                     0.04       1.19 r
+  crc_check3/U158/X (SAEDRVT14_INV_1)                     0.02       1.21 f
+  crc_check3/U336/X (SAEDRVT14_EN3_3)                     0.05       1.26 f
+  crc_check3/U175/X (SAEDRVT14_INV_S_7)                   0.01       1.27 r
+  crc_check3/U376/X (SAEDRVT14_EO4_2)                     0.05       1.32 f
+  crc_check3/U286/X (SAEDRVT14_EN2_4)                     0.03       1.36 r
+  crc_check3/U214/X (SAEDRVT14_EO4_2)                     0.05       1.41 f
+  crc_check3/U87/X (SAEDRVT14_INV_12)                     0.01       1.42 r
+  crc_check3/U377/X (SAEDRVT14_EO4_2)                     0.05       1.46 f
+  crc_check3/crc_out[3] (crc_atm_8bit_6)                  0.00       1.46 f
+  U5408/X (SAEDRVT14_EN2_4)                               0.02       1.49 f
+  U6190/X (SAEDRVT14_OR3_4)                               0.02       1.51 f
+  U6185/X (SAEDRVT14_OR4_2)                               0.03       1.54 f
+  U6182/X (SAEDRVT14_BUF_16)                              0.02       1.55 f
+  U5688/X (SAEDRVT14_OR2_MM_8)                            0.01       1.57 f
+  U6184/X (SAEDRVT14_AO21B_0P5)                           0.03       1.59 r
+  U6177/X (SAEDRVT14_AO32_2)                              0.04       1.63 r
+  U6191/X (SAEDRVT14_BUF_16)                              0.02       1.65 r
+  U5188/X (SAEDRVT14_INV_S_20)                            0.01       1.66 f
+  U6192/X (SAEDRVT14_OR4_2)                               0.03       1.69 f
+  U5601/X (SAEDRVT14_BUF_16)                              0.02       1.70 f
+  U5705/X (SAEDRVT14_BUF_20)                              0.01       1.72 f
+  U5884/X (SAEDRVT14_INV_S_20)                            0.01       1.73 r
+  U4791/X (SAEDRVT14_INV_S_20)                            0.01       1.73 f
+  U5582/X (SAEDRVT14_INV_S_20)                            0.01       1.74 r
+  U6201/X (SAEDRVT14_MUX2_MM_2)                           0.03       1.77 f
+  corrected_chip3_data[23] (out)                          0.00       1.77 f
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip3_data[122]
+              (input port clocked by clk)
+  Endpoint: corrected_chip3_data[14]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip3_data[122] (in)                                    0.00       0.12 f
+  crc_check3/data_in[122] (crc_atm_8bit_6)                0.00       0.12 f
+  crc_check3/U224/X (SAEDRVT14_EN2_4)                     0.03       0.15 r
+  crc_check3/U314/X (SAEDRVT14_EO4_2)                     0.05       0.21 f
+  crc_check3/U285/X (SAEDRVT14_EN4_4)                     0.05       0.25 f
+  crc_check3/U284/X (SAEDRVT14_EN2_4)                     0.02       0.28 r
+  crc_check3/U311/X (SAEDRVT14_EO4_2)                     0.04       0.32 r
+  crc_check3/U148/X (SAEDRVT14_INV_S_8)                   0.01       0.33 f
+  crc_check3/U310/X (SAEDRVT14_EN3_3)                     0.05       0.38 f
+  crc_check3/U157/X (SAEDRVT14_INV_6)                     0.01       0.39 r
+  crc_check3/U43/X (SAEDRVT14_EN4_4)                      0.04       0.43 r
+  crc_check3/U274/X (SAEDRVT14_EO4_2)                     0.06       0.48 f
+  crc_check3/U24/X (SAEDRVT14_INV_S_8)                    0.01       0.50 r
+  crc_check3/U104/X (SAEDRVT14_EN2_4)                     0.03       0.52 f
+  crc_check3/U73/X (SAEDRVT14_EN2_4)                      0.03       0.55 f
+  crc_check3/U89/X (SAEDRVT14_EN2_4)                      0.03       0.58 r
+  crc_check3/U137/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check3/U356/X (SAEDRVT14_EN3_1)                     0.05       0.67 r
+  crc_check3/U281/X (SAEDRVT14_EO4_2)                     0.06       0.73 r
+  crc_check3/U288/X (SAEDRVT14_EO2_3)                     0.04       0.77 f
+  crc_check3/U66/X (SAEDRVT14_EN3_3)                      0.05       0.82 r
+  crc_check3/U69/X (SAEDRVT14_INV_ECO_3)                  0.02       0.83 f
+  crc_check3/U156/X (SAEDRVT14_EN3_3)                     0.05       0.88 r
+  crc_check3/U114/X (SAEDRVT14_INV_6)                     0.01       0.89 f
+  crc_check3/U335/X (SAEDRVT14_EN3_3)                     0.04       0.94 r
+  crc_check3/U315/X (SAEDRVT14_EO4_2)                     0.06       1.00 f
+  crc_check3/U245/X (SAEDRVT14_EN2_4)                     0.04       1.04 f
+  crc_check3/U219/X (SAEDRVT14_EN3_3)                     0.04       1.08 f
+  crc_check3/U230/X (SAEDRVT14_EO4_2)                     0.06       1.14 r
+  crc_check3/U147/X (SAEDRVT14_INV_S_8)                   0.01       1.15 f
+  crc_check3/U229/X (SAEDRVT14_EN3_3)                     0.04       1.19 r
+  crc_check3/U158/X (SAEDRVT14_INV_1)                     0.02       1.21 f
+  crc_check3/U336/X (SAEDRVT14_EN3_3)                     0.05       1.26 f
+  crc_check3/U175/X (SAEDRVT14_INV_S_7)                   0.01       1.27 r
+  crc_check3/U376/X (SAEDRVT14_EO4_2)                     0.05       1.32 f
+  crc_check3/U286/X (SAEDRVT14_EN2_4)                     0.03       1.36 r
+  crc_check3/U214/X (SAEDRVT14_EO4_2)                     0.05       1.41 f
+  crc_check3/U87/X (SAEDRVT14_INV_12)                     0.01       1.42 r
+  crc_check3/U377/X (SAEDRVT14_EO4_2)                     0.05       1.46 f
+  crc_check3/crc_out[3] (crc_atm_8bit_6)                  0.00       1.46 f
+  U5408/X (SAEDRVT14_EN2_4)                               0.02       1.49 f
+  U6190/X (SAEDRVT14_OR3_4)                               0.02       1.51 f
+  U6185/X (SAEDRVT14_OR4_2)                               0.03       1.54 f
+  U6182/X (SAEDRVT14_BUF_16)                              0.02       1.55 f
+  U5688/X (SAEDRVT14_OR2_MM_8)                            0.01       1.57 f
+  U6184/X (SAEDRVT14_AO21B_0P5)                           0.03       1.59 r
+  U6177/X (SAEDRVT14_AO32_2)                              0.04       1.63 r
+  U6191/X (SAEDRVT14_BUF_16)                              0.02       1.65 r
+  U5188/X (SAEDRVT14_INV_S_20)                            0.01       1.66 f
+  U6192/X (SAEDRVT14_OR4_2)                               0.03       1.69 f
+  U5601/X (SAEDRVT14_BUF_16)                              0.02       1.70 f
+  U5705/X (SAEDRVT14_BUF_20)                              0.01       1.72 f
+  U5884/X (SAEDRVT14_INV_S_20)                            0.01       1.73 r
+  U4791/X (SAEDRVT14_INV_S_20)                            0.01       1.73 f
+  U5582/X (SAEDRVT14_INV_S_20)                            0.01       1.74 r
+  U6263/X (SAEDRVT14_MUX2_MM_2)                           0.03       1.77 f
+  corrected_chip3_data[14] (out)                          0.00       1.77 f
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip2_data[127]
+              (input port clocked by clk)
+  Endpoint: corrected_chip7_data[47]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 r
+  chip2_data[127] (in)                                    0.00       0.12 r
+  crc_check2/data_in[127] (crc_atm_8bit_7)                0.00       0.12 r
+  crc_check2/U251/X (SAEDRVT14_INV_S_20)                  0.00       0.13 f
+  crc_check2/U250/X (SAEDRVT14_EO4_2)                     0.04       0.17 r
+  crc_check2/U268/X (SAEDRVT14_EO4_2)                     0.05       0.22 f
+  crc_check2/U39/X (SAEDRVT14_INV_12)                     0.01       0.23 r
+  crc_check2/U20/X (SAEDRVT14_EO2_2)                      0.03       0.26 f
+  crc_check2/U206/X (SAEDRVT14_EO4_2)                     0.05       0.32 r
+  crc_check2/U313/X (SAEDRVT14_EO4_2)                     0.06       0.37 f
+  crc_check2/U205/X (SAEDRVT14_INV_12)                    0.02       0.39 r
+  crc_check2/U204/X (SAEDRVT14_EN2_4)                     0.03       0.42 f
+  crc_check2/U247/X (SAEDRVT14_EO3_4)                     0.06       0.49 r
+  crc_check2/U196/X (SAEDRVT14_EO4_2)                     0.05       0.54 r
+  crc_check2/U142/X (SAEDRVT14_EO2_3)                     0.04       0.58 f
+  crc_check2/U143/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check2/U245/X (SAEDRVT14_EN3_3)                     0.05       0.67 f
+  crc_check2/U1/X (SAEDRVT14_INV_S_8)                     0.01       0.67 r
+  crc_check2/U189/X (SAEDRVT14_EN3_3)                     0.03       0.70 f
+  crc_check2/U258/X (SAEDRVT14_EO3_4)                     0.05       0.75 r
+  crc_check2/U328/X (SAEDRVT14_EO4_2)                     0.06       0.81 f
+  crc_check2/U194/X (SAEDRVT14_EN2_4)                     0.04       0.84 r
+  crc_check2/U74/X (SAEDRVT14_INV_S_10)                   0.01       0.85 f
+  crc_check2/U276/X (SAEDRVT14_EN3_3)                     0.05       0.90 r
+  crc_check2/U144/X (SAEDRVT14_INV_12)                    0.01       0.91 f
+  crc_check2/U330/X (SAEDRVT14_EO4_2)                     0.06       0.97 r
+  crc_check2/U199/X (SAEDRVT14_INV_12)                    0.01       0.98 f
+  crc_check2/U230/X (SAEDRVT14_EN3_3)                     0.04       1.02 r
+  crc_check2/U252/X (SAEDRVT14_EO4_2)                     0.05       1.07 f
+  crc_check2/U177/X (SAEDRVT14_INV_12)                    0.02       1.09 r
+  crc_check2/U336/X (SAEDRVT14_EO4_2)                     0.04       1.13 r
+  crc_check2/U337/X (SAEDRVT14_EO4_2)                     0.05       1.18 f
+  crc_check2/U156/X (SAEDRVT14_BUF_16)                    0.02       1.19 f
+  crc_check2/U155/X (SAEDRVT14_INV_S_20)                  0.01       1.20 r
+  crc_check2/U338/X (SAEDRVT14_EO4_2)                     0.05       1.25 f
+  crc_check2/U25/X (SAEDRVT14_BUF_16)                     0.02       1.26 f
+  crc_check2/U341/X (SAEDRVT14_EO4_2)                     0.05       1.32 r
+  crc_check2/U89/X (SAEDRVT14_INV_S_10)                   0.01       1.33 f
+  crc_check2/U296/X (SAEDRVT14_EN3_3)                     0.05       1.37 f
+  crc_check2/U128/X (SAEDRVT14_EN3_3)                     0.05       1.42 r
+  crc_check2/U105/X (SAEDRVT14_INV_6)                     0.01       1.43 f
+  crc_check2/crc_out[1] (crc_atm_8bit_7)                  0.00       1.43 f
+  U4805/X (SAEDRVT14_EN2_4)                               0.02       1.45 r
+  U5193/X (SAEDRVT14_AN4_8)                               0.02       1.47 r
+  U4741/X (SAEDRVT14_INV_12)                              0.01       1.48 f
+  U5475/X (SAEDRVT14_OR3_4)                               0.02       1.50 f
+  U4777/X (SAEDRVT14_OR2_MM_12)                           0.02       1.51 f
+  U6328/X (SAEDRVT14_OR4_2)                               0.02       1.54 f
+  U6320/X (SAEDRVT14_OR4_2)                               0.03       1.57 f
+  U5388/X (SAEDRVT14_EO2_3)                               0.02       1.59 f
+  U5459/X (SAEDRVT14_OR3_4)                               0.02       1.61 f
+  U9118/X (SAEDRVT14_OR3_4)                               0.02       1.63 f
+  U6200/X (SAEDRVT14_BUF_20)                              0.02       1.64 f
+  U5123/X (SAEDRVT14_INV_S_20)                            0.01       1.65 r
+  U4806/X (SAEDRVT14_INV_10)                              0.01       1.66 f
+  U5615/X (SAEDRVT14_OR3_4)                               0.02       1.68 f
+  U5983/X (SAEDRVT14_OR2_MM_20)                           0.02       1.70 f
+  U5715/X (SAEDRVT14_INV_S_20)                            0.01       1.71 r
+  U4725/X (SAEDRVT14_BUF_20)                              0.02       1.73 r
+  U6305/X (SAEDRVT14_MUXI2_4)                             0.04       1.77 r
+  corrected_chip7_data[47] (out)                          0.00       1.77 r
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip2_data[127]
+              (input port clocked by clk)
+  Endpoint: corrected_chip7_data[39]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 r
+  chip2_data[127] (in)                                    0.00       0.12 r
+  crc_check2/data_in[127] (crc_atm_8bit_7)                0.00       0.12 r
+  crc_check2/U251/X (SAEDRVT14_INV_S_20)                  0.00       0.13 f
+  crc_check2/U250/X (SAEDRVT14_EO4_2)                     0.04       0.17 r
+  crc_check2/U268/X (SAEDRVT14_EO4_2)                     0.05       0.22 f
+  crc_check2/U39/X (SAEDRVT14_INV_12)                     0.01       0.23 r
+  crc_check2/U20/X (SAEDRVT14_EO2_2)                      0.03       0.26 f
+  crc_check2/U206/X (SAEDRVT14_EO4_2)                     0.05       0.32 r
+  crc_check2/U313/X (SAEDRVT14_EO4_2)                     0.06       0.37 f
+  crc_check2/U205/X (SAEDRVT14_INV_12)                    0.02       0.39 r
+  crc_check2/U204/X (SAEDRVT14_EN2_4)                     0.03       0.42 f
+  crc_check2/U247/X (SAEDRVT14_EO3_4)                     0.06       0.49 r
+  crc_check2/U196/X (SAEDRVT14_EO4_2)                     0.05       0.54 r
+  crc_check2/U142/X (SAEDRVT14_EO2_3)                     0.04       0.58 f
+  crc_check2/U143/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check2/U245/X (SAEDRVT14_EN3_3)                     0.05       0.67 f
+  crc_check2/U1/X (SAEDRVT14_INV_S_8)                     0.01       0.67 r
+  crc_check2/U189/X (SAEDRVT14_EN3_3)                     0.03       0.70 f
+  crc_check2/U258/X (SAEDRVT14_EO3_4)                     0.05       0.75 r
+  crc_check2/U328/X (SAEDRVT14_EO4_2)                     0.06       0.81 f
+  crc_check2/U194/X (SAEDRVT14_EN2_4)                     0.04       0.84 r
+  crc_check2/U74/X (SAEDRVT14_INV_S_10)                   0.01       0.85 f
+  crc_check2/U276/X (SAEDRVT14_EN3_3)                     0.05       0.90 r
+  crc_check2/U144/X (SAEDRVT14_INV_12)                    0.01       0.91 f
+  crc_check2/U330/X (SAEDRVT14_EO4_2)                     0.06       0.97 r
+  crc_check2/U199/X (SAEDRVT14_INV_12)                    0.01       0.98 f
+  crc_check2/U230/X (SAEDRVT14_EN3_3)                     0.04       1.02 r
+  crc_check2/U252/X (SAEDRVT14_EO4_2)                     0.05       1.07 f
+  crc_check2/U177/X (SAEDRVT14_INV_12)                    0.02       1.09 r
+  crc_check2/U336/X (SAEDRVT14_EO4_2)                     0.04       1.13 r
+  crc_check2/U337/X (SAEDRVT14_EO4_2)                     0.05       1.18 f
+  crc_check2/U156/X (SAEDRVT14_BUF_16)                    0.02       1.19 f
+  crc_check2/U155/X (SAEDRVT14_INV_S_20)                  0.01       1.20 r
+  crc_check2/U338/X (SAEDRVT14_EO4_2)                     0.05       1.25 f
+  crc_check2/U25/X (SAEDRVT14_BUF_16)                     0.02       1.26 f
+  crc_check2/U341/X (SAEDRVT14_EO4_2)                     0.05       1.32 r
+  crc_check2/U89/X (SAEDRVT14_INV_S_10)                   0.01       1.33 f
+  crc_check2/U296/X (SAEDRVT14_EN3_3)                     0.05       1.37 f
+  crc_check2/U128/X (SAEDRVT14_EN3_3)                     0.05       1.42 r
+  crc_check2/U105/X (SAEDRVT14_INV_6)                     0.01       1.43 f
+  crc_check2/crc_out[1] (crc_atm_8bit_7)                  0.00       1.43 f
+  U4805/X (SAEDRVT14_EN2_4)                               0.02       1.45 r
+  U5193/X (SAEDRVT14_AN4_8)                               0.02       1.47 r
+  U4741/X (SAEDRVT14_INV_12)                              0.01       1.48 f
+  U5475/X (SAEDRVT14_OR3_4)                               0.02       1.50 f
+  U4777/X (SAEDRVT14_OR2_MM_12)                           0.02       1.51 f
+  U6328/X (SAEDRVT14_OR4_2)                               0.02       1.54 f
+  U6320/X (SAEDRVT14_OR4_2)                               0.03       1.57 f
+  U5388/X (SAEDRVT14_EO2_3)                               0.02       1.59 f
+  U5459/X (SAEDRVT14_OR3_4)                               0.02       1.61 f
+  U9118/X (SAEDRVT14_OR3_4)                               0.02       1.63 f
+  U6200/X (SAEDRVT14_BUF_20)                              0.02       1.64 f
+  U5123/X (SAEDRVT14_INV_S_20)                            0.01       1.65 r
+  U4806/X (SAEDRVT14_INV_10)                              0.01       1.66 f
+  U5615/X (SAEDRVT14_OR3_4)                               0.02       1.68 f
+  U5983/X (SAEDRVT14_OR2_MM_20)                           0.02       1.70 f
+  U5715/X (SAEDRVT14_INV_S_20)                            0.01       1.71 r
+  U4725/X (SAEDRVT14_BUF_20)                              0.02       1.73 r
+  U6168/X (SAEDRVT14_MUXI2_4)                             0.04       1.77 r
+  corrected_chip7_data[39] (out)                          0.00       1.77 r
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip2_data[127]
+              (input port clocked by clk)
+  Endpoint: corrected_chip7_data[27]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 r
+  chip2_data[127] (in)                                    0.00       0.12 r
+  crc_check2/data_in[127] (crc_atm_8bit_7)                0.00       0.12 r
+  crc_check2/U251/X (SAEDRVT14_INV_S_20)                  0.00       0.13 f
+  crc_check2/U250/X (SAEDRVT14_EO4_2)                     0.04       0.17 r
+  crc_check2/U268/X (SAEDRVT14_EO4_2)                     0.05       0.22 f
+  crc_check2/U39/X (SAEDRVT14_INV_12)                     0.01       0.23 r
+  crc_check2/U20/X (SAEDRVT14_EO2_2)                      0.03       0.26 f
+  crc_check2/U206/X (SAEDRVT14_EO4_2)                     0.05       0.32 r
+  crc_check2/U313/X (SAEDRVT14_EO4_2)                     0.06       0.37 f
+  crc_check2/U205/X (SAEDRVT14_INV_12)                    0.02       0.39 r
+  crc_check2/U204/X (SAEDRVT14_EN2_4)                     0.03       0.42 f
+  crc_check2/U247/X (SAEDRVT14_EO3_4)                     0.06       0.49 r
+  crc_check2/U196/X (SAEDRVT14_EO4_2)                     0.05       0.54 r
+  crc_check2/U142/X (SAEDRVT14_EO2_3)                     0.04       0.58 f
+  crc_check2/U143/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check2/U245/X (SAEDRVT14_EN3_3)                     0.05       0.67 f
+  crc_check2/U1/X (SAEDRVT14_INV_S_8)                     0.01       0.67 r
+  crc_check2/U189/X (SAEDRVT14_EN3_3)                     0.03       0.70 f
+  crc_check2/U258/X (SAEDRVT14_EO3_4)                     0.05       0.75 r
+  crc_check2/U328/X (SAEDRVT14_EO4_2)                     0.06       0.81 f
+  crc_check2/U194/X (SAEDRVT14_EN2_4)                     0.04       0.84 r
+  crc_check2/U74/X (SAEDRVT14_INV_S_10)                   0.01       0.85 f
+  crc_check2/U276/X (SAEDRVT14_EN3_3)                     0.05       0.90 r
+  crc_check2/U144/X (SAEDRVT14_INV_12)                    0.01       0.91 f
+  crc_check2/U330/X (SAEDRVT14_EO4_2)                     0.06       0.97 r
+  crc_check2/U199/X (SAEDRVT14_INV_12)                    0.01       0.98 f
+  crc_check2/U230/X (SAEDRVT14_EN3_3)                     0.04       1.02 r
+  crc_check2/U252/X (SAEDRVT14_EO4_2)                     0.05       1.07 f
+  crc_check2/U177/X (SAEDRVT14_INV_12)                    0.02       1.09 r
+  crc_check2/U336/X (SAEDRVT14_EO4_2)                     0.04       1.13 r
+  crc_check2/U337/X (SAEDRVT14_EO4_2)                     0.05       1.18 f
+  crc_check2/U156/X (SAEDRVT14_BUF_16)                    0.02       1.19 f
+  crc_check2/U155/X (SAEDRVT14_INV_S_20)                  0.01       1.20 r
+  crc_check2/U338/X (SAEDRVT14_EO4_2)                     0.05       1.25 f
+  crc_check2/U25/X (SAEDRVT14_BUF_16)                     0.02       1.26 f
+  crc_check2/U341/X (SAEDRVT14_EO4_2)                     0.05       1.32 r
+  crc_check2/U89/X (SAEDRVT14_INV_S_10)                   0.01       1.33 f
+  crc_check2/U296/X (SAEDRVT14_EN3_3)                     0.05       1.37 f
+  crc_check2/U128/X (SAEDRVT14_EN3_3)                     0.05       1.42 r
+  crc_check2/U105/X (SAEDRVT14_INV_6)                     0.01       1.43 f
+  crc_check2/crc_out[1] (crc_atm_8bit_7)                  0.00       1.43 f
+  U4805/X (SAEDRVT14_EN2_4)                               0.02       1.45 r
+  U5193/X (SAEDRVT14_AN4_8)                               0.02       1.47 r
+  U4741/X (SAEDRVT14_INV_12)                              0.01       1.48 f
+  U5475/X (SAEDRVT14_OR3_4)                               0.02       1.50 f
+  U4777/X (SAEDRVT14_OR2_MM_12)                           0.02       1.51 f
+  U6328/X (SAEDRVT14_OR4_2)                               0.02       1.54 f
+  U6320/X (SAEDRVT14_OR4_2)                               0.03       1.57 f
+  U5388/X (SAEDRVT14_EO2_3)                               0.02       1.59 f
+  U5459/X (SAEDRVT14_OR3_4)                               0.02       1.61 f
+  U9118/X (SAEDRVT14_OR3_4)                               0.02       1.63 f
+  U6200/X (SAEDRVT14_BUF_20)                              0.02       1.64 f
+  U5123/X (SAEDRVT14_INV_S_20)                            0.01       1.65 r
+  U4806/X (SAEDRVT14_INV_10)                              0.01       1.66 f
+  U5615/X (SAEDRVT14_OR3_4)                               0.02       1.68 f
+  U5983/X (SAEDRVT14_OR2_MM_20)                           0.02       1.70 f
+  U5715/X (SAEDRVT14_INV_S_20)                            0.01       1.71 r
+  U4724/X (SAEDRVT14_BUF_20)                              0.02       1.73 r
+  U5105/X (SAEDRVT14_MUXI2_4)                             0.04       1.77 r
+  corrected_chip7_data[27] (out)                          0.00       1.77 r
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip2_data[127]
+              (input port clocked by clk)
+  Endpoint: corrected_chip7_data[25]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 r
+  chip2_data[127] (in)                                    0.00       0.12 r
+  crc_check2/data_in[127] (crc_atm_8bit_7)                0.00       0.12 r
+  crc_check2/U251/X (SAEDRVT14_INV_S_20)                  0.00       0.13 f
+  crc_check2/U250/X (SAEDRVT14_EO4_2)                     0.04       0.17 r
+  crc_check2/U268/X (SAEDRVT14_EO4_2)                     0.05       0.22 f
+  crc_check2/U39/X (SAEDRVT14_INV_12)                     0.01       0.23 r
+  crc_check2/U20/X (SAEDRVT14_EO2_2)                      0.03       0.26 f
+  crc_check2/U206/X (SAEDRVT14_EO4_2)                     0.05       0.32 r
+  crc_check2/U313/X (SAEDRVT14_EO4_2)                     0.06       0.37 f
+  crc_check2/U205/X (SAEDRVT14_INV_12)                    0.02       0.39 r
+  crc_check2/U204/X (SAEDRVT14_EN2_4)                     0.03       0.42 f
+  crc_check2/U247/X (SAEDRVT14_EO3_4)                     0.06       0.49 r
+  crc_check2/U196/X (SAEDRVT14_EO4_2)                     0.05       0.54 r
+  crc_check2/U142/X (SAEDRVT14_EO2_3)                     0.04       0.58 f
+  crc_check2/U143/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check2/U245/X (SAEDRVT14_EN3_3)                     0.05       0.67 f
+  crc_check2/U1/X (SAEDRVT14_INV_S_8)                     0.01       0.67 r
+  crc_check2/U189/X (SAEDRVT14_EN3_3)                     0.03       0.70 f
+  crc_check2/U258/X (SAEDRVT14_EO3_4)                     0.05       0.75 r
+  crc_check2/U328/X (SAEDRVT14_EO4_2)                     0.06       0.81 f
+  crc_check2/U194/X (SAEDRVT14_EN2_4)                     0.04       0.84 r
+  crc_check2/U74/X (SAEDRVT14_INV_S_10)                   0.01       0.85 f
+  crc_check2/U276/X (SAEDRVT14_EN3_3)                     0.05       0.90 r
+  crc_check2/U144/X (SAEDRVT14_INV_12)                    0.01       0.91 f
+  crc_check2/U330/X (SAEDRVT14_EO4_2)                     0.06       0.97 r
+  crc_check2/U199/X (SAEDRVT14_INV_12)                    0.01       0.98 f
+  crc_check2/U230/X (SAEDRVT14_EN3_3)                     0.04       1.02 r
+  crc_check2/U252/X (SAEDRVT14_EO4_2)                     0.05       1.07 f
+  crc_check2/U177/X (SAEDRVT14_INV_12)                    0.02       1.09 r
+  crc_check2/U336/X (SAEDRVT14_EO4_2)                     0.04       1.13 r
+  crc_check2/U337/X (SAEDRVT14_EO4_2)                     0.05       1.18 f
+  crc_check2/U156/X (SAEDRVT14_BUF_16)                    0.02       1.19 f
+  crc_check2/U155/X (SAEDRVT14_INV_S_20)                  0.01       1.20 r
+  crc_check2/U338/X (SAEDRVT14_EO4_2)                     0.05       1.25 f
+  crc_check2/U25/X (SAEDRVT14_BUF_16)                     0.02       1.26 f
+  crc_check2/U341/X (SAEDRVT14_EO4_2)                     0.05       1.32 r
+  crc_check2/U89/X (SAEDRVT14_INV_S_10)                   0.01       1.33 f
+  crc_check2/U296/X (SAEDRVT14_EN3_3)                     0.05       1.37 f
+  crc_check2/U128/X (SAEDRVT14_EN3_3)                     0.05       1.42 r
+  crc_check2/U105/X (SAEDRVT14_INV_6)                     0.01       1.43 f
+  crc_check2/crc_out[1] (crc_atm_8bit_7)                  0.00       1.43 f
+  U4805/X (SAEDRVT14_EN2_4)                               0.02       1.45 r
+  U5193/X (SAEDRVT14_AN4_8)                               0.02       1.47 r
+  U4741/X (SAEDRVT14_INV_12)                              0.01       1.48 f
+  U5475/X (SAEDRVT14_OR3_4)                               0.02       1.50 f
+  U4777/X (SAEDRVT14_OR2_MM_12)                           0.02       1.51 f
+  U6328/X (SAEDRVT14_OR4_2)                               0.02       1.54 f
+  U6320/X (SAEDRVT14_OR4_2)                               0.03       1.57 f
+  U5388/X (SAEDRVT14_EO2_3)                               0.02       1.59 f
+  U5459/X (SAEDRVT14_OR3_4)                               0.02       1.61 f
+  U9118/X (SAEDRVT14_OR3_4)                               0.02       1.63 f
+  U6200/X (SAEDRVT14_BUF_20)                              0.02       1.64 f
+  U5123/X (SAEDRVT14_INV_S_20)                            0.01       1.65 r
+  U4806/X (SAEDRVT14_INV_10)                              0.01       1.66 f
+  U5615/X (SAEDRVT14_OR3_4)                               0.02       1.68 f
+  U5983/X (SAEDRVT14_OR2_MM_20)                           0.02       1.70 f
+  U5715/X (SAEDRVT14_INV_S_20)                            0.01       1.71 r
+  U4725/X (SAEDRVT14_BUF_20)                              0.02       1.73 r
+  U5910/X (SAEDRVT14_MUXI2_4)                             0.04       1.77 r
+  corrected_chip7_data[25] (out)                          0.00       1.77 r
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip2_data[127]
+              (input port clocked by clk)
+  Endpoint: corrected_chip7_data[18]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 r
+  chip2_data[127] (in)                                    0.00       0.12 r
+  crc_check2/data_in[127] (crc_atm_8bit_7)                0.00       0.12 r
+  crc_check2/U251/X (SAEDRVT14_INV_S_20)                  0.00       0.13 f
+  crc_check2/U250/X (SAEDRVT14_EO4_2)                     0.04       0.17 r
+  crc_check2/U268/X (SAEDRVT14_EO4_2)                     0.05       0.22 f
+  crc_check2/U39/X (SAEDRVT14_INV_12)                     0.01       0.23 r
+  crc_check2/U20/X (SAEDRVT14_EO2_2)                      0.03       0.26 f
+  crc_check2/U206/X (SAEDRVT14_EO4_2)                     0.05       0.32 r
+  crc_check2/U313/X (SAEDRVT14_EO4_2)                     0.06       0.37 f
+  crc_check2/U205/X (SAEDRVT14_INV_12)                    0.02       0.39 r
+  crc_check2/U204/X (SAEDRVT14_EN2_4)                     0.03       0.42 f
+  crc_check2/U247/X (SAEDRVT14_EO3_4)                     0.06       0.49 r
+  crc_check2/U196/X (SAEDRVT14_EO4_2)                     0.05       0.54 r
+  crc_check2/U142/X (SAEDRVT14_EO2_3)                     0.04       0.58 f
+  crc_check2/U143/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check2/U245/X (SAEDRVT14_EN3_3)                     0.05       0.67 f
+  crc_check2/U1/X (SAEDRVT14_INV_S_8)                     0.01       0.67 r
+  crc_check2/U189/X (SAEDRVT14_EN3_3)                     0.03       0.70 f
+  crc_check2/U258/X (SAEDRVT14_EO3_4)                     0.05       0.75 r
+  crc_check2/U328/X (SAEDRVT14_EO4_2)                     0.06       0.81 f
+  crc_check2/U194/X (SAEDRVT14_EN2_4)                     0.04       0.84 r
+  crc_check2/U74/X (SAEDRVT14_INV_S_10)                   0.01       0.85 f
+  crc_check2/U276/X (SAEDRVT14_EN3_3)                     0.05       0.90 r
+  crc_check2/U144/X (SAEDRVT14_INV_12)                    0.01       0.91 f
+  crc_check2/U330/X (SAEDRVT14_EO4_2)                     0.06       0.97 r
+  crc_check2/U199/X (SAEDRVT14_INV_12)                    0.01       0.98 f
+  crc_check2/U230/X (SAEDRVT14_EN3_3)                     0.04       1.02 r
+  crc_check2/U252/X (SAEDRVT14_EO4_2)                     0.05       1.07 f
+  crc_check2/U177/X (SAEDRVT14_INV_12)                    0.02       1.09 r
+  crc_check2/U336/X (SAEDRVT14_EO4_2)                     0.04       1.13 r
+  crc_check2/U337/X (SAEDRVT14_EO4_2)                     0.05       1.18 f
+  crc_check2/U156/X (SAEDRVT14_BUF_16)                    0.02       1.19 f
+  crc_check2/U155/X (SAEDRVT14_INV_S_20)                  0.01       1.20 r
+  crc_check2/U338/X (SAEDRVT14_EO4_2)                     0.05       1.25 f
+  crc_check2/U25/X (SAEDRVT14_BUF_16)                     0.02       1.26 f
+  crc_check2/U341/X (SAEDRVT14_EO4_2)                     0.05       1.32 r
+  crc_check2/U89/X (SAEDRVT14_INV_S_10)                   0.01       1.33 f
+  crc_check2/U296/X (SAEDRVT14_EN3_3)                     0.05       1.37 f
+  crc_check2/U128/X (SAEDRVT14_EN3_3)                     0.05       1.42 r
+  crc_check2/U105/X (SAEDRVT14_INV_6)                     0.01       1.43 f
+  crc_check2/crc_out[1] (crc_atm_8bit_7)                  0.00       1.43 f
+  U4805/X (SAEDRVT14_EN2_4)                               0.02       1.45 r
+  U5193/X (SAEDRVT14_AN4_8)                               0.02       1.47 r
+  U4741/X (SAEDRVT14_INV_12)                              0.01       1.48 f
+  U5475/X (SAEDRVT14_OR3_4)                               0.02       1.50 f
+  U4777/X (SAEDRVT14_OR2_MM_12)                           0.02       1.51 f
+  U6328/X (SAEDRVT14_OR4_2)                               0.02       1.54 f
+  U6320/X (SAEDRVT14_OR4_2)                               0.03       1.57 f
+  U5388/X (SAEDRVT14_EO2_3)                               0.02       1.59 f
+  U5459/X (SAEDRVT14_OR3_4)                               0.02       1.61 f
+  U9118/X (SAEDRVT14_OR3_4)                               0.02       1.63 f
+  U6200/X (SAEDRVT14_BUF_20)                              0.02       1.64 f
+  U5123/X (SAEDRVT14_INV_S_20)                            0.01       1.65 r
+  U4806/X (SAEDRVT14_INV_10)                              0.01       1.66 f
+  U5615/X (SAEDRVT14_OR3_4)                               0.02       1.68 f
+  U5983/X (SAEDRVT14_OR2_MM_20)                           0.02       1.70 f
+  U5715/X (SAEDRVT14_INV_S_20)                            0.01       1.71 r
+  U4725/X (SAEDRVT14_BUF_20)                              0.02       1.73 r
+  U6315/X (SAEDRVT14_MUXI2_4)                             0.04       1.77 r
+  corrected_chip7_data[18] (out)                          0.00       1.77 r
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+  Startpoint: chip2_data[127]
+              (input port clocked by clk)
+  Endpoint: corrected_chip7_data[10]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 r
+  chip2_data[127] (in)                                    0.00       0.12 r
+  crc_check2/data_in[127] (crc_atm_8bit_7)                0.00       0.12 r
+  crc_check2/U251/X (SAEDRVT14_INV_S_20)                  0.00       0.13 f
+  crc_check2/U250/X (SAEDRVT14_EO4_2)                     0.04       0.17 r
+  crc_check2/U268/X (SAEDRVT14_EO4_2)                     0.05       0.22 f
+  crc_check2/U39/X (SAEDRVT14_INV_12)                     0.01       0.23 r
+  crc_check2/U20/X (SAEDRVT14_EO2_2)                      0.03       0.26 f
+  crc_check2/U206/X (SAEDRVT14_EO4_2)                     0.05       0.32 r
+  crc_check2/U313/X (SAEDRVT14_EO4_2)                     0.06       0.37 f
+  crc_check2/U205/X (SAEDRVT14_INV_12)                    0.02       0.39 r
+  crc_check2/U204/X (SAEDRVT14_EN2_4)                     0.03       0.42 f
+  crc_check2/U247/X (SAEDRVT14_EO3_4)                     0.06       0.49 r
+  crc_check2/U196/X (SAEDRVT14_EO4_2)                     0.05       0.54 r
+  crc_check2/U142/X (SAEDRVT14_EO2_3)                     0.04       0.58 f
+  crc_check2/U143/X (SAEDRVT14_EN3_3)                     0.04       0.62 f
+  crc_check2/U245/X (SAEDRVT14_EN3_3)                     0.05       0.67 f
+  crc_check2/U1/X (SAEDRVT14_INV_S_8)                     0.01       0.67 r
+  crc_check2/U189/X (SAEDRVT14_EN3_3)                     0.03       0.70 f
+  crc_check2/U258/X (SAEDRVT14_EO3_4)                     0.05       0.75 r
+  crc_check2/U328/X (SAEDRVT14_EO4_2)                     0.06       0.81 f
+  crc_check2/U194/X (SAEDRVT14_EN2_4)                     0.04       0.84 r
+  crc_check2/U74/X (SAEDRVT14_INV_S_10)                   0.01       0.85 f
+  crc_check2/U276/X (SAEDRVT14_EN3_3)                     0.05       0.90 r
+  crc_check2/U144/X (SAEDRVT14_INV_12)                    0.01       0.91 f
+  crc_check2/U330/X (SAEDRVT14_EO4_2)                     0.06       0.97 r
+  crc_check2/U199/X (SAEDRVT14_INV_12)                    0.01       0.98 f
+  crc_check2/U230/X (SAEDRVT14_EN3_3)                     0.04       1.02 r
+  crc_check2/U252/X (SAEDRVT14_EO4_2)                     0.05       1.07 f
+  crc_check2/U177/X (SAEDRVT14_INV_12)                    0.02       1.09 r
+  crc_check2/U336/X (SAEDRVT14_EO4_2)                     0.04       1.13 r
+  crc_check2/U337/X (SAEDRVT14_EO4_2)                     0.05       1.18 f
+  crc_check2/U156/X (SAEDRVT14_BUF_16)                    0.02       1.19 f
+  crc_check2/U155/X (SAEDRVT14_INV_S_20)                  0.01       1.20 r
+  crc_check2/U338/X (SAEDRVT14_EO4_2)                     0.05       1.25 f
+  crc_check2/U25/X (SAEDRVT14_BUF_16)                     0.02       1.26 f
+  crc_check2/U341/X (SAEDRVT14_EO4_2)                     0.05       1.32 r
+  crc_check2/U89/X (SAEDRVT14_INV_S_10)                   0.01       1.33 f
+  crc_check2/U296/X (SAEDRVT14_EN3_3)                     0.05       1.37 f
+  crc_check2/U128/X (SAEDRVT14_EN3_3)                     0.05       1.42 r
+  crc_check2/U105/X (SAEDRVT14_INV_6)                     0.01       1.43 f
+  crc_check2/crc_out[1] (crc_atm_8bit_7)                  0.00       1.43 f
+  U4805/X (SAEDRVT14_EN2_4)                               0.02       1.45 r
+  U5193/X (SAEDRVT14_AN4_8)                               0.02       1.47 r
+  U4741/X (SAEDRVT14_INV_12)                              0.01       1.48 f
+  U5475/X (SAEDRVT14_OR3_4)                               0.02       1.50 f
+  U4777/X (SAEDRVT14_OR2_MM_12)                           0.02       1.51 f
+  U6328/X (SAEDRVT14_OR4_2)                               0.02       1.54 f
+  U6320/X (SAEDRVT14_OR4_2)                               0.03       1.57 f
+  U5388/X (SAEDRVT14_EO2_3)                               0.02       1.59 f
+  U5459/X (SAEDRVT14_OR3_4)                               0.02       1.61 f
+  U9118/X (SAEDRVT14_OR3_4)                               0.02       1.63 f
+  U6200/X (SAEDRVT14_BUF_20)                              0.02       1.64 f
+  U5123/X (SAEDRVT14_INV_S_20)                            0.01       1.65 r
+  U4806/X (SAEDRVT14_INV_10)                              0.01       1.66 f
+  U5615/X (SAEDRVT14_OR3_4)                               0.02       1.68 f
+  U5983/X (SAEDRVT14_OR2_MM_20)                           0.02       1.70 f
+  U5715/X (SAEDRVT14_INV_S_20)                            0.01       1.71 r
+  U4724/X (SAEDRVT14_BUF_20)                              0.02       1.73 r
+  U6311/X (SAEDRVT14_MUXI2_4)                             0.04       1.77 r
+  corrected_chip7_data[10] (out)                          0.00       1.77 r
+  data arrival time                                                  1.77
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+1

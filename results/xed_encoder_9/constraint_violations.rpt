@@ -1,0 +1,98 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : xed_encoder_9
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:57:42 2025
+****************************************
+
+
+   max_delay/setup ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   xor_parity_crc[7]            0.44           1.26 f        -0.83  (VIOLATED)
+   chip6_crc[3]                 0.44           1.26 r        -0.83  (VIOLATED)
+   chip6_crc[4]                 0.44           1.26 r        -0.83  (VIOLATED)
+   chip2_crc[3]                 0.44           1.26 r        -0.83  (VIOLATED)
+   xor_parity_crc[6]            0.44           1.26 r        -0.83  (VIOLATED)
+   chip2_crc[6]                 0.44           1.26 r        -0.83  (VIOLATED)
+   chip2_crc[4]                 0.44           1.26 r        -0.83  (VIOLATED)
+   xor_parity_crc[2]            0.44           1.26 r        -0.83  (VIOLATED)
+   chip1_crc[2]                 0.44           1.26 r        -0.83  (VIOLATED)
+   chip2_crc[2]                 0.44           1.26 r        -0.82  (VIOLATED)
+   xor_parity_crc[5]            0.44           1.26 r        -0.82  (VIOLATED)
+   chip5_crc[2]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip6_crc[2]                 0.44           1.26 r        -0.82  (VIOLATED)
+   xor_parity_crc[1]            0.44           1.26 f        -0.82  (VIOLATED)
+   chip2_crc[5]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip1_crc[3]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip1_crc[4]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip0_crc[2]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip0_crc[3]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip4_crc[2]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip4_crc[3]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip4_crc[4]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip0_crc[5]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip0_crc[4]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip5_crc[3]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip5_crc[4]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip1_crc[7]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip5_crc[5]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip3_crc[3]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip3_crc[4]                 0.44           1.26 r        -0.82  (VIOLATED)
+   chip4_crc[5]                 0.44           1.26 f        -0.82  (VIOLATED)
+   xor_parity_crc[4]            0.44           1.26 f        -0.82  (VIOLATED)
+   xor_parity_crc[3]            0.44           1.26 r        -0.82  (VIOLATED)
+   chip3_crc[2]                 0.44           1.25 r        -0.82  (VIOLATED)
+   chip0_crc[6]                 0.44           1.25 r        -0.82  (VIOLATED)
+   chip6_crc[5]                 0.44           1.25 f        -0.82  (VIOLATED)
+   chip4_crc[1]                 0.44           1.25 r        -0.82  (VIOLATED)
+   chip1_crc[1]                 0.44           1.25 f        -0.81  (VIOLATED)
+   chip2_crc[1]                 0.44           1.25 f        -0.81  (VIOLATED)
+   chip6_crc[1]                 0.44           1.25 f        -0.81  (VIOLATED)
+   chip4_crc[7]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip0_crc[1]                 0.44           1.25 f        -0.81  (VIOLATED)
+   chip7_crc[3]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip7_crc[4]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip3_crc[7]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip6_crc[6]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip3_crc[6]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip0_crc[7]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip1_crc[5]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip1_crc[6]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip3_crc[5]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip7_crc[2]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip4_crc[6]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip6_crc[7]                 0.44           1.25 r        -0.81  (VIOLATED)
+   chip5_crc[1]                 0.44           1.25 f        -0.81  (VIOLATED)
+   chip5_crc[6]                 0.44           1.24 f        -0.81  (VIOLATED)
+   chip3_crc[1]                 0.44           1.24 f        -0.81  (VIOLATED)
+   chip5_crc[7]                 0.44           1.24 r        -0.80  (VIOLATED)
+   chip2_crc[7]                 0.44           1.24 r        -0.80  (VIOLATED)
+   xor_parity_crc[0]            0.44           1.24 f        -0.80  (VIOLATED)
+   chip7_crc[5]                 0.44           1.23 r        -0.80  (VIOLATED)
+   chip7_crc[6]                 0.44           1.23 r        -0.80  (VIOLATED)
+   chip7_crc[7]                 0.44           1.23 r        -0.80  (VIOLATED)
+   chip7_crc[1]                 0.44           1.23 r        -0.79  (VIOLATED)
+   chip2_crc[0]                 0.44           1.22 f        -0.79  (VIOLATED)
+   chip5_crc[0]                 0.44           1.22 r        -0.78  (VIOLATED)
+   chip4_crc[0]                 0.44           1.22 r        -0.78  (VIOLATED)
+   chip6_crc[0]                 0.44           1.22 r        -0.78  (VIOLATED)
+   chip0_crc[0]                 0.44           1.22 f        -0.78  (VIOLATED)
+   chip7_crc[0]                 0.44           1.22 f        -0.78  (VIOLATED)
+   chip3_crc[0]                 0.44           1.21 f        -0.78  (VIOLATED)
+   chip1_crc[0]                 0.44           1.21 f        -0.78  (VIOLATED)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   xed_encoder_9                0.00        5954.42       -5954.42  (VIOLATED)
+
+
+1

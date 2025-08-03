@@ -1,0 +1,932 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : rs_decoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:18:31 2025
+****************************************
+
+
+   max_delay/setup ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   syndrome_0_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_2_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_7_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_6_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_3_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_5_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_4_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_6_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_0_reg[3]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_1_reg[0]/D          0.56           1.01 r        -0.44  (VIOLATED)
+   syndrome_1_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_2_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_7_reg[3]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_6_reg[3]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_4_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_2_reg[3]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_7_reg[1]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_0_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_3_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_1_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_7_reg[7]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_5_reg[3]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_4_reg[4]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_7_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_7_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_6_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_6_reg[7]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_1_reg[7]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_0_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_2_reg[4]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_2_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_5_reg[6]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_0_reg[4]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_3_reg[4]/D          0.56           0.99 r        -0.44  (VIOLATED)
+   syndrome_3_reg[2]/D          0.56           1.00 r        -0.44  (VIOLATED)
+   syndrome_5_reg[4]/D          0.56           0.99 r        -0.44  (VIOLATED)
+   syndrome_7_reg[4]/D          0.56           0.99 r        -0.44  (VIOLATED)
+   syndrome_2_reg[1]/D          0.56           0.99 r        -0.44  (VIOLATED)
+   syndrome_6_reg[4]/D          0.56           0.99 r        -0.44  (VIOLATED)
+   syndrome_4_reg[6]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_5_reg[1]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_3_reg[1]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_3_reg[7]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_1_reg[4]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_5_reg[7]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_1_reg[3]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_4_reg[7]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_0_reg[7]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_6_reg[1]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_4_reg[3]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_0_reg[1]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_5_reg[2]/D          0.56           0.99 r        -0.43  (VIOLATED)
+   syndrome_4_reg[1]/D          0.56           0.98 r        -0.43  (VIOLATED)
+   syndrome_2_reg[7]/D          0.56           0.98 r        -0.43  (VIOLATED)
+   syndrome_1_reg[1]/D          0.56           0.98 r        -0.42  (VIOLATED)
+   syndrome_3_reg[3]/D          0.56           0.99 r        -0.42  (VIOLATED)
+   syndrome_2_reg[5]/D          0.56           0.97 r        -0.42  (VIOLATED)
+   syndrome_7_reg[5]/D          0.56           0.97 r        -0.42  (VIOLATED)
+   syndrome_1_reg[5]/D          0.56           0.97 r        -0.42  (VIOLATED)
+   syndrome_5_reg[5]/D          0.56           0.97 r        -0.42  (VIOLATED)
+   syndrome_4_reg[5]/D          0.56           0.97 r        -0.41  (VIOLATED)
+   syndrome_3_reg[5]/D          0.56           0.97 r        -0.41  (VIOLATED)
+   syndrome_6_reg[5]/D          0.56           0.97 r        -0.41  (VIOLATED)
+   syndrome_0_reg[5]/D          0.56           0.95 r        -0.40  (VIOLATED)
+   corrected_symbol_10_reg[4]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_10_reg[5]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_10_reg[6]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_10_reg[7]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_12_reg[4]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_12_reg[5]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_12_reg[6]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_12_reg[7]/D
+                                0.55           0.68 r        -0.14  (VIOLATED)
+   corrected_symbol_14_reg[4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_14_reg[5]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_14_reg[6]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_14_reg[7]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_3_reg[4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_3_reg[5]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_3_reg[6]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_3_reg[7]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_4_reg[4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_4_reg[5]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_4_reg[6]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_4_reg[7]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_6_reg[4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_6_reg[5]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_6_reg[6]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_6_reg[7]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_9_reg[4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_9_reg[5]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_9_reg[6]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_9_reg[7]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_7_reg[4]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_7_reg[5]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_7_reg[6]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_7_reg[7]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_8_reg[0]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_8_reg[2]/D
+                                0.55           0.68 r        -0.13  (VIOLATED)
+   corrected_symbol_5_reg[2]/D
+                                0.54           0.67 r        -0.13  (VIOLATED)
+   corrected_symbol_5_reg[0]/D
+                                0.55           0.67 r        -0.13  (VIOLATED)
+   corrected_symbol_2_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_2_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_12_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_10_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_10_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_10_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_10_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_12_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_12_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_12_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_14_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_14_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_14_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_14_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_3_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_3_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_3_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_3_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_4_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_4_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_4_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_4_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   decode_success_reg/D         0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_6_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_6_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_7_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_7_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_9_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_9_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_9_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_6_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_6_reg[1]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_7_reg[2]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_7_reg[3]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_9_reg[0]/D
+                                0.55           0.67 r        -0.12  (VIOLATED)
+   corrected_symbol_8_reg[4]/D
+                                0.54           0.66 r        -0.12  (VIOLATED)
+   corrected_symbol_8_reg[3]/D
+                                0.54           0.66 r        -0.12  (VIOLATED)
+   corrected_symbol_8_reg[5]/D
+                                0.54           0.66 r        -0.12  (VIOLATED)
+   corrected_symbol_8_reg[6]/D
+                                0.55           0.66 r        -0.12  (VIOLATED)
+   corrected_symbol_8_reg[7]/D
+                                0.55           0.66 r        -0.12  (VIOLATED)
+   corrected_symbol_8_reg[1]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_5_reg[4]/D
+                                0.54           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_2_reg[5]/D
+                                0.54           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_2_reg[6]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_5_reg[7]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_5_reg[5]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_2_reg[4]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_2_reg[3]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_5_reg[6]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_2_reg[7]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_5_reg[1]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_2_reg[1]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_5_reg[3]/D
+                                0.55           0.66 r        -0.11  (VIOLATED)
+   corrected_symbol_15_reg[7]/D
+                                0.55           0.64 r        -0.09  (VIOLATED)
+   corrected_symbol_15_reg[4]/D
+                                0.55           0.64 r        -0.09  (VIOLATED)
+   corrected_symbol_15_reg[5]/D
+                                0.55           0.64 r        -0.09  (VIOLATED)
+   corrected_symbol_15_reg[6]/D
+                                0.55           0.64 r        -0.09  (VIOLATED)
+   state_reg[0]/D               0.54           0.63 r        -0.09  (VIOLATED)
+   state_reg[2]/D               0.55           0.64 f        -0.09  (VIOLATED)
+   corrected_symbol_13_reg[0]/D
+                                0.54           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_11_reg[4]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_11_reg[5]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_11_reg[6]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_11_reg[7]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_1_reg[4]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_1_reg[5]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_1_reg[6]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_1_reg[7]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_13_reg[2]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_0_reg[4]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_0_reg[5]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_0_reg[6]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_0_reg[7]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_15_reg[0]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_15_reg[1]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_15_reg[2]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_15_reg[3]/D
+                                0.55           0.63 r        -0.08  (VIOLATED)
+   corrected_symbol_11_reg[1]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_11_reg[2]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_11_reg[3]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_11_reg[0]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_1_reg[0]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_1_reg[1]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_1_reg[2]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_1_reg[3]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_0_reg[0]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_0_reg[1]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_0_reg[2]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_0_reg[3]/D
+                                0.55           0.62 r        -0.07  (VIOLATED)
+   corrected_symbol_13_reg[4]/D
+                                0.55           0.61 r        -0.07  (VIOLATED)
+   corrected_symbol_13_reg[7]/D
+                                0.55           0.61 r        -0.07  (VIOLATED)
+   corrected_symbol_13_reg[5]/D
+                                0.55           0.61 r        -0.07  (VIOLATED)
+   corrected_symbol_13_reg[6]/D
+                                0.55           0.61 r        -0.07  (VIOLATED)
+   corrected_symbol_13_reg[3]/D
+                                0.55           0.61 r        -0.07  (VIOLATED)
+   corrected_symbol_13_reg[1]/D
+                                0.55           0.61 r        -0.06  (VIOLATED)
+   syndrome_cnt_reg[1]/D        0.55           0.61 r        -0.06  (VIOLATED)
+   state_reg[1]/D               0.56           0.61 r        -0.06  (VIOLATED)
+   corrected_symbol_43_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_57_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_59_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_43_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_43_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_43_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_43_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_43_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_55_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_55_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_55_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_55_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_56_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_62_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_62_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_17_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_17_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_17_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_17_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_60_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[1]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[2]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[3]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[4]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[5]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[6]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_18_reg[7]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[6]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[7]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_54_reg[0]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[0]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[1]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[2]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[3]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_52_reg[4]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_51_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   syndrome_cnt_reg[3]/D        0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[0]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[1]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[2]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[3]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[4]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[5]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[6]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_20_reg[7]/D
+                                0.56           0.58 f        -0.02  (VIOLATED)
+   corrected_symbol_46_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_46_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_46_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_48_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_49_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_29_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_29_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_29_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_29_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_29_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_31_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_34_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_34_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_34_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_34_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_34_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_26_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_26_reg[1]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_26_reg[2]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_23_reg[3]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_23_reg[4]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_23_reg[5]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_23_reg[6]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_23_reg[7]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_25_reg[0]/D
+                                0.55           0.57 r        -0.02  (VIOLATED)
+   corrected_symbol_42_reg[1]/D
+                                0.56           0.57 f        -0.02  (VIOLATED)
+   corrected_symbol_46_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_48_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_22_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_32_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_32_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_32_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_32_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_32_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_30_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_52_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_54_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_19_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_30_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_50_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_50_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_21_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_54_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_54_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_46_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_46_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_46_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_48_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_48_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_48_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_48_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_48_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   syndrome_cnt_reg[2]/D        0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_27_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_27_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_27_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_43_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_44_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_44_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_44_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_44_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_44_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_44_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_62_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_63_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_19_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_19_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_50_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_50_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_50_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_53_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_53_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_22_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_22_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_22_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_22_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_26_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_26_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_26_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_26_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_26_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_28_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_28_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_28_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_28_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_28_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_28_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_49_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_49_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_49_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_49_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_51_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_16_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_16_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_19_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_19_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_53_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_53_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_58_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_58_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_24_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_27_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_47_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_37_reg[7]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_38_reg[0]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_38_reg[1]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_38_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[2]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[3]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[4]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[5]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_45_reg[6]/D
+                                0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_27_reg[4]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_27_reg[5]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_39_reg[2]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_39_reg[4]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_39_reg[5]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_39_reg[6]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_39_reg[7]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_42_reg[0]/D
+                                0.56           0.56 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[0]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[1]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[2]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[3]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[4]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[5]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[6]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_35_reg[7]/D
+                                0.56           0.57 f        -0.01  (VIOLATED)
+   corrected_symbol_30_reg[4]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[2]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[6]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[7]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_30_reg[5]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[1]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[3]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[4]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_33_reg[5]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   syndrome_cnt_reg[0]/D        0.54           0.54 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_21_reg[2]/D
+                                0.56           0.57 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_62_reg[7]/D
+                                0.56           0.57 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_27_reg[6]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_27_reg[7]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_30_reg[0]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_36_reg[6]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_36_reg[7]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_39_reg[0]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_39_reg[1]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_39_reg[3]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_30_reg[2]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_36_reg[0]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_36_reg[1]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_36_reg[2]/D
+                                0.56           0.56 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_17_reg[1]/D
+                                0.56           0.57 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_17_reg[2]/D
+                                0.56           0.57 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_17_reg[3]/D
+                                0.56           0.57 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_17_reg[4]/D
+                                0.56           0.57 f         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_40_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_40_reg[6]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_40_reg[7]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_41_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_41_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_41_reg[2]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_44_reg[3]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_45_reg[7]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_46_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   rs_decoder_90_64             0.00        4912.58       -4912.58  (VIOLATED)
+
+
+1

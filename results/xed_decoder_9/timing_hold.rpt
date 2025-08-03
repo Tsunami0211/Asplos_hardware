@@ -1,0 +1,215 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : xed_decoder_9
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:49:55 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: chip1_data[105] (input port)
+  Endpoint: corrected_chip1_data[105]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip1_data[105] (in)                     0.00       0.00 r
+  U4821/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip1_data[105] (out)          0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip1_data[89] (input port)
+  Endpoint: corrected_chip1_data[89]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip1_data[89] (in)                      0.00       0.00 r
+  U5599/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip1_data[89] (out)           0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip2_data[70] (input port)
+  Endpoint: corrected_chip2_data[70]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip2_data[70] (in)                      0.00       0.00 r
+  U5168/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip2_data[70] (out)           0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip5_data[111] (input port)
+  Endpoint: corrected_chip5_data[111]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip5_data[111] (in)                     0.00       0.00 r
+  U4878/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip5_data[111] (out)          0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip2_data[98] (input port)
+  Endpoint: corrected_chip2_data[98]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip2_data[98] (in)                      0.00       0.00 r
+  U5169/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip2_data[98] (out)           0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip5_data[117] (input port)
+  Endpoint: corrected_chip5_data[117]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip5_data[117] (in)                     0.00       0.00 r
+  U5112/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip5_data[117] (out)          0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip5_data[9] (input port)
+  Endpoint: corrected_chip5_data[9]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip5_data[9] (in)                       0.00       0.00 r
+  U4864/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip5_data[9] (out)            0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip5_data[118] (input port)
+  Endpoint: corrected_chip5_data[118]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip5_data[118] (in)                     0.00       0.00 r
+  U5129/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip5_data[118] (out)          0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[123] (input port)
+  Endpoint: corrected_chip3_data[123]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[123] (in)                     0.00       0.00 r
+  U5247/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip3_data[123] (out)          0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip1_data[75] (input port)
+  Endpoint: corrected_chip1_data[75]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip1_data[75] (in)                      0.00       0.00 r
+  U4932/X (SAEDRVT14_MUX2_MM_4)            0.02       0.02 r
+  corrected_chip1_data[75] (out)           0.00       0.02 r
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

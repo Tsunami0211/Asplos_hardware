@@ -1,0 +1,386 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : secded_decoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:28:38 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[24]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U311/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U408/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[24] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[22]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U312/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U411/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[22] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[20]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U313/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U415/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[20] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[18]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U314/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U420/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[18] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[16]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U315/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U423/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[16] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U316/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U426/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[14] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[12]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U326/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U429/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[12] (out)                       0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[7]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U309/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U344/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[7] (out)                        0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[5]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U310/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.01 r
+  U355/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[5] (out)                        0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: code_in[27]
+              (input port)
+  Endpoint: data_out[9]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  secded_decoder_72_64
+                     8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  code_in[27] (in)                         0.00       0.00 f
+  U278/X (SAEDRVT14_INV_S_1)               0.04       0.04 r
+  U509/X (SAEDRVT14_EO2_0P5)               0.09       0.13 r
+  U508/X (SAEDRVT14_EO4_1)                 0.08       0.21 r
+  U452/X (SAEDRVT14_EO4_1)                 0.07       0.28 f
+  U451/X (SAEDRVT14_EO4_1)                 0.06       0.34 r
+  U336/X (SAEDRVT14_EO4_2)                 0.08       0.43 r
+  U440/X (SAEDRVT14_INV_0P5)               0.07       0.50 f
+  U439/X (SAEDRVT14_ND2_CDC_0P5)           0.09       0.59 r
+  U246/X (SAEDRVT14_OR4_1)                 0.08       0.66 r
+  U282/X (SAEDRVT14_ND2_CDC_2)             0.07       0.74 f
+  U281/X (SAEDRVT14_NR2_MM_3)              0.07       0.81 r
+  U318/X (SAEDRVT14_ND2B_U_0P5)            0.07       0.88 f
+  U308/X (SAEDRVT14_BUF_S_4)               0.07       0.95 f
+  U317/X (SAEDRVT14_NR2_MM_0P5)            0.06       1.00 r
+  U341/X (SAEDRVT14_EO2_0P5)               0.07       1.07 r
+  data_out[9] (out)                        0.00       1.07 r
+  data arrival time                                   1.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

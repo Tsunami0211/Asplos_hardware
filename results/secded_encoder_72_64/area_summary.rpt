@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : secded_encoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:29:25 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                          136
+Number of nets:                           128
+Number of cells:                           64
+Number of combinational cells:             64
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          4
+Number of references:                       7
+
+Combinational area:                 49.905599
+Buf/Inv area:                        0.710400
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              39.850095
+
+Total cell area:                    49.905599
+Total area:                         89.755693
+1

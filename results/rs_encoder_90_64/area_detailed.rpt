@@ -1,0 +1,144 @@
+ 
+****************************************
+Report : area
+Design : rs_encoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:26:56 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         3862
+Number of nets:                         12319
+Number of cells:                         8416
+Number of combinational cells:           8123
+Number of sequential cells:               215
+Number of macros/black boxes:               0
+Number of buf/inv:                       2069
+Number of references:                     135
+
+Combinational area:               5180.369974
+Buf/Inv area:                     1004.416794
+Noncombinational area:             252.636006
+Macro/Black Box area:                0.000000
+Net Interconnect area:            3340.007342
+
+Total cell area:                  5433.005980
+Total area:                       8773.013322
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  --------------------------------------
+rs_encoder_90_64                  5433.0060    100.0  1126.0284   252.6360  0.0000  rs_encoder_90_64
+mult0                               99.6336      1.8    15.9840     0.0000  0.0000  gf256_mult_0
+mult0/mult_347                      83.6496      1.5    73.5708     0.0000  0.0000  gf256_mult_0_DW02_mult_0_DW02_mult_25
+mult0/mult_347/FS_1                 10.0788      0.2    10.0788     0.0000  0.0000  gf256_mult_0_DW01_add_0_DW01_add_25
+mult1                              100.8324      1.9    15.9840     0.0000  0.0000  gf256_mult_25
+mult1/mult_347                      84.8484      1.6    74.7696     0.0000  0.0000  gf256_mult_25_DW02_mult_0
+mult1/mult_347/FS_1                 10.0788      0.2    10.0788     0.0000  0.0000  gf256_mult_25_DW01_add_0
+mult10                             200.4660      3.7    31.2576     0.0000  0.0000  gf256_mult_16
+mult10/mult_347                    169.2084      3.1   117.1716     0.0000  0.0000  gf256_mult_16_DW02_mult_0_DW02_mult_9
+mult10/mult_347/FS_1                52.0368      1.0    52.0368     0.0000  0.0000  gf256_mult_16_DW01_add_1
+mult11                             177.2448      3.3    31.0800     0.0000  0.0000  gf256_mult_15
+mult11/mult_347                    146.1648      2.7   105.1392     0.0000  0.0000  gf256_mult_15_DW02_mult_0_DW02_mult_10
+mult11/mult_347/FS_1                41.0256      0.8    41.0256     0.0000  0.0000  gf256_mult_15_DW01_add_1
+mult12                             227.3280      4.2    29.1708     0.0000  0.0000  gf256_mult_14
+mult12/mult_347                    198.1572      3.6   126.8952     0.0000  0.0000  gf256_mult_14_DW02_mult_0_DW02_mult_11
+mult12/mult_347/FS_1                71.2620      1.3    71.2620     0.0000  0.0000  gf256_mult_14_DW01_add_1
+mult13                             183.1500      3.4    28.1052     0.0000  0.0000  gf256_mult_13
+mult13/mult_347                    155.0448      2.9   108.2472     0.0000  0.0000  gf256_mult_13_DW02_mult_0_DW02_mult_12
+mult13/mult_347/FS_1                46.7976      0.9    46.7976     0.0000  0.0000  gf256_mult_13_DW01_add_1
+mult14                             146.4756      2.7    26.0184     0.0000  0.0000  gf256_mult_12
+mult14/mult_347                    120.4572      2.2    95.9040     0.0000  0.0000  gf256_mult_12_DW02_mult_0_DW02_mult_13
+mult14/mult_347/FS_1                24.5532      0.5    24.5532     0.0000  0.0000  gf256_mult_12_DW01_add_1
+mult15                             157.9752      2.9    24.8640     0.0000  0.0000  gf256_mult_11
+mult15/mult_347                    133.1112      2.5    98.8788     0.0000  0.0000  gf256_mult_11_DW02_mult_0_DW02_mult_14
+mult15/mult_347/FS_1                34.2324      0.6    34.2324     0.0000  0.0000  gf256_mult_11_DW01_add_1
+mult16                             157.7976      2.9    19.3140     0.0000  0.0000  gf256_mult_10
+mult16/mult_347                    138.4836      2.5    96.4812     0.0000  0.0000  gf256_mult_10_DW02_mult_0_DW02_mult_15
+mult16/mult_347/FS_1                42.0024      0.8    42.0024     0.0000  0.0000  gf256_mult_10_DW01_add_2
+mult17                             176.0460      3.2    29.8812     0.0000  0.0000  gf256_mult_9
+mult17/mult_347                    146.1648      2.7   101.9868     0.0000  0.0000  gf256_mult_9_DW02_mult_0_DW02_mult_16
+mult17/mult_347/FS_1                44.1780      0.8    44.1780     0.0000  0.0000  gf256_mult_9_DW01_add_2
+mult18                             168.1428      3.1    20.8680     0.0000  0.0000  gf256_mult_8
+mult18/mult_347                    147.2748      2.7   107.6700     0.0000  0.0000  gf256_mult_8_DW02_mult_0_DW02_mult_17
+mult18/mult_347/FS_1                39.6048      0.7    39.6048     0.0000  0.0000  gf256_mult_8_DW01_add_1
+mult19                             168.7644      3.1    21.1344     0.0000  0.0000  gf256_mult_7
+mult19/mult_347                    147.6300      2.7   102.8748     0.0000  0.0000  gf256_mult_7_DW02_mult_0_DW02_mult_18
+mult19/mult_347/FS_1                44.7552      0.8    44.7552     0.0000  0.0000  gf256_mult_7_DW01_add_1
+mult2                              101.9868      1.9    15.7620     0.0000  0.0000  gf256_mult_24
+mult2/mult_347                      86.2248      1.6    76.1016     0.0000  0.0000  gf256_mult_24_DW02_mult_0_DW02_mult_1
+mult2/mult_347/FS_1                 10.1232      0.2    10.1232     0.0000  0.0000  gf256_mult_24_DW01_add_0_DW01_add_1
+mult20                             172.0500      3.2    25.7964     0.0000  0.0000  gf256_mult_6
+mult20/mult_347                    146.2536      2.7   105.3612     0.0000  0.0000  gf256_mult_6_DW02_mult_0_DW02_mult_19
+mult20/mult_347/FS_1                40.8924      0.8    40.8924     0.0000  0.0000  gf256_mult_6_DW01_add_1
+mult21                             204.5952      3.8    32.4120     0.0000  0.0000  gf256_mult_5
+mult21/mult_347                    172.1832      3.2   109.9344     0.0000  0.0000  gf256_mult_5_DW02_mult_0_DW02_mult_20
+mult21/mult_347/FS_1                62.2488      1.1    62.2488     0.0000  0.0000  gf256_mult_5_DW01_add_3
+mult22                             202.3308      3.7    33.0336     0.0000  0.0000  gf256_mult_4
+mult22/mult_347                    169.2972      3.1   115.2180     0.0000  0.0000  gf256_mult_4_DW02_mult_0_DW02_mult_21
+mult22/mult_347/FS_1                54.0792      1.0    54.0792     0.0000  0.0000  gf256_mult_4_DW01_add_1
+mult23                             179.9532      3.3    29.5260     0.0000  0.0000  gf256_mult_3
+mult23/mult_347                    150.4272      2.8   107.0928     0.0000  0.0000  gf256_mult_3_DW02_mult_0_DW02_mult_22
+mult23/mult_347/FS_1                43.3344      0.8    43.3344     0.0000  0.0000  gf256_mult_3_DW01_add_2
+mult24                             196.4256      3.6    28.4160     0.0000  0.0000  gf256_mult_2
+mult24/mult_347                    168.0096      3.1    99.9000     0.0000  0.0000  gf256_mult_2_DW02_mult_0_DW02_mult_23
+mult24/mult_347/FS_1                68.1096      1.3    68.1096     0.0000  0.0000  gf256_mult_2_DW01_add_3
+mult25                             113.8416      2.1    17.3160     0.0000  0.0000  gf256_mult_1
+mult25/mult_347                     96.5256      1.8    86.1360     0.0000  0.0000  gf256_mult_1_DW02_mult_0_DW02_mult_24
+mult25/mult_347/FS_1                10.3896      0.2    10.3896     0.0000  0.0000  gf256_mult_1_DW01_add_0_DW01_add_24
+mult3                              107.2260      2.0    16.5168     0.0000  0.0000  gf256_mult_23
+mult3/mult_347                      90.7092      1.7    78.7212     0.0000  0.0000  gf256_mult_23_DW02_mult_0_DW02_mult_2
+mult3/mult_347/FS_1                 11.9880      0.2    11.9880     0.0000  0.0000  gf256_mult_23_DW01_add_0_DW01_add_2
+mult4                              110.3340      2.0    16.9608     0.0000  0.0000  gf256_mult_22
+mult4/mult_347                      93.3732      1.7    80.2308     0.0000  0.0000  gf256_mult_22_DW02_mult_0_DW02_mult_3
+mult4/mult_347/FS_1                 13.1424      0.2    13.1424     0.0000  0.0000  gf256_mult_22_DW01_add_0_DW01_add_3
+mult5                              116.3724      2.1    17.8488     0.0000  0.0000  gf256_mult_21
+mult5/mult_347                      98.5236      1.8    84.5820     0.0000  0.0000  gf256_mult_21_DW02_mult_0_DW02_mult_4
+mult5/mult_347/FS_1                 13.9416      0.3    13.9416     0.0000  0.0000  gf256_mult_21_DW01_add_0_DW01_add_4
+mult6                              120.1020      2.2    19.2252     0.0000  0.0000  gf256_mult_20
+mult6/mult_347                     100.8768      1.9    85.6032     0.0000  0.0000  gf256_mult_20_DW02_mult_0_DW02_mult_5
+mult6/mult_347/FS_1                 15.2736      0.3    15.2736     0.0000  0.0000  gf256_mult_20_DW01_add_0_DW01_add_5
+mult7                              118.5480      2.2    19.0032     0.0000  0.0000  gf256_mult_19
+mult7/mult_347                      99.5448      1.8    83.8272     0.0000  0.0000  gf256_mult_19_DW02_mult_0_DW02_mult_6
+mult7/mult_347/FS_1                 15.7176      0.3    15.7176     0.0000  0.0000  gf256_mult_19_DW01_add_0_DW01_add_6
+mult8                              164.4132      3.0    20.1576     0.0000  0.0000  gf256_mult_18
+mult8/mult_347                     144.2556      2.7    98.9232     0.0000  0.0000  gf256_mult_18_DW02_mult_0_DW02_mult_7
+mult8/mult_347/FS_1                 45.3324      0.8    45.3324     0.0000  0.0000  gf256_mult_18_DW01_add_1
+mult9                              182.3064      3.4    28.0608     0.0000  0.0000  gf256_mult_17
+mult9/mult_347                     154.2456      2.8   100.6992     0.0000  0.0000  gf256_mult_17_DW02_mult_0_DW02_mult_8
+mult9/mult_347/FS_1                 53.5464      1.0    53.5464     0.0000  0.0000  gf256_mult_17_DW01_add_1
+--------------------------------  ---------  -------  ---------  ---------  ------  --------------------------------------
+Total                                                 5180.3700   252.6360  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+                                       Perc. of
+  Module    Implem.  Count       Area cell area
+  --------- -------  ----- ---------- ---------
+  DW02_mult     csa     26  3440.6449     63.3%
+  --------- -------  ----- ---------- ---------
+  Total:                26  3440.6449     63.3%
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                           Estimated  Perc. of
+  Module   Implem.  Count       Area cell area
+  -------- -------  ----- ---------- ---------
+  DW01_inc     rpl      1     4.2180      0.1%
+  -------- -------  ----- ---------- ---------
+  Total:                1     4.2180      0.1%
+
+Total synthetic cell area:              3444.8629  63.4%  (estimated)
+
+1

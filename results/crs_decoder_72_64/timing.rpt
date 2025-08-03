@@ -1,0 +1,499 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'crs_decoder_72_64' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : crs_decoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:10:44 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_25_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U517/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U220/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U242/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U808/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U806/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_25_reg[7]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_25_reg[7]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_25_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U517/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U220/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U242/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U804/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U802/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_25_reg[6]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_25_reg[6]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_25_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U517/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U220/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U242/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U800/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U798/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_25_reg[5]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_25_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_25_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U517/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U220/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U242/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U784/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U782/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_25_reg[1]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_25_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_33_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U515/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U222/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U258/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U744/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U742/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_33_reg[7]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_33_reg[7]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_33_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U515/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U222/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U258/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U740/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U738/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_33_reg[6]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_33_reg[6]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_33_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U515/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U222/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U258/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U736/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U734/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_33_reg[5]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_33_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_33_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U515/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U222/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U258/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U720/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U718/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_33_reg[1]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_33_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_9_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U521/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U216/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U260/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U916/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U914/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_9_reg[2]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_9_reg[2]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: rs72_corrector/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs72_corrector/corrected_symbols_9_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  crs_decoder_72_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs72_corrector/state_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.00 #     0.00 r
+  rs72_corrector/state_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)
+                                                          0.05       0.05 r
+  rs72_corrector/U90/X (SAEDRVT14_INV_S_10)               0.01       0.06 f
+  rs72_corrector/U5/X (SAEDRVT14_NR2_MM_10)               0.02       0.08 r
+  rs72_corrector/U2251/X (SAEDRVT14_ND2B_4)               0.07       0.15 f
+  rs72_corrector/U226/X (SAEDRVT14_OR3_4)                 0.05       0.20 f
+  rs72_corrector/U131/X (SAEDRVT14_INV_4)                 0.02       0.22 r
+  rs72_corrector/U328/X (SAEDRVT14_INV_2)                 0.05       0.27 f
+  rs72_corrector/U521/X (SAEDRVT14_OAI21_0P5)             0.05       0.32 r
+  rs72_corrector/U216/X (SAEDRVT14_BUF_S_4)               0.06       0.39 r
+  rs72_corrector/U260/X (SAEDRVT14_INV_4)                 0.07       0.45 f
+  rs72_corrector/U908/X (SAEDRVT14_NR2_MM_1)              0.04       0.49 r
+  rs72_corrector/U906/X (SAEDRVT14_AO221_0P5)             0.05       0.55 r
+  rs72_corrector/corrected_symbols_9_reg[0]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  rs72_corrector/corrected_symbols_9_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

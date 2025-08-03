@@ -1,0 +1,6 @@
+================================================
+ DESIGN SUMMARY: secded_encoder_72_64
+================================================
+
+Worst Negative Slack (WNS): Unknown
+Total Cell Area: 49.905599 µm^2

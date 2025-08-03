@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : sec_encoder_136_128
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:30:04 2025
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   sec_encoder_136_128          0.00         154.84        -154.84  (VIOLATED)
+
+
+1

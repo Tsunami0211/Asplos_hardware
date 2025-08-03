@@ -1,0 +1,88 @@
+ 
+****************************************
+Report : reference
+Design : hrs_encoder_68_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:12:44 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+SAEDRVT14_AN2_MM_2 saed14rvt_base_tt0p8v25c
+                                  0.355200       1      0.355200  
+SAEDRVT14_AN3_1    saed14rvt_base_tt0p8v25c
+                                  0.355200       4      1.420800  
+SAEDRVT14_AO21B_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.355200      12      4.262400  
+SAEDRVT14_AO21_1   saed14rvt_base_tt0p8v25c
+                                  0.355200       4      1.420800  
+SAEDRVT14_BUF_CDC_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.310800       2      0.621600  
+SAEDRVT14_BUF_S_1  saed14rvt_base_tt0p8v25c
+                                  0.266400       8      2.131200  
+SAEDRVT14_FDPRBQ_V2_1
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600      20     21.312001  n
+SAEDRVT14_INV_2    saed14rvt_base_tt0p8v25c
+                                  0.222000       4      0.888000  
+SAEDRVT14_INV_3    saed14rvt_base_tt0p8v25c
+                                  0.266400       1      0.266400  
+SAEDRVT14_INV_S_1  saed14rvt_base_tt0p8v25c
+                                  0.177600       4      0.710400  
+SAEDRVT14_ND2_CDC_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000       1      0.222000  
+SAEDRVT14_ND2_CDC_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_ND2_CDC_4
+                   saed14rvt_base_tt0p8v25c
+                                  0.488400       1      0.488400  
+SAEDRVT14_NR2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.222000       3      0.666000  
+SAEDRVT14_OA31_1   saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+SAEDRVT14_OAI21_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.266400       1      0.266400  
+SAEDRVT14_OAI22_1  saed14rvt_base_tt0p8v25c
+                                  0.310800       3      0.932400  
+SAEDRVT14_OR2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_OR3_1    saed14rvt_base_tt0p8v25c
+                                  0.355200       1      0.355200  
+SAEDRVT14_TIE0_V1_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.488400       1      0.488400  
+rs_encoder_9_8_0                163.658398       1    163.658398  h, n
+rs_encoder_9_8_1                163.169999       1    163.169999  h, n
+rs_encoder_9_8_2                164.768398       1    164.768398  h, n
+rs_encoder_9_8_3                163.924799       1    163.924799  h, n
+rs_encoder_12_8_0               501.808791       1    501.808791  h, n
+rs_encoder_12_8_1               502.829992       1    502.829992  h, n
+rs_encoder_12_8_2               504.739191       1    504.739191  h, n
+rs_encoder_12_8_3               503.495991       1    503.495991  h, n
+rs_encoder_12_8_4               499.721991       1    499.721991  h, n
+rs_encoder_12_8_5               505.405191       1    505.405191  h, n
+rs_encoder_12_8_6               505.804791       1    505.804791  h, n
+rs_encoder_12_8_7               508.823991       1    508.823991  h, n
+rs_encoder_12_8_8               500.698792       1    500.698792  h, n
+rs_encoder_12_8_9               500.210391       1    500.210391  h, n
+rs_encoder_12_8_10              504.605991       1    504.605991  h, n
+rs_encoder_12_8_11              500.077192       1    500.077192  h, n
+-----------------------------------------------------------------------------
+Total 36 references                                  6731.572690
+1

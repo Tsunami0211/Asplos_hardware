@@ -1,0 +1,117 @@
+ 
+****************************************
+Report : reference
+Design : xed_encoder_10
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:53:59 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+SAEDRVT14_BUF_20   saed14rvt_base_tt0p8v25c
+                                  1.287600       1      1.287600  
+SAEDRVT14_DEL_L4D100_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.532800       1      0.532800  
+SAEDRVT14_EN2_1    saed14rvt_base_tt0p8v25c
+                                  0.532800      32     17.049601  
+SAEDRVT14_EN2_1P5  saed14rvt_base_tt0p8v25c
+                                  0.666000      10      6.660000  
+SAEDRVT14_EN2_3    saed14rvt_base_tt0p8v25c
+                                  0.710400      14      9.945600  
+SAEDRVT14_EN2_4    saed14rvt_base_tt0p8v25c
+                                  0.888000      47     41.736001  
+SAEDRVT14_EN3_1    saed14rvt_base_tt0p8v25c
+                                  0.843600       3      2.530800  
+SAEDRVT14_EN3_3    saed14rvt_base_tt0p8v25c
+                                  1.243200      19     23.620799  
+SAEDRVT14_EN4_2    saed14rvt_base_tt0p8v25c
+                                  1.332000      34     45.288001  
+SAEDRVT14_EN4_4    saed14rvt_base_tt0p8v25c
+                                  1.554000      57     88.578001  
+SAEDRVT14_EN4_M_1  saed14rvt_base_tt0p8v25c
+                                  1.243200     233    289.665587  
+SAEDRVT14_EN4_U_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  1.243200       7      8.702400  
+SAEDRVT14_EO2_1    saed14rvt_base_tt0p8v25c
+                                  0.488400      50     24.420001  
+SAEDRVT14_EO2_2    saed14rvt_base_tt0p8v25c
+                                  0.666000      74     49.284001  
+SAEDRVT14_EO2_3    saed14rvt_base_tt0p8v25c
+                                  0.710400      13      9.235200  
+SAEDRVT14_EO2_4    saed14rvt_base_tt0p8v25c
+                                  0.843600       7      5.905200  
+SAEDRVT14_EO3_4    saed14rvt_base_tt0p8v25c
+                                  1.110000       2      2.220000  
+SAEDRVT14_EO4_1    saed14rvt_base_tt0p8v25c
+                                  1.243200      88    109.401595  
+SAEDRVT14_EO4_2    saed14rvt_base_tt0p8v25c
+                                  1.287600      80    103.008003  
+SAEDRVT14_EO4_U_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  1.998000       1      1.998000  
+SAEDRVT14_FDPRBQ_V2_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  1.065600       1      1.065600  n
+SAEDRVT14_INV_2    saed14rvt_base_tt0p8v25c
+                                  0.222000       2      0.444000  
+SAEDRVT14_INV_6    saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+SAEDRVT14_INV_12   saed14rvt_base_tt0p8v25c
+                                  0.666000       8      5.328000  
+SAEDRVT14_INV_S_8  saed14rvt_base_tt0p8v25c
+                                  0.488400       1      0.488400  
+SAEDRVT14_INV_S_10 saed14rvt_base_tt0p8v25c
+                                  0.577200       3      1.731600  
+SAEDRVT14_INV_S_12 saed14rvt_base_tt0p8v25c
+                                  0.666000       1      0.666000  
+SAEDRVT14_INV_S_16 saed14rvt_base_tt0p8v25c
+                                  0.843600       4      3.374400  
+SAEDRVT14_INV_S_20 saed14rvt_base_tt0p8v25c
+                                  1.021200       8      8.169600  
+SAEDRVT14_TIE0_V1_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.488400       1      0.488400  
+SAEDRVT14_TIE1_4   saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+crc_atm_8bit_0                  349.783197       1    349.783197  h
+crc_atm_8bit_1                  522.721194       1    522.721194  h
+crc_atm_8bit_2                  349.960798       1    349.960798  h
+crc_atm_8bit_3                  331.712397       1    331.712397  h
+crc_atm_8bit_4                  337.306797       1    337.306797  h
+crc_atm_8bit_5                  364.479597       1    364.479597  h
+crc_atm_8bit_6                  345.653998       1    345.653998  h
+crc_atm_8bit_7                  334.598397       1    334.598397  h
+crc_atm_8bit_8                  324.919197       1    324.919197  h
+crc_atm_8bit_9                  345.431997       1    345.431997  h
+gf256_mult_64bit_0              475.701593       1    475.701593  h
+gf256_mult_64bit_1              574.757989       1    574.757989  h
+gf256_mult_64bit_2              512.642390       1    512.642390  h
+gf256_mult_64bit_3              565.744790       1    565.744790  h
+gf256_mult_64bit_4              507.269990       1    507.269990  h
+gf256_mult_64bit_5              578.221191       1    578.221191  h
+gf256_mult_64bit_6              501.364791       1    501.364791  h
+gf256_mult_64bit_7              562.636791       1    562.636791  h
+gf256_mult_64bit_8              501.542391       1    501.542391  h
+gf256_mult_64bit_9              522.676793       1    522.676793  h
+gf256_mult_64bit_10             498.256791       1    498.256791  h
+gf256_mult_64bit_11             514.507193       1    514.507193  h
+gf256_mult_64bit_12             496.214391       1    496.214391  h
+gf256_mult_64bit_13             503.318394       1    503.318394  h
+gf256_mult_64bit_14             485.602793       1    485.602793  h
+gf256_mult_64bit_15             494.704794       1    494.704794  h
+-----------------------------------------------------------------------------
+Total 57 references                                 12765.355022
+1

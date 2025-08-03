@@ -1,0 +1,88 @@
+ 
+****************************************
+Report : reference
+Design : sec_decoder_136_128
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:27:57 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+SAEDRVT14_AN2B_MM_1
+                   saed14rvt_base_tt0p8v25c
+                                  0.399600       4      1.598400  
+SAEDRVT14_AN2_1    saed14rvt_base_tt0p8v25c
+                                  0.310800       4      1.243200  
+SAEDRVT14_AN2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_AN2_MM_2 saed14rvt_base_tt0p8v25c
+                                  0.355200       6      2.131200  
+SAEDRVT14_AN2_MM_3 saed14rvt_base_tt0p8v25c
+                                  0.399600       3      1.198800  
+SAEDRVT14_AN3_1    saed14rvt_base_tt0p8v25c
+                                  0.355200       1      0.355200  
+SAEDRVT14_AN3_2    saed14rvt_base_tt0p8v25c
+                                  0.399600       3      1.198800  
+SAEDRVT14_AN3_4    saed14rvt_base_tt0p8v25c
+                                  0.621600       7      4.351200  
+SAEDRVT14_EN2_1    saed14rvt_base_tt0p8v25c
+                                  0.532800      64     34.099201  
+SAEDRVT14_EN3_1    saed14rvt_base_tt0p8v25c
+                                  0.843600      22     18.559199  
+SAEDRVT14_EO2_0P5  saed14rvt_base_tt0p8v25c
+                                  0.488400     102     49.816801  
+SAEDRVT14_EO4_1    saed14rvt_base_tt0p8v25c
+                                  1.243200      53     65.889597  
+SAEDRVT14_EO4_2    saed14rvt_base_tt0p8v25c
+                                  1.287600       4      5.150400  
+SAEDRVT14_INV_0P5  saed14rvt_base_tt0p8v25c
+                                  0.177600      10      1.776000  
+SAEDRVT14_INV_2    saed14rvt_base_tt0p8v25c
+                                  0.222000       4      0.888000  
+SAEDRVT14_INV_3    saed14rvt_base_tt0p8v25c
+                                  0.266400       5      1.332000  
+SAEDRVT14_INV_S_1  saed14rvt_base_tt0p8v25c
+                                  0.177600       9      1.598400  
+SAEDRVT14_INV_S_1P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000       1      0.222000  
+SAEDRVT14_ND2_2    saed14rvt_base_tt0p8v25c
+                                  0.399600       4      1.598400  
+SAEDRVT14_ND2_CDC_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000      73     16.206000  
+SAEDRVT14_ND2_CDC_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.310800       2      0.621600  
+SAEDRVT14_ND2_CDC_4
+                   saed14rvt_base_tt0p8v25c
+                                  0.488400       3      1.465200  
+SAEDRVT14_NR2_1    saed14rvt_base_tt0p8v25c
+                                  0.222000      49     10.878000  
+SAEDRVT14_NR2_1P5  saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_NR2_MM_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000       3      0.666000  
+SAEDRVT14_NR2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.222000       2      0.444000  
+SAEDRVT14_NR2_MM_4 saed14rvt_base_tt0p8v25c
+                                  0.488400       2      0.976800  
+SAEDRVT14_NR2_MM_6 saed14rvt_base_tt0p8v25c
+                                  0.666000       2      1.332000  
+SAEDRVT14_OR4_1    saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+-----------------------------------------------------------------------------
+Total 29 references                                   226.617599
+1

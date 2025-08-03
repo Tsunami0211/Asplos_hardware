@@ -1,0 +1,347 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : rs_decoder_90_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:18:23 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: syndrome_3_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_3_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_3_reg[2]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  syndrome_3_reg[2]/QN (SAEDRVT14_FDPRB_V3_2)             0.05       0.05 f
+  U3400/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.07 f
+  syndrome_3_reg[2]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.07 f
+  data arrival time                                                  0.07
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_3_reg[2]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.07
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+  Startpoint: syndrome_3_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_3_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_3_reg[3]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  syndrome_3_reg[3]/QN (SAEDRVT14_FDPRB_V3_2)             0.05       0.05 f
+  U3614/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.07 f
+  syndrome_3_reg[3]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.07 f
+  data arrival time                                                  0.07
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_3_reg[3]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.07
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+  Startpoint: syndrome_2_reg[7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_2_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_2_reg[7]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  syndrome_2_reg[7]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.06       0.06 f
+  U3343/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.07 f
+  syndrome_2_reg[7]/D (SAEDRVT14_FDPRBQ_V2_4)             0.00       0.07 f
+  data arrival time                                                  0.07
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_2_reg[7]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.07
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_6_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_6_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_6_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  syndrome_6_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.06       0.06 f
+  U3340/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.07 f
+  syndrome_6_reg[1]/D (SAEDRVT14_FDPRBQ_V2_4)             0.00       0.07 f
+  data arrival time                                                  0.07
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_6_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.07
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_6_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_6_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_6_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  syndrome_6_reg[0]/QN (SAEDRVT14_FDPRB_V3_2)             0.05       0.05 r
+  U3579/X (SAEDRVT14_INV_2)                               0.01       0.06 f
+  U3667/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.08 f
+  syndrome_6_reg[0]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.08 f
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_6_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_7_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_7_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_7_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  syndrome_7_reg[0]/QN (SAEDRVT14_FDPRB_V3_2)             0.05       0.05 r
+  U3692/X (SAEDRVT14_INV_2)                               0.01       0.06 f
+  U4587/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.08 f
+  syndrome_7_reg[0]/D (SAEDRVT14_FDPRB_V3_2)              0.00       0.08 f
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_7_reg[0]/CK (SAEDRVT14_FDPRB_V3_2)             0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_4_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_4_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_4_reg[3]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.00 r
+  syndrome_4_reg[3]/Q (SAEDRVT14_FDPRBQ_V2LP_2)           0.06       0.06 f
+  U3630/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.08 f
+  syndrome_4_reg[3]/D (SAEDRVT14_FDPRBQ_V2LP_2)           0.00       0.08 f
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_4_reg[3]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_2_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_2_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_2_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.00 r
+  syndrome_2_reg[2]/Q (SAEDRVT14_FDPRBQ_V2LP_2)           0.06       0.06 f
+  U3684/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.08 f
+  syndrome_2_reg[2]/D (SAEDRVT14_FDPRBQ_V2LP_2)           0.00       0.08 f
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_2_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_4_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_4_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_4_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.00 r
+  syndrome_4_reg[2]/Q (SAEDRVT14_FDPRBQ_V2LP_2)           0.06       0.06 f
+  U4589/X (SAEDRVT14_MUX2_MM_4)                           0.02       0.08 f
+  syndrome_4_reg[2]/D (SAEDRVT14_FDPRBQ_V2LP_2)           0.00       0.08 f
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_4_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_2)          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: syndrome_7_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: syndrome_7_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_decoder_90_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_7_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  syndrome_7_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 r
+  U3750/X (SAEDRVT14_MUXI2_4)                             0.03       0.08 f
+  syndrome_7_reg[1]/D (SAEDRVT14_FDPRBQ_V2_4)             0.00       0.08 f
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  syndrome_7_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+1

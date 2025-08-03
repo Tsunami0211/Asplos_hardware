@@ -1,0 +1,237 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : xed_encoder_9
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:57:32 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: chip0_data[0] (input port)
+  Endpoint: chip0_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip0_data[0] (in)                       0.00       0.00 r
+  crc0/data_in[0] (crc_atm_8bit_0)         0.00       0.00 r
+  crc0/U271/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc0/crc_out[0] (crc_atm_8bit_0)         0.00       0.03 f
+  chip0_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip2_data[0] (input port)
+  Endpoint: chip2_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip2_data[0] (in)                       0.00       0.00 r
+  crc2/data_in[0] (crc_atm_8bit_7)         0.00       0.00 r
+  crc2/U243/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc2/crc_out[0] (crc_atm_8bit_7)         0.00       0.03 f
+  chip2_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[0] (input port)
+  Endpoint: chip3_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[0] (in)                       0.00       0.00 r
+  crc3/data_in[0] (crc_atm_8bit_6)         0.00       0.00 r
+  crc3/U278/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc3/crc_out[0] (crc_atm_8bit_6)         0.00       0.03 f
+  chip3_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip4_data[0] (input port)
+  Endpoint: chip4_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip4_data[0] (in)                       0.00       0.00 r
+  crc4/data_in[0] (crc_atm_8bit_5)         0.00       0.00 r
+  crc4/U340/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc4/crc_out[0] (crc_atm_8bit_5)         0.00       0.03 f
+  chip4_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip5_data[0] (input port)
+  Endpoint: chip5_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip5_data[0] (in)                       0.00       0.00 r
+  crc5/data_in[0] (crc_atm_8bit_4)         0.00       0.00 r
+  crc5/U141/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc5/crc_out[0] (crc_atm_8bit_4)         0.00       0.03 f
+  chip5_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip6_data[0] (input port)
+  Endpoint: chip6_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip6_data[0] (in)                       0.00       0.00 r
+  crc6/data_in[0] (crc_atm_8bit_3)         0.00       0.00 r
+  crc6/U144/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc6/crc_out[0] (crc_atm_8bit_3)         0.00       0.03 f
+  chip6_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip7_data[0] (input port)
+  Endpoint: chip7_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip7_data[0] (in)                       0.00       0.00 r
+  crc7/data_in[0] (crc_atm_8bit_2)         0.00       0.00 r
+  crc7/U273/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc7/crc_out[0] (crc_atm_8bit_2)         0.00       0.03 f
+  chip7_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip1_data[0] (input port)
+  Endpoint: chip1_crc[0]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip1_data[0] (in)                       0.00       0.00 r
+  crc1/data_in[0] (crc_atm_8bit_8)         0.00       0.00 r
+  crc1/U305/X (SAEDRVT14_EO4_2)            0.03       0.03 f
+  crc1/crc_out[0] (crc_atm_8bit_8)         0.00       0.03 f
+  chip1_crc[0] (out)                       0.00       0.03 f
+  data arrival time                                   0.03
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip1_data[6] (input port)
+  Endpoint: chip1_crc[6]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip1_data[6] (in)                       0.00       0.00 r
+  crc1/data_in[6] (crc_atm_8bit_8)         0.00       0.00 r
+  crc1/U150/X (SAEDRVT14_EN3_3)            0.02       0.02 r
+  crc1/U12/X (SAEDRVT14_EN3_3)             0.02       0.04 r
+  crc1/crc_out[6] (crc_atm_8bit_8)         0.00       0.04 r
+  chip1_crc[6] (out)                       0.00       0.04 r
+  data arrival time                                   0.04
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[6] (input port)
+  Endpoint: chip3_crc[6]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_9      8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[6] (in)                       0.00       0.00 r
+  crc3/data_in[6] (crc_atm_8bit_6)         0.00       0.00 r
+  crc3/U294/X (SAEDRVT14_EN3_3)            0.02       0.02 r
+  crc3/U266/X (SAEDRVT14_EN3_3)            0.02       0.04 r
+  crc3/crc_out[6] (crc_atm_8bit_6)         0.00       0.04 r
+  chip3_crc[6] (out)                       0.00       0.04 r
+  data arrival time                                   0.04
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

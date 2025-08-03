@@ -1,0 +1,221 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : xed_decoder_10
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:44:06 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: chip3_data[106] (input port)
+  Endpoint: corrected_chip3_data[106]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[106] (in)                     0.00       0.00 f
+  U11796/X (SAEDRVT14_INV_S_20)            0.00       0.00 r
+  U11795/X (SAEDRVT14_OAI22_4)             0.02       0.02 f
+  corrected_chip3_data[106] (out)          0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[80] (input port)
+  Endpoint: corrected_chip3_data[80]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[80] (in)                      0.00       0.00 f
+  U11737/X (SAEDRVT14_INV_S_20)            0.00       0.00 r
+  U11736/X (SAEDRVT14_OAI22_4)             0.02       0.02 f
+  corrected_chip3_data[80] (out)           0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[86] (input port)
+  Endpoint: corrected_chip3_data[86]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[86] (in)                      0.00       0.00 f
+  U11240/X (SAEDRVT14_INV_S_20)            0.00       0.00 r
+  U11239/X (SAEDRVT14_OAI22_4)             0.02       0.02 f
+  corrected_chip3_data[86] (out)           0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[29] (input port)
+  Endpoint: corrected_chip3_data[29]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[29] (in)                      0.00       0.00 f
+  U11247/X (SAEDRVT14_INV_S_20)            0.00       0.00 r
+  U11246/X (SAEDRVT14_OAI22_4)             0.02       0.02 f
+  corrected_chip3_data[29] (out)           0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip7_data[61] (input port)
+  Endpoint: corrected_chip7_data[61]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip7_data[61] (in)                      0.00       0.00 f
+  U11684/X (SAEDRVT14_AO22_4)              0.02       0.02 f
+  corrected_chip7_data[61] (out)           0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip7_data[102] (input port)
+  Endpoint: corrected_chip7_data[102]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip7_data[102] (in)                     0.00       0.00 f
+  U12924/X (SAEDRVT14_AO22_4)              0.02       0.02 f
+  corrected_chip7_data[102] (out)          0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[114] (input port)
+  Endpoint: corrected_chip3_data[114]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[114] (in)                     0.00       0.00 f
+  U13118/X (SAEDRVT14_AO22_4)              0.02       0.02 f
+  corrected_chip3_data[114] (out)          0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[91] (input port)
+  Endpoint: corrected_chip3_data[91]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[91] (in)                      0.00       0.00 f
+  U12515/X (SAEDRVT14_AO22_4)              0.02       0.02 f
+  corrected_chip3_data[91] (out)           0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip3_data[82] (input port)
+  Endpoint: corrected_chip3_data[82]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip3_data[82] (in)                      0.00       0.00 f
+  U12749/X (SAEDRVT14_AO22_4)              0.02       0.02 f
+  corrected_chip3_data[82] (out)           0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: chip5_data[113] (input port)
+  Endpoint: corrected_chip5_data[113]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_decoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  chip5_data[113] (in)                     0.00       0.00 f
+  U12530/X (SAEDRVT14_AO22_4)              0.02       0.02 f
+  corrected_chip5_data[113] (out)          0.00       0.02 f
+  data arrival time                                   0.02
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

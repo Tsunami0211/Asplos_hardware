@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : hrs_encoder_68_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:12:34 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                         9768
+Number of nets:                         22355
+Number of cells:                        13469
+Number of combinational cells:          12797
+Number of sequential cells:               500
+Number of macros/black boxes:               0
+Number of buf/inv:                       1837
+Number of references:                      36
+
+Combinational area:               6194.599072
+Buf/Inv area:                      471.883203
+Noncombinational area:             536.973617
+Macro/Black Box area:                0.000000
+Net Interconnect area:            6719.624827
+
+Total cell area:                  6731.572690
+Total area:                      13451.197517
+1

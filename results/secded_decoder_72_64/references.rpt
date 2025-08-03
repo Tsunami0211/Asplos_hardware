@@ -1,0 +1,84 @@
+ 
+****************************************
+Report : reference
+Design : secded_decoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:28:44 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+SAEDRVT14_AN2B_MM_1
+                   saed14rvt_base_tt0p8v25c
+                                  0.399600       2      0.799200  
+SAEDRVT14_AN2_1    saed14rvt_base_tt0p8v25c
+                                  0.310800       4      1.243200  
+SAEDRVT14_AN2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_AN2_MM_8 saed14rvt_base_tt0p8v25c
+                                  0.799200       1      0.799200  
+SAEDRVT14_AN3_0P5  saed14rvt_base_tt0p8v25c
+                                  0.355200       1      0.355200  
+SAEDRVT14_BUF_S_4  saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+SAEDRVT14_EN2_1    saed14rvt_base_tt0p8v25c
+                                  0.532800      36     19.180801  
+SAEDRVT14_EN3_1    saed14rvt_base_tt0p8v25c
+                                  0.843600      12     10.123200  
+SAEDRVT14_EN3_3    saed14rvt_base_tt0p8v25c
+                                  1.243200       1      1.243200  
+SAEDRVT14_EO2_0P5  saed14rvt_base_tt0p8v25c
+                                  0.488400      49     23.931601  
+SAEDRVT14_EO4_1    saed14rvt_base_tt0p8v25c
+                                  1.243200      28     34.809598  
+SAEDRVT14_EO4_2    saed14rvt_base_tt0p8v25c
+                                  1.287600       1      1.287600  
+SAEDRVT14_INV_0P5  saed14rvt_base_tt0p8v25c
+                                  0.177600      12      2.131200  
+SAEDRVT14_INV_2    saed14rvt_base_tt0p8v25c
+                                  0.222000       3      0.666000  
+SAEDRVT14_INV_3    saed14rvt_base_tt0p8v25c
+                                  0.266400       2      0.532800  
+SAEDRVT14_INV_S_1  saed14rvt_base_tt0p8v25c
+                                  0.177600      20      3.552000  
+SAEDRVT14_ND2B_U_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_ND2_CDC_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000      54     11.988000  
+SAEDRVT14_ND2_CDC_1
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000       4      0.888000  
+SAEDRVT14_ND2_CDC_2
+                   saed14rvt_base_tt0p8v25c
+                                  0.310800       1      0.310800  
+SAEDRVT14_ND2_MM_1 saed14rvt_base_tt0p8v25c
+                                  0.310800       3      0.932400  
+SAEDRVT14_ND3_0P5  saed14rvt_base_tt0p8v25c
+                                  0.444000       2      0.888000  
+SAEDRVT14_NR2_1    saed14rvt_base_tt0p8v25c
+                                  0.222000       9      1.998000  
+SAEDRVT14_NR2_1P5  saed14rvt_base_tt0p8v25c
+                                  0.310800       4      1.243200  
+SAEDRVT14_NR2_MM_0P5
+                   saed14rvt_base_tt0p8v25c
+                                  0.222000      10      2.220000  
+SAEDRVT14_NR2_MM_3 saed14rvt_base_tt0p8v25c
+                                  0.399600       1      0.399600  
+SAEDRVT14_OR4_1    saed14rvt_base_tt0p8v25c
+                                  0.399600       3      1.198800  
+-----------------------------------------------------------------------------
+Total 27 references                                   123.742799
+1

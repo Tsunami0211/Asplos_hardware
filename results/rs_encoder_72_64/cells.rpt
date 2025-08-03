@@ -1,0 +1,3085 @@
+ 
+****************************************
+Report : cell
+Design : rs_encoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:21:02 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U138                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U139                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U140                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U141                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U145                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U147                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U148                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U150                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U152                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U154                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U156                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U157                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U159                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U165                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U166                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U168                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U170                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U172                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U175                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U176                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U177                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U179                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U183                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U185                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U186                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U190                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U192                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U194                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U195                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U197                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U199                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U203                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U204                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U206                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U208                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U210                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U214                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U230                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U232                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U233                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U241                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U242                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U244                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U246                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U309                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U311                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U313                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U318                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U328                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U329                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U331                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U335                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U338                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U340                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U344                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U346                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U347                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U349                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U351                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U355                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U356                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U358                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U360                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U362                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U366                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U380                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U384                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U393                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U394                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U396                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U403                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U464                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U496                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U620                      SAEDRVT14_TIE0_V1_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U621                      SAEDRVT14_TIE1_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U622                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U623                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U624                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U625                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U626                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U627                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U628                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U629                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U630                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U631                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U632                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U633                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U634                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U635                      SAEDRVT14_AN2B_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.687200  
+U636                      SAEDRVT14_AN2B_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U637                      SAEDRVT14_INV_S_5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U638                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U639                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U640                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U641                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U642                      SAEDRVT14_OR2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U643                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U644                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U645                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U646                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U647                      SAEDRVT14_INV_S_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U648                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U649                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U650                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U651                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U652                      SAEDRVT14_AN2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U653                      SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U654                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U655                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U656                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U657                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U658                      SAEDRVT14_INV_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U659                      SAEDRVT14_INV_S_7
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U660                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U661                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U662                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U663                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U664                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U665                      SAEDRVT14_BUF_4 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U666                      SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U667                      SAEDRVT14_BUF_S_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U668                      SAEDRVT14_NR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U669                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U670                      SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U671                      SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U672                      SAEDRVT14_INV_S_9
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U673                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U674                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U675                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U676                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U677                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U678                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U679                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U680                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U681                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U682                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U683                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U684                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U685                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U686                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U687                      SAEDRVT14_BUF_4 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U688                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U689                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U690                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U691                      SAEDRVT14_AN2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U692                      SAEDRVT14_AO2BB2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U693                      SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U694                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U695                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U696                      SAEDRVT14_BUF_8 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U697                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U698                      SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U699                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U700                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U701                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U702                      SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U703                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U704                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U705                      SAEDRVT14_AOI221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.642800  
+U706                      SAEDRVT14_ND2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.864800  
+U707                      SAEDRVT14_ND2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U708                      SAEDRVT14_ND2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.864800  
+U709                      SAEDRVT14_BUF_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.110000  
+U710                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U711                      SAEDRVT14_AN2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U712                      SAEDRVT14_INV_S_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U713                      SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U714                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U715                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U716                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U717                      SAEDRVT14_OAI22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U718                      SAEDRVT14_AN2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U719                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U720                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U721                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U722                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U723                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U724                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U725                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U726                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U727                      SAEDRVT14_INV_S_7
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U728                      SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U729                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U730                      SAEDRVT14_INV_3 saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U731                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U732                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U733                      SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U734                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U735                      SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U736                      SAEDRVT14_ND2_6 saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U737                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U738                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U739                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U740                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U741                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U742                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U743                      SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U744                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U745                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U746                      SAEDRVT14_INV_ECO_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U747                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U748                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U749                      SAEDRVT14_ND2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U750                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U751                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U752                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U753                      SAEDRVT14_INV_S_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U754                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U755                      SAEDRVT14_ND3_8 saed14rvt_base_tt0p8v25c
+                                                          1.998000  
+U756                      SAEDRVT14_AO221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U757                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U758                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U759                      SAEDRVT14_INV_S_5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U760                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U761                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U762                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U763                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U764                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U765                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U766                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U767                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U768                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U769                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U770                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U771                      SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U772                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U773                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U774                      SAEDRVT14_OR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U775                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U776                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U777                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U778                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U779                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U780                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U781                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U782                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U783                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U784                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U785                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U786                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U787                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U788                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U789                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U790                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U791                      SAEDRVT14_OR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U792                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U793                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U794                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U795                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U796                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U797                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U798                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U799                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U800                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U801                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U802                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U803                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U804                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U805                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U806                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U807                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U808                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U809                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U810                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U811                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U812                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U813                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U814                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U815                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U816                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U817                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U818                      SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U819                      SAEDRVT14_OAI221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.154400  
+U820                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U821                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U822                      SAEDRVT14_AOI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U823                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U824                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U825                      SAEDRVT14_OR2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U826                      SAEDRVT14_AN2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U827                      SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U828                      SAEDRVT14_AN2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U829                      SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U830                      SAEDRVT14_AN2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U831                      SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U832                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U833                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U834                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U835                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U836                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U837                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U838                      SAEDRVT14_ND2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U839                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U840                      SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U841                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U842                      SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U843                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U844                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U845                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U846                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U847                      SAEDRVT14_AN2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U848                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U849                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U850                      SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U851                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U852                      SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U853                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U854                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U855                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U856                      SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U857                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U858                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U859                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U860                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U861                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U862                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U863                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U864                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U865                      SAEDRVT14_INV_ECO_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U866                      SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U867                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U868                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U869                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U870                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U871                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U872                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U873                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U874                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U875                      SAEDRVT14_NR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U876                      SAEDRVT14_ND2_5 saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U877                      SAEDRVT14_NR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U878                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U879                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U880                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U881                      SAEDRVT14_AN2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U882                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U883                      SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U884                      SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U885                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U886                      SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U887                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U888                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U889                      SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U890                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U891                      SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U892                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U893                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U894                      SAEDRVT14_ND2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U895                      SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U896                      SAEDRVT14_AN2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U897                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U898                      SAEDRVT14_OR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U899                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U900                      SAEDRVT14_OR2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U901                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U902                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U903                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U904                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U905                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U906                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U907                      SAEDRVT14_INV_S_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U908                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U909                      SAEDRVT14_INV_ECO_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U910                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U911                      SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U912                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U913                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U914                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U915                      SAEDRVT14_ND2_6 saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U916                      SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U917                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U918                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U919                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U920                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U921                      SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U922                      SAEDRVT14_OA22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U923                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U924                      SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U925                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U926                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U927                      SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U928                      SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U929                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U930                      SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U931                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U932                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U933                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U934                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U935                      SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U936                      SAEDRVT14_OA2BB2_V1_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U937                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U938                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U939                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U940                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U941                      SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U942                      SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U943                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U944                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U945                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U946                      SAEDRVT14_INV_S_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U947                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U948                      SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U949                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U950                      SAEDRVT14_INV_3 saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U951                      SAEDRVT14_INV_3 saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U952                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U953                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U954                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U955                      SAEDRVT14_INV_3 saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U956                      SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U957                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U958                      SAEDRVT14_ND2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.864800  
+U959                      SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U960                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U961                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U962                      SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U963                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U964                      SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U965                      SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U966                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U967                      SAEDRVT14_OR2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U968                      SAEDRVT14_INV_3 saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U969                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U970                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U971                      SAEDRVT14_AN2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U972                      SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U973                      SAEDRVT14_AN2B_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.154400  
+U974                      SAEDRVT14_OR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.243200  
+U975                      SAEDRVT14_AN2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U976                      SAEDRVT14_ND2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U977                      SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U978                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U979                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U980                      SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U981                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U982                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U983                      SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U984                      SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U985                      SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U986                      SAEDRVT14_AO221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U987                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U988                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U989                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U990                      SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U991                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U992                      SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U993                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U994                      SAEDRVT14_AO22_0P75
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U995                      SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U996                      SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U997                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U998                      SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U999                      SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1000                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1001                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1002                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1003                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1004                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1005                     SAEDRVT14_OR2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1006                     SAEDRVT14_ND2_5 saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1007                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1008                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1009                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1010                     SAEDRVT14_NR2B_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1011                     SAEDRVT14_ND2_1 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1012                     SAEDRVT14_ND2_4 saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1013                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1014                     SAEDRVT14_ND2_6 saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1015                     SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1016                     SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1017                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1018                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1019                     SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1020                     SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1021                     SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1022                     SAEDRVT14_EO2_V1_1P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1023                     SAEDRVT14_EO2_4 saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1024                     SAEDRVT14_ND2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.864800  
+U1025                     SAEDRVT14_INV_S_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1026                     SAEDRVT14_ND2_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1027                     SAEDRVT14_ND2_1P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1028                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1029                     SAEDRVT14_ND2_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1030                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1031                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1032                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1033                     SAEDRVT14_ND2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1034                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1035                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1036                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1037                     SAEDRVT14_OR2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1038                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1039                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1040                     SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1041                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1042                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1043                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1044                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1045                     SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U1046                     SAEDRVT14_INV_S_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1047                     SAEDRVT14_ND3_4 saed14rvt_base_tt0p8v25c
+                                                          1.154400  
+U1048                     SAEDRVT14_AOI221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.642800  
+U1049                     SAEDRVT14_OA2BB2_V1_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1050                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1051                     SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1052                     SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1053                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1054                     SAEDRVT14_ND2_6 saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1055                     SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1056                     SAEDRVT14_AO221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1057                     SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1058                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1059                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1060                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1061                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1062                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1063                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1064                     SAEDRVT14_OR2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1065                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1066                     SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1067                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1068                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1069                     SAEDRVT14_OA2BB2_V1_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1070                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1071                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1072                     SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1073                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1074                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1075                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1076                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1077                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1078                     SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U1079                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1080                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1081                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1082                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1083                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1084                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1085                     SAEDRVT14_OAI221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.154400  
+U1086                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1087                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1088                     SAEDRVT14_INV_S_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1089                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1090                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1091                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1092                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1093                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1094                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1095                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1096                     SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1097                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1098                     SAEDRVT14_AOI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1099                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1100                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1101                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1102                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1103                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1104                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1105                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1106                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1107                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1108                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1109                     SAEDRVT14_OAI221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.154400  
+U1110                     SAEDRVT14_OA2BB2_V1_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1111                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1112                     SAEDRVT14_NR3_3 saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1113                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1114                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1115                     SAEDRVT14_OR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.799200  
+U1116                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1117                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1118                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1119                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1120                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1121                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1122                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1123                     SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1124                     SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1125                     SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1126                     SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1127                     SAEDRVT14_BUF_S_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1128                     SAEDRVT14_ND2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1129                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1130                     SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1131                     SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1132                     SAEDRVT14_ND2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1133                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1134                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1135                     SAEDRVT14_EO2_3 saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1136                     SAEDRVT14_BUF_3 saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1137                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1138                     SAEDRVT14_ND2_1P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1139                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1140                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1141                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1142                     SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1143                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1144                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1145                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1146                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1147                     SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1148                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1149                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1150                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1151                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1152                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1153                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1154                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1155                     SAEDRVT14_NR2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1156                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1157                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1158                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1159                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1160                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1161                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1162                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1163                     SAEDRVT14_INV_3 saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1164                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1165                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1166                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1167                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1168                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1169                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1170                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1171                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1172                     SAEDRVT14_NR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1173                     SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U1174                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1175                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1176                     SAEDRVT14_AN2_MM_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1177                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1178                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1179                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1180                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1181                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1182                     SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1183                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1184                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1185                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1186                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1187                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1188                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1189                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1190                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1191                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1192                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1193                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1194                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1195                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1196                     SAEDRVT14_BUF_3 saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1197                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1198                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1199                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1200                     SAEDRVT14_BUF_S_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1201                     SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1202                     SAEDRVT14_AN4_8 saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1203                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1204                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1205                     SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1206                     SAEDRVT14_ND3B_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1207                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1208                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1209                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1210                     SAEDRVT14_ND2_6 saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1211                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1212                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1213                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1214                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1215                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1216                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1217                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1218                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1219                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1220                     SAEDRVT14_NR2_MM_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U1221                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1222                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1223                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1224                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1225                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1226                     SAEDRVT14_OR2_MM_1P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1227                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1228                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1229                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1230                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1231                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1232                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1233                     SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1234                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1235                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1236                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1237                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1238                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1239                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1240                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1241                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1242                     SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1243                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1244                     SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1245                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1246                     SAEDRVT14_AN2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1247                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1248                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1249                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1250                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1251                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1252                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1253                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1254                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1255                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1256                     SAEDRVT14_AO221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1257                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1258                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1259                     SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U1260                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1261                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1262                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1263                     SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1264                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1265                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1266                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1267                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1268                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1269                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1270                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1271                     SAEDRVT14_OAI22_3
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1272                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1273                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1274                     SAEDRVT14_BUF_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1275                     SAEDRVT14_ND2_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.554000  
+U1276                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1277                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1278                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1279                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1280                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1281                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1282                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1283                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1284                     SAEDRVT14_AO22_0P75
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1285                     SAEDRVT14_AN2_2 saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1286                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1287                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1288                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1289                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1290                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1291                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1292                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1293                     SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1294                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1295                     SAEDRVT14_EN2_3 saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1296                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1297                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1298                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1299                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1300                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1301                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1302                     SAEDRVT14_BUF_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1303                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1304                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1305                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1306                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1307                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1308                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1309                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1310                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1311                     SAEDRVT14_OR2_MM_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.509600  
+U1312                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1313                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1314                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1315                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1316                     SAEDRVT14_EO2_3 saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1317                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1318                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1319                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1320                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1321                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1322                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1323                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1324                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1325                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1326                     SAEDRVT14_ND2_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1327                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1328                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1329                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1330                     SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1331                     SAEDRVT14_ND2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1332                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1333                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1334                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1335                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1336                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1337                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1338                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1339                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1340                     SAEDRVT14_AN2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1341                     SAEDRVT14_ND2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1342                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1343                     SAEDRVT14_ND2_CDC_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1344                     SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1345                     SAEDRVT14_ND2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1346                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1347                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1348                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1349                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1350                     SAEDRVT14_INV_2 saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1351                     SAEDRVT14_ND2_6 saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1352                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1353                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1354                     SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1355                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1356                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1357                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1358                     SAEDRVT14_AN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1359                     SAEDRVT14_AN4_8 saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1360                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1361                     SAEDRVT14_AN2_MM_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1362                     SAEDRVT14_OR3_4 saed14rvt_base_tt0p8v25c
+                                                          0.621600  
+U1363                     SAEDRVT14_ND2_5 saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1364                     SAEDRVT14_ND2_8 saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1365                     SAEDRVT14_ND2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1366                     SAEDRVT14_INV_S_5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1367                     SAEDRVT14_NR2_MM_10
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1368                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1369                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1370                     SAEDRVT14_EN2_3 saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1371                     SAEDRVT14_AO221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1372                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1373                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1374                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1375                     SAEDRVT14_NR2_MM_6
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1376                     SAEDRVT14_EN2_3 saed14rvt_base_tt0p8v25c
+                                                          0.710400  
+U1377                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1378                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1379                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1380                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1381                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1382                     SAEDRVT14_INV_S_16
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1383                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1384                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1385                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1386                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1387                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1388                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1389                     SAEDRVT14_AO221_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.577200  
+U1390                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1391                     SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U1392                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1393                     SAEDRVT14_AN4_8 saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1394                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1395                     SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U1396                     SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U1397                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1398                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1399                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1400                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1401                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1402                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1403                     SAEDRVT14_AO22_0P75
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1404                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1405                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1406                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1407                     SAEDRVT14_AN2_8 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1408                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1409                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1410                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1411                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1412                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1413                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1414                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1415                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1416                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1417                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1418                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1419                     SAEDRVT14_NR2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+U1420                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1421                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1422                     SAEDRVT14_NR2_MM_8
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.843600  
+U1423                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1424                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1425                     SAEDRVT14_INV_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1426                     SAEDRVT14_BUF_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.287600  
+U1427                     SAEDRVT14_OR2_4 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1428                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1429                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1430                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1431                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1432                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1433                     SAEDRVT14_AO22_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.754800  
+U1434                     SAEDRVT14_OR2_MM_12
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  
+U1435                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1436                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1437                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1438                     SAEDRVT14_AO221_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.932400  
+U1439                     SAEDRVT14_AO22_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1440                     SAEDRVT14_AO22_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1441                     SAEDRVT14_AO22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  
+U1442                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1443                     SAEDRVT14_ND2_MM_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  
+U1444                     SAEDRVT14_INV_S_20
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.021200  
+U1445                     SAEDRVT14_EN2_1 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1446                     SAEDRVT14_EN2_1 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1447                     SAEDRVT14_EN2_1 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1448                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1449                     SAEDRVT14_EN2_1 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1450                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1451                     SAEDRVT14_EN2_1 saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1452                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1453                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1454                     SAEDRVT14_NR2_MM_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1455                     SAEDRVT14_OR4_2 saed14rvt_base_tt0p8v25c
+                                                          0.444000  
+U1456                     SAEDRVT14_AO22_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.532800  
+U1457                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1458                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1459                     SAEDRVT14_BUF_3 saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1460                     SAEDRVT14_BUF_3 saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1461                     SAEDRVT14_BUF_S_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1462                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1463                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1464                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1465                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1466                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1467                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1468                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1469                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1470                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1471                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1472                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1473                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1474                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1475                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1476                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1477                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1478                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1479                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1480                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1481                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1482                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1483                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1484                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1485                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1486                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1487                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1488                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1489                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1490                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1491                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1492                     SAEDRVT14_BUF_3 saed14rvt_base_tt0p8v25c
+                                                          0.355200  
+U1493                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1494                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1495                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1496                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1497                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1498                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1499                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1500                     SAEDRVT14_EN2_4 saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1501                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1502                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1503                     SAEDRVT14_INV_4 saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1504                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1505                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1506                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1507                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1508                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1509                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1510                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1511                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1512                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1513                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1514                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1515                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1516                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1517                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1518                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1519                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1520                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1521                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1522                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1523                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1524                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1525                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1526                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1527                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1528                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1529                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1530                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1531                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1532                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1533                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1534                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1535                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1536                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1537                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1538                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1539                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1540                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1541                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1542                     SAEDRVT14_NR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.222000  
+U1543                     SAEDRVT14_OR2_MM_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1544                     SAEDRVT14_INV_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.177600  
+U1545                     SAEDRVT14_BUF_CDC_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.310800  
+U1546                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1547                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1548                     SAEDRVT14_BUF_S_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.266400  
+U1549                     SAEDRVT14_ADDH_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  mo, r
+U1550                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1551                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1552                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1553                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1554                     SAEDRVT14_INV_6 saed14rvt_base_tt0p8v25c
+                                                          0.399600  
+U1555                     SAEDRVT14_OAI22_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.888000  
+U1556                     SAEDRVT14_EO2_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.488400  
+add_226/U1_1_2            SAEDRVT14_ADDH_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  mo, r
+add_226/U1_1_3            SAEDRVT14_ADDH_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  mo, r
+add_226/U1_1_4            SAEDRVT14_ADDH_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          0.666000  mo, r
+encode_cnt_reg[0]         SAEDRVT14_FDPRBQ_V2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  n
+encode_cnt_reg[1]         SAEDRVT14_FDPRBQ_V2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  n
+encode_cnt_reg[2]         SAEDRVT14_FDPRBQ_V2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  n
+encode_cnt_reg[3]         SAEDRVT14_FDPRBQ_V2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  n
+encode_cnt_reg[4]         SAEDRVT14_FDPRBSBQ_V2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.420800  n
+encode_cnt_reg[5]         SAEDRVT14_FDPRBQ_V2_4
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.198800  n
+mult0                     gf256_mult_0                    100.565998
+                                                                    h
+mult1                     gf256_mult_7                    105.361198
+                                                                    h
+mult2                     gf256_mult_6                    115.439998
+                                                                    h
+mult3                     gf256_mult_5                    120.279598
+                                                                    h
+mult4                     gf256_mult_4                    123.653999
+                                                                    h
+mult5                     gf256_mult_3                    132.267599
+                                                                    h
+mult6                     gf256_mult_2                    147.407999
+                                                                    h
+mult7                     gf256_mult_1                    141.769199
+                                                                    h
+parity_symbols_reg[0][0]  SAEDRVT14_FDPRBQ_V2_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][2]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][4]  SAEDRVT14_FDPRBQ_V2_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][5]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][6]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[0][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[1][0]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[1][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[1][2]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[1][3]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[1][4]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[1][5]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[1][6]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[1][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][0]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][2]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][4]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][5]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[2][6]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[2][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[3][0]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[3][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[3][2]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[3][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[3][4]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[3][5]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[3][6]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[3][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[4][0]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[4][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[4][2]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[4][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[4][4]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[4][5]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[4][6]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[4][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[5][0]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[5][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[5][2]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[5][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[5][4]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[5][5]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[5][6]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[5][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[6][0]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[6][1]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[6][2]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[6][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[6][4]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[6][5]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[6][6]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[6][7]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[7][0]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[7][1]  SAEDRVT14_FDPRBQ_V2LP_0P5
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[7][2]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[7][3]  SAEDRVT14_FDPRBQ_V2LP_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+parity_symbols_reg[7][4]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[7][5]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[7][6]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+parity_symbols_reg[7][7]  SAEDRVT14_FDPRB_V3_2
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.598400  n
+state_reg[0]              SAEDRVT14_FDPRBQ_V2_1
+                                          saed14rvt_base_tt0p8v25c
+                                                          1.065600  n
+--------------------------------------------------------------------------------
+Total 1092 cells                                          1897.300781
+1

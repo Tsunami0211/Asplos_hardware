@@ -1,0 +1,377 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : hrs_encoder_68_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:12:34 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: rs128_final_inst_1/parity_symbol_2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs128_final_inst_1/parity_symbol_3_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_2_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  rs128_final_inst_1/parity_symbol_2_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  rs128_final_inst_1/U32/X (SAEDRVT14_EN2_1)              0.03       0.08 r
+  rs128_final_inst_1/U6/X (SAEDRVT14_NR2_MM_3)            0.02       0.09 f
+  rs128_final_inst_1/parity_symbol_3_reg[0]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.09 f
+  data arrival time                                                  0.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_3_reg[0]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: layer1_start_2_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1_start_2_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_2_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  layer1_start_2_reg/Q (SAEDRVT14_FDPRBQ_V2_1)            0.06       0.06 f
+  U2239/X (SAEDRVT14_AO21_1)                              0.03       0.09 f
+  layer1_start_2_reg/D (SAEDRVT14_FDPRBQ_V2_1)            0.00       0.09 f
+  data arrival time                                                  0.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_2_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: layer1_start_1_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1_start_1_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_1_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  layer1_start_1_reg/Q (SAEDRVT14_FDPRBQ_V2_1)            0.06       0.06 f
+  U2238/X (SAEDRVT14_AO21_1)                              0.03       0.09 f
+  layer1_start_1_reg/D (SAEDRVT14_FDPRBQ_V2_1)            0.00       0.09 f
+  data arrival time                                                  0.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_1_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: layer1_start_0_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1_start_0_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_0_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  layer1_start_0_reg/Q (SAEDRVT14_FDPRBQ_V2_1)            0.06       0.06 f
+  U2237/X (SAEDRVT14_AO21_1)                              0.03       0.09 f
+  layer1_start_0_reg/D (SAEDRVT14_FDPRBQ_V2_1)            0.00       0.09 f
+  data arrival time                                                  0.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_0_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: layer1_start_3_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: layer1_start_3_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_3_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  layer1_start_3_reg/Q (SAEDRVT14_FDPRBQ_V2_1)            0.06       0.06 f
+  U2236/X (SAEDRVT14_AO21_1)                              0.03       0.09 f
+  layer1_start_3_reg/D (SAEDRVT14_FDPRBQ_V2_1)            0.00       0.09 f
+  data arrival time                                                  0.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  layer1_start_3_reg/CK (SAEDRVT14_FDPRBQ_V2_1)           0.00       0.00 r
+  library hold time                                       0.01       0.01
+  data required time                                                 0.01
+  --------------------------------------------------------------------------
+  data required time                                                 0.01
+  data arrival time                                                 -0.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: rs128_inst_2/parity_symbol_2_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs128_inst_2/parity_symbol_3_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_inst_2/parity_symbol_2_reg[3]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  rs128_inst_2/parity_symbol_2_reg[3]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  rs128_inst_2/U59/X (SAEDRVT14_EN2_1)                    0.03       0.08 r
+  rs128_inst_2/U103/X (SAEDRVT14_NR2_MM_1)                0.02       0.10 f
+  rs128_inst_2/parity_symbol_3_reg[3]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.10 f
+  data arrival time                                                  0.10
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_inst_2/parity_symbol_3_reg[3]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: rs128_final_inst_1/parity_symbol_2_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs128_final_inst_1/parity_symbol_3_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_2_reg[3]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  rs128_final_inst_1/parity_symbol_2_reg[3]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  rs128_final_inst_1/U55/X (SAEDRVT14_EN2_1)              0.03       0.08 r
+  rs128_final_inst_1/U104/X (SAEDRVT14_NR2_MM_1)          0.02       0.10 f
+  rs128_final_inst_1/parity_symbol_3_reg[3]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.10 f
+  data arrival time                                                  0.10
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_3_reg[3]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: rs128_final_inst_2/parity_symbol_2_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs128_final_inst_2/parity_symbol_3_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_2/parity_symbol_2_reg[3]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  rs128_final_inst_2/parity_symbol_2_reg[3]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  rs128_final_inst_2/U105/X (SAEDRVT14_EN2_1)             0.03       0.08 r
+  rs128_final_inst_2/U104/X (SAEDRVT14_NR2_MM_1)          0.02       0.10 f
+  rs128_final_inst_2/parity_symbol_3_reg[3]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.10 f
+  data arrival time                                                  0.10
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_2/parity_symbol_3_reg[3]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: rs128_final_inst_1/parity_symbol_0_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs128_final_inst_1/parity_symbol_1_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_0_reg[1]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  rs128_final_inst_1/parity_symbol_0_reg[1]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  rs128_final_inst_1/U73/X (SAEDRVT14_EN2_1)              0.03       0.08 r
+  rs128_final_inst_1/U107/X (SAEDRVT14_NR2_MM_1)          0.02       0.10 f
+  rs128_final_inst_1/parity_symbol_1_reg[1]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.10 f
+  data arrival time                                                  0.10
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_1_reg[1]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+  Startpoint: rs128_final_inst_1/parity_symbol_0_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: rs128_final_inst_1/parity_symbol_1_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hrs_encoder_68_64  8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_0_reg[2]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  rs128_final_inst_1/parity_symbol_0_reg[2]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  rs128_final_inst_1/U67/X (SAEDRVT14_EN2_1)              0.03       0.08 r
+  rs128_final_inst_1/U110/X (SAEDRVT14_NR2_MM_1)          0.02       0.10 f
+  rs128_final_inst_1/parity_symbol_1_reg[2]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.10 f
+  data arrival time                                                  0.10
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  rs128_final_inst_1/parity_symbol_1_reg[2]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.00 r
+  library hold time                                       0.02       0.02
+  data required time                                                 0.02
+  --------------------------------------------------------------------------
+  data required time                                                 0.02
+  data arrival time                                                 -0.10
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.08
+
+
+1

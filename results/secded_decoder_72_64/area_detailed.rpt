@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : area
+Design : secded_decoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:28:38 2025
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_tt0p8v25c (File: /home/net/local/SAED14nm_EDK_08_2024/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_tt0p8v25c.db)
+
+Number of ports:                          146
+Number of nets:                           337
+Number of cells:                          266
+Number of combinational cells:            266
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         38
+Number of references:                      27
+
+Combinational area:                123.742799
+Buf/Inv area:                        7.281600
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:             110.933546
+
+Total cell area:                   123.742799
+Total area:                        234.676345
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+secded_decoder_72_64               123.7428    100.0  123.7428     0.0000  0.0000  secded_decoder_72_64
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 123.7428     0.0000  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+  No DW parts to report!
+
+Total synthetic cell area:              0.0000  0.0%  
+
+1

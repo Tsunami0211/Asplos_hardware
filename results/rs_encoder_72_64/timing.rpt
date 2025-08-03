@@ -1,0 +1,735 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : rs_encoder_72_64
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:20:54 2025
+****************************************
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[5][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 r
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 r
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.07 f
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 r
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.01       0.09 r
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.11 r
+  U700/X (SAEDRVT14_OR2_MM_16)                            0.02       0.13 r
+  U666/X (SAEDRVT14_NR2_MM_16)                            0.01       0.13 f
+  U668/X (SAEDRVT14_NR2_MM_12)                            0.01       0.14 r
+  U1085/X (SAEDRVT14_OAI221_2)                            0.03       0.17 f
+  U232/X (SAEDRVT14_OR4_2)                                0.03       0.19 f
+  U1348/X (SAEDRVT14_OR2_4)                               0.02       0.21 f
+  U1349/X (SAEDRVT14_OR3_4)                               0.02       0.23 f
+  U1500/X (SAEDRVT14_EN2_4)                               0.02       0.25 f
+  U1147/X (SAEDRVT14_INV_12)                              0.01       0.26 r
+  mult5/a[5] (gf256_mult_3)                               0.00       0.26 r
+  mult5/mult_278/A[5] (gf256_mult_3_DW02_mult_0_DW02_mult_4)
+                                                          0.00       0.26 r
+  mult5/mult_278/U9/X (SAEDRVT14_INV_S_16)                0.01       0.27 f
+  mult5/mult_278/U40/X (SAEDRVT14_NR2_MM_0P5)             0.04       0.30 r
+  mult5/mult_278/S2_5_5/S (SAEDRVT14_ADDF_V1_2)           0.04       0.34 r
+  mult5/mult_278/S2_6_4/S (SAEDRVT14_ADDF_V2_2)           0.02       0.36 r
+  mult5/mult_278/S4_3/S (SAEDRVT14_ADDF_V2_2)             0.03       0.39 r
+  mult5/mult_278/U50/X (SAEDRVT14_EO2_4)                  0.03       0.43 r
+  mult5/mult_278/FS_1/A[8] (gf256_mult_3_DW01_add_0_DW01_add_4)
+                                                          0.00       0.43 r
+  mult5/mult_278/FS_1/U9/X (SAEDRVT14_NR2_MM_8)           0.01       0.44 f
+  mult5/mult_278/FS_1/U10/X (SAEDRVT14_ND2B_4)            0.03       0.47 f
+  mult5/mult_278/FS_1/U3/X (SAEDRVT14_EN2_4)              0.03       0.50 f
+  mult5/mult_278/FS_1/U2/X (SAEDRVT14_INV_12)             0.01       0.50 r
+  mult5/mult_278/FS_1/SUM[8] (gf256_mult_3_DW01_add_0_DW01_add_4)
+                                                          0.00       0.50 r
+  mult5/mult_278/PRODUCT[10] (gf256_mult_3_DW02_mult_0_DW02_mult_4)
+                                                          0.00       0.50 r
+  mult5/U5/X (SAEDRVT14_INV_S_20)                         0.01       0.51 f
+  mult5/U16/X (SAEDRVT14_EO4_2)                           0.04       0.55 f
+  mult5/result[6] (gf256_mult_3)                          0.00       0.55 f
+  U1266/X (SAEDRVT14_EN2_4)                               0.03       0.58 f
+  U927/X (SAEDRVT14_NR2_MM_10)                            0.01       0.58 r
+  parity_symbols_reg[5][6]/D (SAEDRVT14_FDPRB_V3_2)       0.00       0.58 r
+  data arrival time                                                  0.58
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[5][6]/CK (SAEDRVT14_FDPRB_V3_2)      0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[5][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 f
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 f
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.08 r
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 f
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.02       0.10 f
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.12 f
+  U751/X (SAEDRVT14_OR2_MM_20)                            0.02       0.14 f
+  U661/X (SAEDRVT14_INV_S_16)                             0.01       0.15 r
+  U1049/X (SAEDRVT14_OA2BB2_V1_4)                         0.02       0.17 f
+  U1206/X (SAEDRVT14_ND3B_4)                              0.02       0.19 r
+  U977/X (SAEDRVT14_OR2_4)                                0.01       0.20 r
+  U1320/X (SAEDRVT14_OR3_4)                               0.01       0.21 r
+  U1362/X (SAEDRVT14_OR3_4)                               0.02       0.23 r
+  U788/X (SAEDRVT14_NR2_MM_8)                             0.01       0.24 f
+  U1189/X (SAEDRVT14_EN2_4)                               0.02       0.26 f
+  U750/X (SAEDRVT14_INV_S_16)                             0.01       0.27 r
+  U672/X (SAEDRVT14_INV_S_9)                              0.01       0.28 f
+  mult5/a[3] (gf256_mult_3)                               0.00       0.28 f
+  mult5/mult_278/A[3] (gf256_mult_3_DW02_mult_0_DW02_mult_4)
+                                                          0.00       0.28 f
+  mult5/mult_278/U8/X (SAEDRVT14_INV_S_9)                 0.01       0.29 r
+  mult5/mult_278/U14/X (SAEDRVT14_NR2_MM_8)               0.01       0.30 f
+  mult5/mult_278/S2_3_5/S (SAEDRVT14_ADDF_V1_2)           0.03       0.33 f
+  mult5/mult_278/S2_4_4/S (SAEDRVT14_ADDF_V2_2)           0.02       0.35 f
+  mult5/mult_278/S2_5_3/S (SAEDRVT14_ADDF_V2_2)           0.02       0.37 f
+  mult5/mult_278/S2_6_2/S (SAEDRVT14_ADDF_V2_2)           0.02       0.40 f
+  mult5/mult_278/S4_1/S (SAEDRVT14_ADDF_V2_2)             0.02       0.42 f
+  mult5/mult_278/S14_8/S (SAEDRVT14_ADDF_V2_2)            0.02       0.44 f
+  mult5/mult_278/FS_1/A[6] (gf256_mult_3_DW01_add_0_DW01_add_4)
+                                                          0.00       0.44 f
+  mult5/mult_278/FS_1/SUM[6] (gf256_mult_3_DW01_add_0_DW01_add_4)
+                                                          0.00       0.44 f
+  mult5/mult_278/PRODUCT[8] (gf256_mult_3_DW02_mult_0_DW02_mult_4)
+                                                          0.00       0.44 f
+  mult5/U3/X (SAEDRVT14_BUF_10)                           0.02       0.46 f
+  mult5/U15/X (SAEDRVT14_INV_S_10)                        0.01       0.47 r
+  mult5/U8/X (SAEDRVT14_EO3_4)                            0.06       0.52 f
+  mult5/U6/X (SAEDRVT14_EN3_3)                            0.03       0.55 r
+  mult5/result[4] (gf256_mult_3)                          0.00       0.55 r
+  U1408/X (SAEDRVT14_EN2_4)                               0.02       0.57 f
+  U673/X (SAEDRVT14_NR2_MM_10)                            0.01       0.58 r
+  parity_symbols_reg[5][4]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.58 r
+  data arrival time                                                  0.58
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[5][4]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.01       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[7][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 f
+  U980/X (SAEDRVT14_BUF_20)                               0.01       0.07 f
+  U1118/X (SAEDRVT14_INV_S_20)                            0.01       0.08 r
+  U1243/X (SAEDRVT14_OR2_MM_20)                           0.02       0.09 r
+  U973/X (SAEDRVT14_AN2B_MM_12)                           0.02       0.12 f
+  U849/X (SAEDRVT14_INV_12)                               0.01       0.12 r
+  U892/X (SAEDRVT14_OR2_MM_20)                            0.01       0.14 r
+  U1034/X (SAEDRVT14_INV_S_20)                            0.01       0.14 f
+  U688/X (SAEDRVT14_BUF_20)                               0.01       0.16 f
+  U1410/X (SAEDRVT14_AO221_4)                             0.03       0.18 f
+  U366/X (SAEDRVT14_OR4_2)                                0.03       0.21 f
+  U1327/X (SAEDRVT14_OR2_4)                               0.02       0.22 f
+  U1328/X (SAEDRVT14_OR3_4)                               0.02       0.24 f
+  U1496/X (SAEDRVT14_EN2_4)                               0.03       0.27 r
+  U1201/X (SAEDRVT14_INV_12)                              0.01       0.28 f
+  mult7/a[1] (gf256_mult_1)                               0.00       0.28 f
+  mult7/mult_278/A[1] (gf256_mult_1_DW02_mult_0_DW02_mult_6)
+                                                          0.00       0.28 f
+  mult7/mult_278/U8/X (SAEDRVT14_INV_S_16)                0.01       0.28 r
+  mult7/mult_278/U4/X (SAEDRVT14_NR2_MM_10)               0.01       0.29 f
+  mult7/mult_278/S3_2_6/S (SAEDRVT14_ADDF_V2_2)           0.04       0.33 f
+  mult7/mult_278/S2_3_5/S (SAEDRVT14_ADDF_V2_2)           0.02       0.35 f
+  mult7/mult_278/S2_4_4/S (SAEDRVT14_ADDF_V2_2)           0.02       0.37 f
+  mult7/mult_278/S2_5_3/S (SAEDRVT14_ADDF_V2_2)           0.02       0.39 f
+  mult7/mult_278/S2_6_2/S (SAEDRVT14_ADDF_V2_2)           0.02       0.41 f
+  mult7/mult_278/S4_1/S (SAEDRVT14_ADDF_V2_2)             0.03       0.44 f
+  mult7/mult_278/U30/X (SAEDRVT14_EN2_4)                  0.03       0.48 f
+  mult7/mult_278/FS_1/A[6] (gf256_mult_1_DW01_add_0_DW01_add_6)
+                                                          0.00       0.48 f
+  mult7/mult_278/FS_1/SUM[6] (gf256_mult_1_DW01_add_0_DW01_add_6)
+                                                          0.00       0.48 f
+  mult7/mult_278/PRODUCT[8] (gf256_mult_1_DW02_mult_0_DW02_mult_6)
+                                                          0.00       0.48 f
+  mult7/U2/X (SAEDRVT14_INV_S_10)                         0.01       0.49 r
+  mult7/U12/X (SAEDRVT14_EN3_3)                           0.02       0.51 r
+  mult7/U19/X (SAEDRVT14_EO4_2)                           0.04       0.55 f
+  mult7/result[2] (gf256_mult_1)                          0.00       0.55 f
+  U1301/X (SAEDRVT14_EN2_4)                               0.03       0.58 f
+  U787/X (SAEDRVT14_NR2_MM_10)                            0.01       0.58 r
+  parity_symbols_reg[7][2]/D (SAEDRVT14_FDPRB_V3_2)       0.00       0.58 r
+  data arrival time                                                  0.58
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[7][2]/CK (SAEDRVT14_FDPRB_V3_2)      0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[4][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 r
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 r
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.07 f
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 r
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.01       0.09 r
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.11 r
+  U700/X (SAEDRVT14_OR2_MM_16)                            0.02       0.13 r
+  U666/X (SAEDRVT14_NR2_MM_16)                            0.01       0.13 f
+  U668/X (SAEDRVT14_NR2_MM_12)                            0.01       0.14 r
+  U1085/X (SAEDRVT14_OAI221_2)                            0.03       0.17 f
+  U232/X (SAEDRVT14_OR4_2)                                0.03       0.19 f
+  U1348/X (SAEDRVT14_OR2_4)                               0.02       0.21 f
+  U1349/X (SAEDRVT14_OR3_4)                               0.02       0.23 f
+  U1500/X (SAEDRVT14_EN2_4)                               0.03       0.25 r
+  U1147/X (SAEDRVT14_INV_12)                              0.01       0.26 f
+  U909/X (SAEDRVT14_INV_ECO_4)                            0.01       0.28 r
+  U1134/X (SAEDRVT14_INV_S_20)                            0.01       0.29 f
+  mult4/a[5] (gf256_mult_4)                               0.00       0.29 f
+  mult4/mult_278/A[5] (gf256_mult_4_DW02_mult_0_DW02_mult_3)
+                                                          0.00       0.29 f
+  mult4/mult_278/U33/X (SAEDRVT14_INV_S_20)               0.01       0.31 r
+  mult4/mult_278/U47/X (SAEDRVT14_NR2_MM_4)               0.01       0.32 f
+  mult4/mult_278/S2_5_4/S (SAEDRVT14_ADDF_V1_2)           0.03       0.35 f
+  mult4/mult_278/S2_6_3/S (SAEDRVT14_ADDF_V1_2)           0.03       0.38 f
+  mult4/mult_278/S4_2/S (SAEDRVT14_ADDF_V2_2)             0.02       0.40 f
+  mult4/mult_278/S14_9/S (SAEDRVT14_ADDF_V2_2)            0.03       0.43 f
+  mult4/mult_278/FS_1/A[7] (gf256_mult_4_DW01_add_0_DW01_add_3)
+                                                          0.00       0.43 f
+  mult4/mult_278/FS_1/U11/X (SAEDRVT14_EO2_3)             0.03       0.46 f
+  mult4/mult_278/FS_1/SUM[7] (gf256_mult_4_DW01_add_0_DW01_add_3)
+                                                          0.00       0.46 f
+  mult4/mult_278/PRODUCT[9] (gf256_mult_4_DW02_mult_0_DW02_mult_3)
+                                                          0.00       0.46 f
+  mult4/U8/X (SAEDRVT14_BUF_16)                           0.02       0.47 f
+  mult4/U3/X (SAEDRVT14_EO2_2)                            0.03       0.50 r
+  mult4/U15/X (SAEDRVT14_EN2_4)                           0.02       0.52 r
+  mult4/U12/X (SAEDRVT14_EN3_3)                           0.03       0.55 f
+  mult4/result[5] (gf256_mult_4)                          0.00       0.55 f
+  U915/X (SAEDRVT14_ND2_6)                                0.01       0.57 r
+  U670/X (SAEDRVT14_ND2_8)                                0.01       0.58 f
+  U669/X (SAEDRVT14_NR2_MM_10)                            0.01       0.58 r
+  parity_symbols_reg[4][5]/D (SAEDRVT14_FDPRB_V3_2)       0.00       0.58 r
+  data arrival time                                                  0.58
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[4][5]/CK (SAEDRVT14_FDPRB_V3_2)      0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[6][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 r
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 r
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.07 f
+  U1243/X (SAEDRVT14_OR2_MM_20)                           0.02       0.09 f
+  U973/X (SAEDRVT14_AN2B_MM_12)                           0.03       0.12 r
+  U745/X (SAEDRVT14_INV_S_20)                             0.01       0.13 f
+  U758/X (SAEDRVT14_OR2_MM_20)                            0.02       0.14 f
+  U768/X (SAEDRVT14_INV_S_20)                             0.01       0.16 r
+  U767/X (SAEDRVT14_INV_12)                               0.01       0.16 f
+  U1392/X (SAEDRVT14_OAI22_4)                             0.01       0.18 r
+  U1137/X (SAEDRVT14_NR2_MM_6)                            0.01       0.19 f
+  U948/X (SAEDRVT14_ND2_8)                                0.01       0.20 r
+  U959/X (SAEDRVT14_NR2_MM_16)                            0.01       0.21 f
+  U1359/X (SAEDRVT14_AN4_8)                               0.02       0.22 f
+  U840/X (SAEDRVT14_NR2_MM_16)                            0.01       0.23 r
+  U839/X (SAEDRVT14_INV_S_16)                             0.01       0.24 f
+  U707/X (SAEDRVT14_ND2_MM_10)                            0.01       0.25 r
+  mult6/a[4] (gf256_mult_2)                               0.00       0.25 r
+  mult6/mult_278/A[4] (gf256_mult_2_DW02_mult_0_DW02_mult_5)
+                                                          0.00       0.25 r
+  mult6/mult_278/U7/X (SAEDRVT14_INV_S_16)                0.01       0.25 f
+  mult6/mult_278/U20/X (SAEDRVT14_NR2_MM_16)              0.01       0.26 r
+  mult6/mult_278/S3_4_6/S (SAEDRVT14_ADDF_V2_2)           0.04       0.30 r
+  mult6/mult_278/S2_5_5/S (SAEDRVT14_ADDF_V2_2)           0.02       0.32 r
+  mult6/mult_278/S2_6_4/S (SAEDRVT14_ADDF_V2_2)           0.03       0.35 r
+  mult6/mult_278/S4_3/S (SAEDRVT14_ADDF_V2_2)             0.03       0.38 r
+  mult6/mult_278/U3/X (SAEDRVT14_EN2_4)                   0.03       0.41 r
+  mult6/mult_278/FS_1/A[8] (gf256_mult_2_DW01_add_0_DW01_add_5)
+                                                          0.00       0.41 r
+  mult6/mult_278/FS_1/U2/X (SAEDRVT14_NR2_MM_10)          0.01       0.42 f
+  mult6/mult_278/FS_1/U38/X (SAEDRVT14_ND2B_4)            0.03       0.44 f
+  mult6/mult_278/FS_1/U21/X (SAEDRVT14_EN2_4)             0.03       0.47 f
+  mult6/mult_278/FS_1/U19/X (SAEDRVT14_INV_12)            0.01       0.48 r
+  mult6/mult_278/FS_1/SUM[8] (gf256_mult_2_DW01_add_0_DW01_add_5)
+                                                          0.00       0.48 r
+  mult6/mult_278/PRODUCT[10] (gf256_mult_2_DW02_mult_0_DW02_mult_5)
+                                                          0.00       0.48 r
+  mult6/U7/X (SAEDRVT14_EN2_4)                            0.03       0.51 f
+  mult6/U13/X (SAEDRVT14_EN3_3)                           0.04       0.55 f
+  mult6/result[2] (gf256_mult_2)                          0.00       0.55 f
+  U1249/X (SAEDRVT14_EN2_4)                               0.02       0.57 r
+  U1288/X (SAEDRVT14_AN2_4)                               0.01       0.59 r
+  parity_symbols_reg[6][2]/D (SAEDRVT14_FDPRB_V3_2)       0.00       0.59 r
+  data arrival time                                                  0.59
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[6][2]/CK (SAEDRVT14_FDPRB_V3_2)      0.00       0.56 r
+  library setup time                                      0.00       0.56
+  data required time                                                 0.56
+  --------------------------------------------------------------------------
+  data required time                                                 0.56
+  data arrival time                                                 -0.59
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[6][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 f
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 f
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.08 r
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 f
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.02       0.10 f
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.12 f
+  U751/X (SAEDRVT14_OR2_MM_20)                            0.02       0.14 f
+  U661/X (SAEDRVT14_INV_S_16)                             0.01       0.15 r
+  U1049/X (SAEDRVT14_OA2BB2_V1_4)                         0.02       0.17 f
+  U1206/X (SAEDRVT14_ND3B_4)                              0.02       0.19 r
+  U977/X (SAEDRVT14_OR2_4)                                0.01       0.20 r
+  U1320/X (SAEDRVT14_OR3_4)                               0.01       0.21 r
+  U1362/X (SAEDRVT14_OR3_4)                               0.02       0.23 r
+  U788/X (SAEDRVT14_NR2_MM_8)                             0.01       0.24 f
+  U1189/X (SAEDRVT14_EN2_4)                               0.02       0.26 f
+  U750/X (SAEDRVT14_INV_S_16)                             0.01       0.27 r
+  U1231/X (SAEDRVT14_INV_S_20)                            0.01       0.28 f
+  mult6/a[3] (gf256_mult_2)                               0.00       0.28 f
+  mult6/mult_278/A[3] (gf256_mult_2_DW02_mult_0_DW02_mult_5)
+                                                          0.00       0.28 f
+  mult6/mult_278/U15/X (SAEDRVT14_INV_S_20)               0.01       0.28 r
+  mult6/mult_278/U14/X (SAEDRVT14_NR2_MM_12)              0.00       0.29 f
+  mult6/mult_278/S3_3_6/S (SAEDRVT14_ADDF_V1_1)           0.03       0.32 f
+  mult6/mult_278/S2_4_5/S (SAEDRVT14_ADDF_V2_2)           0.02       0.34 f
+  mult6/mult_278/S2_5_4/S (SAEDRVT14_ADDF_V2_2)           0.02       0.37 f
+  mult6/mult_278/S2_6_3/S (SAEDRVT14_ADDF_V2_2)           0.02       0.39 f
+  mult6/mult_278/S4_2/S (SAEDRVT14_ADDF_V2_2)             0.02       0.41 f
+  mult6/mult_278/S14_9/S (SAEDRVT14_ADDF_V2_2)            0.03       0.44 f
+  mult6/mult_278/FS_1/A[7] (gf256_mult_2_DW01_add_0_DW01_add_5)
+                                                          0.00       0.44 f
+  mult6/mult_278/FS_1/U28/X (SAEDRVT14_EO2_3)             0.03       0.47 f
+  mult6/mult_278/FS_1/SUM[7] (gf256_mult_2_DW01_add_0_DW01_add_5)
+                                                          0.00       0.47 f
+  mult6/mult_278/U58/X (SAEDRVT14_BUF_16)                 0.02       0.48 f
+  mult6/mult_278/PRODUCT[9] (gf256_mult_2_DW02_mult_0_DW02_mult_5)
+                                                          0.00       0.48 f
+  mult6/U9/X (SAEDRVT14_EO3_4)                            0.03       0.51 f
+  mult6/U12/X (SAEDRVT14_EN3_3)                           0.03       0.54 r
+  mult6/result[1] (gf256_mult_2)                          0.00       0.54 r
+  U1254/X (SAEDRVT14_EN2_4)                               0.03       0.57 f
+  U1253/X (SAEDRVT14_NR2_MM_8)                            0.01       0.58 r
+  parity_symbols_reg[6][1]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.58 r
+  data arrival time                                                  0.58
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[6][1]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.01       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[1][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 r
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 r
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.07 f
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 r
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.01       0.09 r
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.11 r
+  U700/X (SAEDRVT14_OR2_MM_16)                            0.02       0.13 r
+  U666/X (SAEDRVT14_NR2_MM_16)                            0.01       0.13 f
+  U668/X (SAEDRVT14_NR2_MM_12)                            0.01       0.14 r
+  U1085/X (SAEDRVT14_OAI221_2)                            0.03       0.17 f
+  U232/X (SAEDRVT14_OR4_2)                                0.03       0.19 f
+  U1348/X (SAEDRVT14_OR2_4)                               0.02       0.21 f
+  U1349/X (SAEDRVT14_OR3_4)                               0.02       0.23 f
+  U1500/X (SAEDRVT14_EN2_4)                               0.03       0.25 r
+  U1147/X (SAEDRVT14_INV_12)                              0.01       0.26 f
+  U909/X (SAEDRVT14_INV_ECO_4)                            0.01       0.28 r
+  U1134/X (SAEDRVT14_INV_S_20)                            0.01       0.29 f
+  mult1/a[5] (gf256_mult_7)                               0.00       0.29 f
+  mult1/mult_278/A[5] (gf256_mult_7_DW02_mult_0)          0.00       0.29 f
+  mult1/mult_278/U21/X (SAEDRVT14_INV_ECO_4)              0.04       0.34 r
+  mult1/mult_278/U20/X (SAEDRVT14_NR2_MM_0P5)             0.05       0.39 f
+  mult1/mult_278/S2_5_1/S (SAEDRVT14_ADDF_V1_1)           0.04       0.43 f
+  mult1/mult_278/S1_6_0/S (SAEDRVT14_ADDF_V1_1)           0.04       0.46 f
+  mult1/mult_278/FS_1/A[4] (gf256_mult_7_DW01_add_0)      0.00       0.46 f
+  mult1/mult_278/FS_1/SUM[4] (gf256_mult_7_DW01_add_0)
+                                                          0.00       0.46 f
+  mult1/mult_278/PRODUCT[6] (gf256_mult_7_DW02_mult_0)
+                                                          0.00       0.46 f
+  mult1/U2/X (SAEDRVT14_EO4_2)                            0.04       0.51 f
+  mult1/result[6] (gf256_mult_7)                          0.00       0.51 f
+  U1451/X (SAEDRVT14_EN2_1)                               0.03       0.54 f
+  U1450/X (SAEDRVT14_NR2_MM_1)                            0.03       0.57 r
+  parity_symbols_reg[1][6]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.57 r
+  data arrival time                                                  0.57
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[1][6]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.02       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[4][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 r
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 r
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.07 f
+  U1243/X (SAEDRVT14_OR2_MM_20)                           0.02       0.09 f
+  U973/X (SAEDRVT14_AN2B_MM_12)                           0.03       0.12 r
+  U745/X (SAEDRVT14_INV_S_20)                             0.01       0.13 f
+  U758/X (SAEDRVT14_OR2_MM_20)                            0.02       0.14 f
+  U768/X (SAEDRVT14_INV_S_20)                             0.01       0.16 r
+  U767/X (SAEDRVT14_INV_12)                               0.01       0.16 f
+  U1392/X (SAEDRVT14_OAI22_4)                             0.01       0.18 r
+  U1137/X (SAEDRVT14_NR2_MM_6)                            0.01       0.19 f
+  U948/X (SAEDRVT14_ND2_8)                                0.01       0.20 r
+  U959/X (SAEDRVT14_NR2_MM_16)                            0.01       0.21 f
+  U1359/X (SAEDRVT14_AN4_8)                               0.02       0.22 f
+  U840/X (SAEDRVT14_NR2_MM_16)                            0.01       0.23 r
+  U839/X (SAEDRVT14_INV_S_16)                             0.01       0.24 f
+  U706/X (SAEDRVT14_ND2_MM_16)                            0.01       0.25 r
+  mult4/a[4] (gf256_mult_4)                               0.00       0.25 r
+  mult4/mult_278/A[4] (gf256_mult_4_DW02_mult_0_DW02_mult_3)
+                                                          0.00       0.25 r
+  mult4/mult_278/U22/X (SAEDRVT14_INV_S_16)               0.01       0.26 f
+  mult4/mult_278/U37/X (SAEDRVT14_NR2_MM_0P5)             0.04       0.30 r
+  mult4/mult_278/S2_4_4/S (SAEDRVT14_ADDF_V1_2)           0.04       0.34 r
+  mult4/mult_278/S2_5_3/S (SAEDRVT14_ADDF_V1_1)           0.03       0.37 r
+  mult4/mult_278/S2_6_2/S (SAEDRVT14_ADDF_V2_2)           0.03       0.40 r
+  mult4/mult_278/S4_1/S (SAEDRVT14_ADDF_V2_2)             0.03       0.43 r
+  mult4/mult_278/U9/X (SAEDRVT14_EO2_4)                   0.04       0.46 r
+  mult4/mult_278/FS_1/A[6] (gf256_mult_4_DW01_add_0_DW01_add_3)
+                                                          0.00       0.46 r
+  mult4/mult_278/FS_1/SUM[6] (gf256_mult_4_DW01_add_0_DW01_add_3)
+                                                          0.00       0.46 r
+  mult4/mult_278/PRODUCT[8] (gf256_mult_4_DW02_mult_0_DW02_mult_3)
+                                                          0.00       0.46 r
+  mult4/U21/X (SAEDRVT14_EN3_1)                           0.05       0.51 r
+  mult4/U14/X (SAEDRVT14_EN3_3)                           0.03       0.54 r
+  mult4/result[0] (gf256_mult_4)                          0.00       0.54 r
+  U1346/X (SAEDRVT14_INV_6)                               0.01       0.55 f
+  U1344/X (SAEDRVT14_ND2_8)                               0.01       0.56 r
+  U1345/X (SAEDRVT14_ND2_MM_6)                            0.01       0.57 f
+  U1347/X (SAEDRVT14_NR2_MM_8)                            0.01       0.58 r
+  parity_symbols_reg[4][0]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.58 r
+  data arrival time                                                  0.58
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[4][0]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.01       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[2][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 f
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 f
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.08 r
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 f
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.02       0.10 f
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.12 f
+  U751/X (SAEDRVT14_OR2_MM_20)                            0.02       0.14 f
+  U661/X (SAEDRVT14_INV_S_16)                             0.01       0.15 r
+  U1049/X (SAEDRVT14_OA2BB2_V1_4)                         0.02       0.17 f
+  U1206/X (SAEDRVT14_ND3B_4)                              0.02       0.19 r
+  U977/X (SAEDRVT14_OR2_4)                                0.01       0.20 r
+  U1320/X (SAEDRVT14_OR3_4)                               0.01       0.21 r
+  U1362/X (SAEDRVT14_OR3_4)                               0.02       0.23 r
+  U788/X (SAEDRVT14_NR2_MM_8)                             0.01       0.24 f
+  U1189/X (SAEDRVT14_EN2_4)                               0.03       0.26 r
+  U750/X (SAEDRVT14_INV_S_16)                             0.01       0.27 f
+  U672/X (SAEDRVT14_INV_S_9)                              0.01       0.29 r
+  U671/X (SAEDRVT14_BUF_16)                               0.02       0.30 r
+  mult2/a[3] (gf256_mult_6)                               0.00       0.30 r
+  mult2/mult_278/A[3] (gf256_mult_6_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.30 r
+  mult2/mult_278/U3/X (SAEDRVT14_INV_S_4)                 0.01       0.31 f
+  mult2/mult_278/U31/X (SAEDRVT14_BUF_16)                 0.02       0.33 f
+  mult2/mult_278/U101/X (SAEDRVT14_NR2_1)                 0.04       0.37 r
+  mult2/mult_278/S2_3_2/S (SAEDRVT14_ADDF_V1_1)           0.04       0.41 r
+  mult2/mult_278/S2_4_1/S (SAEDRVT14_ADDF_V1_1)           0.03       0.45 r
+  mult2/mult_278/S1_5_0/S (SAEDRVT14_ADDF_V1_1)           0.03       0.48 r
+  mult2/mult_278/FS_1/A[3] (gf256_mult_6_DW01_add_0_DW01_add_1)
+                                                          0.00       0.48 r
+  mult2/mult_278/FS_1/SUM[3] (gf256_mult_6_DW01_add_0_DW01_add_1)
+                                                          0.00       0.48 r
+  mult2/mult_278/PRODUCT[5] (gf256_mult_6_DW02_mult_0_DW02_mult_1)
+                                                          0.00       0.48 r
+  mult2/U10/X (SAEDRVT14_EN3_3)                           0.04       0.52 r
+  mult2/U11/X (SAEDRVT14_EN3_3)                           0.02       0.54 r
+  mult2/result[5] (gf256_mult_6)                          0.00       0.54 r
+  U1370/X (SAEDRVT14_EN2_3)                               0.03       0.57 f
+  U1153/X (SAEDRVT14_NR2_MM_6)                            0.01       0.57 r
+  parity_symbols_reg[2][5]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.57 r
+  data arrival time                                                  0.57
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[2][5]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.01       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+  Startpoint: encode_cnt_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: parity_symbols_reg[1][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rs_encoder_72_64   8000                  saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  encode_cnt_reg[5]/CK (SAEDRVT14_FDPRBQ_V2_4)            0.00       0.00 r
+  encode_cnt_reg[5]/Q (SAEDRVT14_FDPRBQ_V2_4)             0.05       0.05 f
+  U714/X (SAEDRVT14_BUF_20)                               0.02       0.07 f
+  U817/X (SAEDRVT14_INV_S_20)                             0.01       0.08 r
+  U816/X (SAEDRVT14_INV_S_20)                             0.00       0.08 f
+  U1059/X (SAEDRVT14_OR2_MM_20)                           0.02       0.10 f
+  U1119/X (SAEDRVT14_OR2_MM_20)                           0.02       0.12 f
+  U751/X (SAEDRVT14_OR2_MM_20)                            0.02       0.14 f
+  U661/X (SAEDRVT14_INV_S_16)                             0.01       0.15 r
+  U1049/X (SAEDRVT14_OA2BB2_V1_4)                         0.02       0.17 f
+  U1206/X (SAEDRVT14_ND3B_4)                              0.02       0.19 r
+  U977/X (SAEDRVT14_OR2_4)                                0.01       0.20 r
+  U1320/X (SAEDRVT14_OR3_4)                               0.01       0.21 r
+  U1362/X (SAEDRVT14_OR3_4)                               0.02       0.23 r
+  U788/X (SAEDRVT14_NR2_MM_8)                             0.01       0.24 f
+  U1189/X (SAEDRVT14_EN2_4)                               0.02       0.26 f
+  U750/X (SAEDRVT14_INV_S_16)                             0.01       0.27 r
+  U672/X (SAEDRVT14_INV_S_9)                              0.01       0.28 f
+  U671/X (SAEDRVT14_BUF_16)                               0.02       0.30 f
+  mult1/a[3] (gf256_mult_7)                               0.00       0.30 f
+  mult1/mult_278/A[3] (gf256_mult_7_DW02_mult_0)          0.00       0.30 f
+  mult1/mult_278/U44/X (SAEDRVT14_INV_3)                  0.07       0.37 r
+  mult1/mult_278/U96/X (SAEDRVT14_NR2_1)                  0.06       0.43 f
+  mult1/mult_278/S2_3_1/S (SAEDRVT14_ADDF_V2_2)           0.05       0.48 f
+  mult1/mult_278/S1_4_0/S (SAEDRVT14_ADDF_V2_2)           0.02       0.50 f
+  mult1/mult_278/FS_1/A[2] (gf256_mult_7_DW01_add_0)      0.00       0.50 f
+  mult1/mult_278/FS_1/SUM[2] (gf256_mult_7_DW01_add_0)
+                                                          0.00       0.50 f
+  mult1/mult_278/PRODUCT[4] (gf256_mult_7_DW02_mult_0)
+                                                          0.00       0.50 f
+  mult1/U10/X (SAEDRVT14_EN3_3)                           0.03       0.53 r
+  mult1/U7/X (SAEDRVT14_EN3_3)                            0.02       0.55 r
+  mult1/result[4] (gf256_mult_7)                          0.00       0.55 r
+  U1297/X (SAEDRVT14_EN2_4)                               0.02       0.57 f
+  U1296/X (SAEDRVT14_NR2_MM_8)                            0.01       0.57 r
+  parity_symbols_reg[1][4]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.57 r
+  data arrival time                                                  0.57
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  parity_symbols_reg[1][4]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       0.56 r
+  library setup time                                     -0.01       0.55
+  data required time                                                 0.55
+  --------------------------------------------------------------------------
+  data required time                                                 0.55
+  data arrival time                                                 -0.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+1

@@ -1,0 +1,130 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : rs_decoder_10_8
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:13:58 2025
+****************************************
+
+
+   max_delay/setup ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   calc_cnt_reg[3]/D            0.55           0.63 r        -0.08  (VIOLATED)
+   calc_cnt_reg[0]/D            0.55           0.64 r        -0.08  (VIOLATED)
+   state_reg[1]/D               0.56           0.64 r        -0.08  (VIOLATED)
+   error_position_reg[2]/D      0.56           0.64 r        -0.08  (VIOLATED)
+   error_position_reg[3]/D      0.56           0.64 r        -0.08  (VIOLATED)
+   state_reg[0]/D               0.56           0.64 r        -0.08  (VIOLATED)
+   calc_cnt_reg[1]/D            0.56           0.65 r        -0.08  (VIOLATED)
+   syndrome_1_reg[5]/D          0.56           0.64 r        -0.08  (VIOLATED)
+   error_position_reg[1]/D      0.57           0.65 f        -0.08  (VIOLATED)
+   calc_cnt_reg[2]/D            0.56           0.65 r        -0.08  (VIOLATED)
+   error_position_reg[0]/D      0.56           0.64 r        -0.08  (VIOLATED)
+   syndrome_1_reg[4]/D          0.56           0.62 r        -0.06  (VIOLATED)
+   syndrome_1_reg[7]/D          0.56           0.62 r        -0.06  (VIOLATED)
+   syndrome_1_reg[3]/D          0.56           0.61 r        -0.05  (VIOLATED)
+   syndrome_1_reg[0]/D          0.54           0.59 r        -0.05  (VIOLATED)
+   syndrome_0_reg[5]/D          0.55           0.60 r        -0.05  (VIOLATED)
+   syndrome_0_reg[6]/D          0.55           0.60 r        -0.05  (VIOLATED)
+   syndrome_1_reg[6]/D          0.56           0.60 r        -0.04  (VIOLATED)
+   syndrome_1_reg[2]/D          0.56           0.60 r        -0.04  (VIOLATED)
+   syndrome_0_reg[1]/D          0.55           0.59 r        -0.04  (VIOLATED)
+   syndrome_0_reg[4]/D          0.55           0.59 r        -0.04  (VIOLATED)
+   syndrome_1_reg[1]/D          0.56           0.58 r        -0.03  (VIOLATED)
+   syndrome_0_reg[0]/D          0.55           0.58 r        -0.02  (VIOLATED)
+   syndrome_0_reg[2]/D          0.55           0.57 r        -0.02  (VIOLATED)
+   syndrome_0_reg[3]/D          0.55           0.56 r        -0.01  (VIOLATED)
+   syndrome_0_reg[7]/D          0.55           0.56 r        -0.01  (VIOLATED)
+   corrected_symbol_6_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_6_reg[6]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_4_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_4_reg[6]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[2]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[3]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[4]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[6]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_5_reg[7]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_0_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_0_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_0_reg[2]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_0_reg[3]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_0_reg[4]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_0_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_1_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_1_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_1_reg[2]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_1_reg[3]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_1_reg[4]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_1_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_2_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_2_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_2_reg[2]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_2_reg[3]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_2_reg[4]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_2_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_3_reg[0]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_3_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_3_reg[2]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_3_reg[3]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_3_reg[4]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_3_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_6_reg[1]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_6_reg[5]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+   corrected_symbol_6_reg[7]/D
+                                0.55           0.55 r         0.00  (VIOLATED: increase significant digits)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   rs_decoder_10_8              0.00        1943.07       -1943.07  (VIOLATED)
+
+
+1

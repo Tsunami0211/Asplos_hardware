@@ -1,0 +1,6 @@
+================================================
+ DESIGN SUMMARY: sec_decoder_136_128
+================================================
+
+Worst Negative Slack (WNS): Unknown
+Total Cell Area: 226.617599 µm^2

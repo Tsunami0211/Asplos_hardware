@@ -1,0 +1,802 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'xed_encoder_10' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : xed_encoder_10
+Version: W-2024.09-SP5
+Date   : Fri Aug  1 20:53:45 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p8v25c   Library: saed14rvt_base_tt0p8v25c
+Wire Load Model Mode: top
+
+  Startpoint: chip2_data[117]
+              (input port clocked by clk)
+  Endpoint: simple_xor_crc[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip2_data[117] (in)                                    0.00       0.12 f
+  U884/X (SAEDRVT14_EN4_4)                                0.04       0.17 f
+  U899/X (SAEDRVT14_EO2_4)                                0.05       0.22 r
+  crc_simple_xor/data_in[117] (crc_atm_8bit_2)            0.00       0.22 r
+  crc_simple_xor/U45/X (SAEDRVT14_INV_S_20)               0.01       0.23 f
+  crc_simple_xor/U43/X (SAEDRVT14_INV_12)                 0.01       0.24 r
+  crc_simple_xor/U243/X (SAEDRVT14_ND2_5)                 0.01       0.25 f
+  crc_simple_xor/U9/X (SAEDRVT14_ND2_16)                  0.01       0.26 r
+  crc_simple_xor/U245/X (SAEDRVT14_EN2_4)                 0.03       0.29 f
+  crc_simple_xor/U325/X (SAEDRVT14_EN4_4)                 0.05       0.34 f
+  crc_simple_xor/U301/X (SAEDRVT14_EO4_2)                 0.06       0.40 r
+  crc_simple_xor/U168/X (SAEDRVT14_BUF_16)                0.02       0.42 r
+  crc_simple_xor/U314/X (SAEDRVT14_EO2_3)                 0.04       0.46 f
+  crc_simple_xor/U84/X (SAEDRVT14_EN3_3)                  0.05       0.51 r
+  crc_simple_xor/U289/X (SAEDRVT14_EN3_3)                 0.05       0.57 r
+  crc_simple_xor/U95/X (SAEDRVT14_EN3_3)                  0.05       0.61 f
+  crc_simple_xor/U78/X (SAEDRVT14_INV_S_16)               0.01       0.63 r
+  crc_simple_xor/U294/X (SAEDRVT14_EO2_1)                 0.07       0.70 f
+  crc_simple_xor/U15/X (SAEDRVT14_INV_ECO_2)              0.06       0.76 r
+  crc_simple_xor/U255/X (SAEDRVT14_EN3_3)                 0.05       0.81 f
+  crc_simple_xor/U340/X (SAEDRVT14_EO4_2)                 0.06       0.87 r
+  crc_simple_xor/U113/X (SAEDRVT14_INV_12)                0.02       0.88 f
+  crc_simple_xor/U46/X (SAEDRVT14_INV_S_8)                0.01       0.89 r
+  crc_simple_xor/U122/X (SAEDRVT14_EO4_2)                 0.05       0.94 f
+  crc_simple_xor/U230/X (SAEDRVT14_INV_12)                0.02       0.96 r
+  crc_simple_xor/U229/X (SAEDRVT14_EN2_4)                 0.04       1.00 f
+  crc_simple_xor/U202/X (SAEDRVT14_EO3_4)                 0.07       1.07 r
+  crc_simple_xor/U310/X (SAEDRVT14_EO2_3)                 0.05       1.12 f
+  crc_simple_xor/U356/X (SAEDRVT14_EO4_2)                 0.05       1.17 r
+  crc_simple_xor/U24/X (SAEDRVT14_BUF_16)                 0.02       1.19 r
+  crc_simple_xor/U358/X (SAEDRVT14_EO4_2)                 0.05       1.24 r
+  crc_simple_xor/U152/X (SAEDRVT14_BUF_16)                0.02       1.27 r
+  crc_simple_xor/U205/X (SAEDRVT14_EO2_4)                 0.05       1.31 f
+  crc_simple_xor/U219/X (SAEDRVT14_EO4_2)                 0.05       1.37 f
+  crc_simple_xor/U25/X (SAEDRVT14_BUF_16)                 0.02       1.39 f
+  crc_simple_xor/U238/X (SAEDRVT14_EO4_2)                 0.05       1.44 r
+  crc_simple_xor/U68/X (SAEDRVT14_INV_S_10)               0.01       1.45 f
+  crc_simple_xor/U288/X (SAEDRVT14_EN3_3)                 0.06       1.52 r
+  crc_simple_xor/U114/X (SAEDRVT14_BUF_3)                 0.03       1.55 r
+  crc_simple_xor/U366/X (SAEDRVT14_EO4_2)                 0.06       1.61 f
+  crc_simple_xor/U161/CKOUT (SAEDRVT14_CLKSPLT_8)         0.03       1.63 f
+  crc_simple_xor/U146/X (SAEDRVT14_EN2_4)                 0.03       1.67 f
+  crc_simple_xor/U140/X (SAEDRVT14_INV_12)                0.01       1.68 r
+  crc_simple_xor/U218/X (SAEDRVT14_EO4_2)                 0.05       1.73 f
+  crc_simple_xor/U137/X (SAEDRVT14_INV_12)                0.01       1.74 r
+  crc_simple_xor/U151/X (SAEDRVT14_EN2_4)                 0.02       1.77 f
+  crc_simple_xor/U201/X (SAEDRVT14_EN3_3)                 0.04       1.81 r
+  crc_simple_xor/crc_out[2] (crc_atm_8bit_2)              0.00       1.81 r
+  simple_xor_crc[2] (out)                                 0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.38
+
+
+  Startpoint: chip7_data[120]
+              (input port clocked by clk)
+  Endpoint: weighted_xor_crc[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip7_data[120] (in)                                    0.00       0.12 f
+  mult7_g1/data_in[56] (gf256_mult_64bit_1)               0.00       0.12 f
+  mult7_g1/mult_byte7/a[0] (gf256_mult_single_1)          0.00       0.12 f
+  mult7_g1/mult_byte7/U20/X (SAEDRVT14_EN3_3)             0.05       0.18 r
+  mult7_g1/mult_byte7/U12/X (SAEDRVT14_EO2_4)             0.07       0.25 f
+  mult7_g1/mult_byte7/U7/X (SAEDRVT14_OR2_4)              0.03       0.28 f
+  mult7_g1/mult_byte7/U147/X (SAEDRVT14_EO4_2)            0.04       0.32 r
+  mult7_g1/mult_byte7/result[7] (gf256_mult_single_1)     0.00       0.32 r
+  mult7_g1/result[63] (gf256_mult_64bit_1)                0.00       0.32 r
+  U1047/X (SAEDRVT14_EO2_3)                               0.04       0.36 f
+  U1500/X (SAEDRVT14_EO4_2)                               0.06       0.42 f
+  U775/X (SAEDRVT14_INV_S_20)                             0.02       0.43 r
+  crc_weighted_xor/data_in[127] (crc_atm_8bit_1)          0.00       0.43 r
+  crc_weighted_xor/U322/X (SAEDRVT14_INV_S_20)            0.01       0.44 f
+  crc_weighted_xor/U447/X (SAEDRVT14_EO2_3)               0.04       0.48 r
+  crc_weighted_xor/U406/X (SAEDRVT14_EO4_2)               0.07       0.55 f
+  crc_weighted_xor/U104/X (SAEDRVT14_EO2_3)               0.05       0.60 r
+  crc_weighted_xor/U514/X (SAEDRVT14_EO4_2)               0.07       0.67 f
+  crc_weighted_xor/U450/X (SAEDRVT14_EN4_4)               0.06       0.73 f
+  crc_weighted_xor/U503/X (SAEDRVT14_EN3_3)               0.06       0.79 r
+  crc_weighted_xor/U468/X (SAEDRVT14_EO3_4)               0.07       0.87 f
+  crc_weighted_xor/U333/X (SAEDRVT14_INV_ECO_2)           0.02       0.89 r
+  crc_weighted_xor/U519/X (SAEDRVT14_EO4_2)               0.07       0.96 f
+  crc_weighted_xor/U15/X (SAEDRVT14_INV_12)               0.01       0.98 r
+  crc_weighted_xor/U13/X (SAEDRVT14_INV_S_16)             0.01       0.98 f
+  crc_weighted_xor/U14/X (SAEDRVT14_INV_S_20)             0.01       1.00 r
+  crc_weighted_xor/U313/X (SAEDRVT14_EO3_4)               0.07       1.06 f
+  crc_weighted_xor/U454/X (SAEDRVT14_EN3_3)               0.07       1.14 r
+  crc_weighted_xor/U168/X (SAEDRVT14_EO2_3)               0.05       1.19 f
+  crc_weighted_xor/U428/X (SAEDRVT14_EN3_3)               0.06       1.25 r
+  crc_weighted_xor/U378/X (SAEDRVT14_EN3_3)               0.05       1.30 f
+  crc_weighted_xor/U404/X (SAEDRVT14_EN3_3)               0.06       1.35 r
+  crc_weighted_xor/U315/X (SAEDRVT14_EN2_4)               0.03       1.39 f
+  crc_weighted_xor/U547/X (SAEDRVT14_EN4_4)               0.06       1.44 r
+  crc_weighted_xor/U126/X (SAEDRVT14_EN2_4)               0.04       1.48 f
+  crc_weighted_xor/U227/X (SAEDRVT14_EN3_3)               0.05       1.53 r
+  crc_weighted_xor/U82/X (SAEDRVT14_INV_12)               0.01       1.54 f
+  crc_weighted_xor/U419/X (SAEDRVT14_EO4_2)               0.05       1.58 r
+  crc_weighted_xor/U389/X (SAEDRVT14_BUF_16)              0.02       1.60 r
+  crc_weighted_xor/U367/X (SAEDRVT14_EN2_4)               0.02       1.63 f
+  crc_weighted_xor/U374/X (SAEDRVT14_EN4_4)               0.05       1.68 r
+  crc_weighted_xor/U364/X (SAEDRVT14_EN3_3)               0.03       1.71 f
+  crc_weighted_xor/U498/X (SAEDRVT14_EN3_3)               0.04       1.76 r
+  crc_weighted_xor/U365/X (SAEDRVT14_EO4_2)               0.06       1.81 f
+  crc_weighted_xor/crc_out[2] (crc_atm_8bit_1)            0.00       1.81 f
+  weighted_xor_crc[2] (out)                               0.00       1.81 f
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.38
+
+
+  Startpoint: chip7_data[123]
+              (input port clocked by clk)
+  Endpoint: chip7_crc[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.12       0.12 f
+  chip7_data[123] (in)                     0.00       0.12 f
+  crc7/data_in[123] (crc_atm_8bit_3)       0.00       0.12 f
+  crc7/U61/X (SAEDRVT14_INV_S_20)          0.00       0.13 r
+  crc7/U307/X (SAEDRVT14_EO4_2)            0.06       0.19 r
+  crc7/U298/X (SAEDRVT14_EO2_3)            0.05       0.24 f
+  crc7/U310/X (SAEDRVT14_EO4_2)            0.07       0.31 r
+  crc7/U106/X (SAEDRVT14_EN3_3)            0.05       0.36 f
+  crc7/U297/X (SAEDRVT14_EN3_3)            0.06       0.42 r
+  crc7/U268/X (SAEDRVT14_EN2_4)            0.04       0.46 f
+  crc7/U304/X (SAEDRVT14_EN3_3)            0.07       0.53 r
+  crc7/U194/X (SAEDRVT14_EN3_3)            0.05       0.58 f
+  crc7/U124/X (SAEDRVT14_INV_S_16)         0.01       0.59 r
+  crc7/U30/X (SAEDRVT14_EO2_4)             0.05       0.64 f
+  crc7/U195/X (SAEDRVT14_EN4_4)            0.06       0.70 f
+  crc7/U306/X (SAEDRVT14_EN3_3)            0.05       0.75 f
+  crc7/U63/X (SAEDRVT14_BUF_20)            0.02       0.77 f
+  crc7/U192/X (SAEDRVT14_EO4_2)            0.06       0.82 r
+  crc7/U183/X (SAEDRVT14_INV_12)           0.02       0.84 f
+  crc7/U295/X (SAEDRVT14_EN3_3)            0.04       0.88 r
+  crc7/U273/X (SAEDRVT14_EN2_4)            0.05       0.92 f
+  crc7/U84/X (SAEDRVT14_INV_S_16)          0.01       0.94 r
+  crc7/U254/X (SAEDRVT14_EO3_4)            0.07       1.00 f
+  crc7/U142/X (SAEDRVT14_EN3_3)            0.05       1.06 r
+  crc7/U112/X (SAEDRVT14_INV_12)           0.01       1.07 f
+  crc7/U299/X (SAEDRVT14_EN3_3)            0.04       1.10 r
+  crc7/U326/X (SAEDRVT14_EO4_2)            0.06       1.16 r
+  crc7/U198/X (SAEDRVT14_INV_12)           0.01       1.18 f
+  crc7/U143/X (SAEDRVT14_EN2_4)            0.03       1.21 r
+  crc7/U130/X (SAEDRVT14_INV_12)           0.01       1.22 f
+  crc7/U229/X (SAEDRVT14_EO3_4)            0.08       1.29 r
+  crc7/U98/X (SAEDRVT14_EN2_4)             0.03       1.33 r
+  crc7/U18/X (SAEDRVT14_INV_12)            0.01       1.34 f
+  crc7/U148/X (SAEDRVT14_EN3_3)            0.05       1.39 r
+  crc7/U134/X (SAEDRVT14_INV_S_16)         0.01       1.41 f
+  crc7/U135/X (SAEDRVT14_EN2_4)            0.03       1.44 f
+  crc7/U212/X (SAEDRVT14_EN3_3)            0.05       1.49 r
+  crc7/U346/X (SAEDRVT14_EO4_2)            0.05       1.54 f
+  crc7/U117/X (SAEDRVT14_BUF_16)           0.02       1.56 f
+  crc7/U350/X (SAEDRVT14_EO4_2)            0.06       1.62 r
+  crc7/U128/X (SAEDRVT14_EN2_4)            0.03       1.66 r
+  crc7/U23/X (SAEDRVT14_INV_12)            0.01       1.67 f
+  crc7/U168/X (SAEDRVT14_EN4_4)            0.05       1.72 f
+  crc7/U204/X (SAEDRVT14_EN3_3)            0.05       1.77 f
+  crc7/U167/X (SAEDRVT14_INV_12)           0.01       1.78 r
+  crc7/U205/X (SAEDRVT14_EO2_3)            0.03       1.81 f
+  crc7/crc_out[4] (crc_atm_8bit_3)         0.00       1.81 f
+  chip7_crc[4] (out)                       0.00       1.81 f
+  data arrival time                                   1.81
+
+  clock clk (rise edge)                    0.62       0.62
+  clock network delay (ideal)              0.00       0.62
+  clock uncertainty                       -0.06       0.56
+  output external delay                   -0.12       0.44
+  data required time                                  0.44
+  -----------------------------------------------------------
+  data required time                                  0.44
+  data arrival time                                  -1.81
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -1.38
+
+
+  Startpoint: chip2_data[117]
+              (input port clocked by clk)
+  Endpoint: simple_xor_crc[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip2_data[117] (in)                                    0.00       0.12 f
+  U884/X (SAEDRVT14_EN4_4)                                0.04       0.17 f
+  U899/X (SAEDRVT14_EO2_4)                                0.05       0.22 r
+  crc_simple_xor/data_in[117] (crc_atm_8bit_2)            0.00       0.22 r
+  crc_simple_xor/U45/X (SAEDRVT14_INV_S_20)               0.01       0.23 f
+  crc_simple_xor/U43/X (SAEDRVT14_INV_12)                 0.01       0.24 r
+  crc_simple_xor/U243/X (SAEDRVT14_ND2_5)                 0.01       0.25 f
+  crc_simple_xor/U9/X (SAEDRVT14_ND2_16)                  0.01       0.26 r
+  crc_simple_xor/U245/X (SAEDRVT14_EN2_4)                 0.03       0.29 f
+  crc_simple_xor/U325/X (SAEDRVT14_EN4_4)                 0.05       0.34 f
+  crc_simple_xor/U301/X (SAEDRVT14_EO4_2)                 0.06       0.40 r
+  crc_simple_xor/U168/X (SAEDRVT14_BUF_16)                0.02       0.42 r
+  crc_simple_xor/U314/X (SAEDRVT14_EO2_3)                 0.04       0.46 f
+  crc_simple_xor/U84/X (SAEDRVT14_EN3_3)                  0.05       0.51 r
+  crc_simple_xor/U289/X (SAEDRVT14_EN3_3)                 0.05       0.57 r
+  crc_simple_xor/U95/X (SAEDRVT14_EN3_3)                  0.05       0.61 f
+  crc_simple_xor/U78/X (SAEDRVT14_INV_S_16)               0.01       0.63 r
+  crc_simple_xor/U294/X (SAEDRVT14_EO2_1)                 0.07       0.70 f
+  crc_simple_xor/U15/X (SAEDRVT14_INV_ECO_2)              0.06       0.76 r
+  crc_simple_xor/U255/X (SAEDRVT14_EN3_3)                 0.05       0.81 f
+  crc_simple_xor/U340/X (SAEDRVT14_EO4_2)                 0.06       0.87 r
+  crc_simple_xor/U113/X (SAEDRVT14_INV_12)                0.02       0.88 f
+  crc_simple_xor/U46/X (SAEDRVT14_INV_S_8)                0.01       0.89 r
+  crc_simple_xor/U122/X (SAEDRVT14_EO4_2)                 0.05       0.94 f
+  crc_simple_xor/U230/X (SAEDRVT14_INV_12)                0.02       0.96 r
+  crc_simple_xor/U229/X (SAEDRVT14_EN2_4)                 0.04       1.00 f
+  crc_simple_xor/U202/X (SAEDRVT14_EO3_4)                 0.07       1.07 r
+  crc_simple_xor/U310/X (SAEDRVT14_EO2_3)                 0.05       1.12 f
+  crc_simple_xor/U356/X (SAEDRVT14_EO4_2)                 0.05       1.17 r
+  crc_simple_xor/U24/X (SAEDRVT14_BUF_16)                 0.02       1.19 r
+  crc_simple_xor/U358/X (SAEDRVT14_EO4_2)                 0.05       1.24 r
+  crc_simple_xor/U152/X (SAEDRVT14_BUF_16)                0.02       1.27 r
+  crc_simple_xor/U205/X (SAEDRVT14_EO2_4)                 0.05       1.31 f
+  crc_simple_xor/U219/X (SAEDRVT14_EO4_2)                 0.05       1.37 f
+  crc_simple_xor/U25/X (SAEDRVT14_BUF_16)                 0.02       1.39 f
+  crc_simple_xor/U238/X (SAEDRVT14_EO4_2)                 0.05       1.44 r
+  crc_simple_xor/U68/X (SAEDRVT14_INV_S_10)               0.01       1.45 f
+  crc_simple_xor/U288/X (SAEDRVT14_EN3_3)                 0.06       1.52 r
+  crc_simple_xor/U114/X (SAEDRVT14_BUF_3)                 0.03       1.55 r
+  crc_simple_xor/U366/X (SAEDRVT14_EO4_2)                 0.06       1.61 f
+  crc_simple_xor/U161/CKOUT (SAEDRVT14_CLKSPLT_8)         0.03       1.63 f
+  crc_simple_xor/U146/X (SAEDRVT14_EN2_4)                 0.03       1.67 f
+  crc_simple_xor/U140/X (SAEDRVT14_INV_12)                0.01       1.68 r
+  crc_simple_xor/U218/X (SAEDRVT14_EO4_2)                 0.05       1.73 f
+  crc_simple_xor/U137/X (SAEDRVT14_INV_12)                0.01       1.74 r
+  crc_simple_xor/U134/X (SAEDRVT14_INV_12)                0.01       1.75 f
+  crc_simple_xor/U135/X (SAEDRVT14_EN2_4)                 0.03       1.78 r
+  crc_simple_xor/U138/X (SAEDRVT14_EN3_3)                 0.03       1.81 f
+  crc_simple_xor/crc_out[1] (crc_atm_8bit_2)              0.00       1.81 f
+  simple_xor_crc[1] (out)                                 0.00       1.81 f
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.37
+
+
+  Startpoint: chip7_data[123]
+              (input port clocked by clk)
+  Endpoint: chip7_crc[5]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.12       0.12 f
+  chip7_data[123] (in)                     0.00       0.12 f
+  crc7/data_in[123] (crc_atm_8bit_3)       0.00       0.12 f
+  crc7/U61/X (SAEDRVT14_INV_S_20)          0.00       0.13 r
+  crc7/U307/X (SAEDRVT14_EO4_2)            0.06       0.19 r
+  crc7/U298/X (SAEDRVT14_EO2_3)            0.05       0.24 f
+  crc7/U310/X (SAEDRVT14_EO4_2)            0.07       0.31 r
+  crc7/U106/X (SAEDRVT14_EN3_3)            0.05       0.36 f
+  crc7/U297/X (SAEDRVT14_EN3_3)            0.06       0.42 r
+  crc7/U268/X (SAEDRVT14_EN2_4)            0.04       0.46 f
+  crc7/U304/X (SAEDRVT14_EN3_3)            0.07       0.53 r
+  crc7/U194/X (SAEDRVT14_EN3_3)            0.05       0.58 f
+  crc7/U124/X (SAEDRVT14_INV_S_16)         0.01       0.59 r
+  crc7/U30/X (SAEDRVT14_EO2_4)             0.05       0.64 f
+  crc7/U195/X (SAEDRVT14_EN4_4)            0.06       0.70 f
+  crc7/U306/X (SAEDRVT14_EN3_3)            0.05       0.75 f
+  crc7/U63/X (SAEDRVT14_BUF_20)            0.02       0.77 f
+  crc7/U192/X (SAEDRVT14_EO4_2)            0.06       0.82 r
+  crc7/U183/X (SAEDRVT14_INV_12)           0.02       0.84 f
+  crc7/U295/X (SAEDRVT14_EN3_3)            0.04       0.88 r
+  crc7/U273/X (SAEDRVT14_EN2_4)            0.05       0.92 f
+  crc7/U84/X (SAEDRVT14_INV_S_16)          0.01       0.94 r
+  crc7/U254/X (SAEDRVT14_EO3_4)            0.07       1.00 f
+  crc7/U142/X (SAEDRVT14_EN3_3)            0.05       1.06 r
+  crc7/U112/X (SAEDRVT14_INV_12)           0.01       1.07 f
+  crc7/U299/X (SAEDRVT14_EN3_3)            0.04       1.10 r
+  crc7/U326/X (SAEDRVT14_EO4_2)            0.06       1.16 r
+  crc7/U198/X (SAEDRVT14_INV_12)           0.01       1.18 f
+  crc7/U143/X (SAEDRVT14_EN2_4)            0.03       1.21 r
+  crc7/U130/X (SAEDRVT14_INV_12)           0.01       1.22 f
+  crc7/U229/X (SAEDRVT14_EO3_4)            0.08       1.29 r
+  crc7/U98/X (SAEDRVT14_EN2_4)             0.03       1.33 r
+  crc7/U18/X (SAEDRVT14_INV_12)            0.01       1.34 f
+  crc7/U148/X (SAEDRVT14_EN3_3)            0.05       1.39 r
+  crc7/U134/X (SAEDRVT14_INV_S_16)         0.01       1.41 f
+  crc7/U135/X (SAEDRVT14_EN2_4)            0.03       1.44 f
+  crc7/U212/X (SAEDRVT14_EN3_3)            0.05       1.49 r
+  crc7/U346/X (SAEDRVT14_EO4_2)            0.05       1.54 f
+  crc7/U117/X (SAEDRVT14_BUF_16)           0.02       1.56 f
+  crc7/U350/X (SAEDRVT14_EO4_2)            0.06       1.62 r
+  crc7/U128/X (SAEDRVT14_EN2_4)            0.03       1.66 r
+  crc7/U23/X (SAEDRVT14_INV_12)            0.01       1.67 f
+  crc7/U168/X (SAEDRVT14_EN4_4)            0.05       1.72 f
+  crc7/U204/X (SAEDRVT14_EN3_3)            0.05       1.77 r
+  crc7/U167/X (SAEDRVT14_INV_12)           0.01       1.78 f
+  crc7/U207/X (SAEDRVT14_EN2_3)            0.03       1.81 r
+  crc7/crc_out[5] (crc_atm_8bit_3)         0.00       1.81 r
+  chip7_crc[5] (out)                       0.00       1.81 r
+  data arrival time                                   1.81
+
+  clock clk (rise edge)                    0.62       0.62
+  clock network delay (ideal)              0.00       0.62
+  clock uncertainty                       -0.06       0.56
+  output external delay                   -0.12       0.44
+  data required time                                  0.44
+  -----------------------------------------------------------
+  data required time                                  0.44
+  data arrival time                                  -1.81
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -1.37
+
+
+  Startpoint: chip7_data[120]
+              (input port clocked by clk)
+  Endpoint: weighted_xor_crc[5]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip7_data[120] (in)                                    0.00       0.12 f
+  mult7_g1/data_in[56] (gf256_mult_64bit_1)               0.00       0.12 f
+  mult7_g1/mult_byte7/a[0] (gf256_mult_single_1)          0.00       0.12 f
+  mult7_g1/mult_byte7/U20/X (SAEDRVT14_EN3_3)             0.05       0.18 r
+  mult7_g1/mult_byte7/U12/X (SAEDRVT14_EO2_4)             0.07       0.25 f
+  mult7_g1/mult_byte7/U7/X (SAEDRVT14_OR2_4)              0.03       0.28 f
+  mult7_g1/mult_byte7/U147/X (SAEDRVT14_EO4_2)            0.04       0.32 r
+  mult7_g1/mult_byte7/result[7] (gf256_mult_single_1)     0.00       0.32 r
+  mult7_g1/result[63] (gf256_mult_64bit_1)                0.00       0.32 r
+  U1047/X (SAEDRVT14_EO2_3)                               0.04       0.36 f
+  U1500/X (SAEDRVT14_EO4_2)                               0.06       0.42 f
+  U775/X (SAEDRVT14_INV_S_20)                             0.02       0.43 r
+  crc_weighted_xor/data_in[127] (crc_atm_8bit_1)          0.00       0.43 r
+  crc_weighted_xor/U322/X (SAEDRVT14_INV_S_20)            0.01       0.44 f
+  crc_weighted_xor/U447/X (SAEDRVT14_EO2_3)               0.04       0.48 r
+  crc_weighted_xor/U406/X (SAEDRVT14_EO4_2)               0.07       0.55 f
+  crc_weighted_xor/U104/X (SAEDRVT14_EO2_3)               0.05       0.60 r
+  crc_weighted_xor/U514/X (SAEDRVT14_EO4_2)               0.07       0.67 f
+  crc_weighted_xor/U450/X (SAEDRVT14_EN4_4)               0.06       0.73 f
+  crc_weighted_xor/U503/X (SAEDRVT14_EN3_3)               0.06       0.79 r
+  crc_weighted_xor/U468/X (SAEDRVT14_EO3_4)               0.07       0.87 f
+  crc_weighted_xor/U333/X (SAEDRVT14_INV_ECO_2)           0.02       0.89 r
+  crc_weighted_xor/U519/X (SAEDRVT14_EO4_2)               0.07       0.96 f
+  crc_weighted_xor/U15/X (SAEDRVT14_INV_12)               0.01       0.98 r
+  crc_weighted_xor/U13/X (SAEDRVT14_INV_S_16)             0.01       0.98 f
+  crc_weighted_xor/U14/X (SAEDRVT14_INV_S_20)             0.01       1.00 r
+  crc_weighted_xor/U313/X (SAEDRVT14_EO3_4)               0.07       1.06 f
+  crc_weighted_xor/U454/X (SAEDRVT14_EN3_3)               0.07       1.14 r
+  crc_weighted_xor/U168/X (SAEDRVT14_EO2_3)               0.05       1.19 f
+  crc_weighted_xor/U428/X (SAEDRVT14_EN3_3)               0.06       1.25 r
+  crc_weighted_xor/U378/X (SAEDRVT14_EN3_3)               0.05       1.30 f
+  crc_weighted_xor/U404/X (SAEDRVT14_EN3_3)               0.06       1.35 r
+  crc_weighted_xor/U315/X (SAEDRVT14_EN2_4)               0.03       1.39 f
+  crc_weighted_xor/U547/X (SAEDRVT14_EN4_4)               0.06       1.44 r
+  crc_weighted_xor/U126/X (SAEDRVT14_EN2_4)               0.04       1.48 f
+  crc_weighted_xor/U227/X (SAEDRVT14_EN3_3)               0.05       1.53 r
+  crc_weighted_xor/U82/X (SAEDRVT14_INV_12)               0.01       1.54 f
+  crc_weighted_xor/U259/X (SAEDRVT14_EN3_3)               0.05       1.58 r
+  crc_weighted_xor/U162/X (SAEDRVT14_INV_12)              0.01       1.59 f
+  crc_weighted_xor/U348/X (SAEDRVT14_EO4_2)               0.05       1.65 r
+  crc_weighted_xor/U307/X (SAEDRVT14_INV_12)              0.02       1.66 f
+  crc_weighted_xor/U238/X (SAEDRVT14_EN2_4)               0.05       1.71 r
+  crc_weighted_xor/U386/X (SAEDRVT14_EO4_2)               0.05       1.76 f
+  crc_weighted_xor/U368/X (SAEDRVT14_EN3_3)               0.05       1.81 r
+  crc_weighted_xor/crc_out[5] (crc_atm_8bit_1)            0.00       1.81 r
+  weighted_xor_crc[5] (out)                               0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.37
+
+
+  Startpoint: chip2_data[117]
+              (input port clocked by clk)
+  Endpoint: simple_xor_crc[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip2_data[117] (in)                                    0.00       0.12 f
+  U884/X (SAEDRVT14_EN4_4)                                0.04       0.17 f
+  U899/X (SAEDRVT14_EO2_4)                                0.05       0.22 r
+  crc_simple_xor/data_in[117] (crc_atm_8bit_2)            0.00       0.22 r
+  crc_simple_xor/U45/X (SAEDRVT14_INV_S_20)               0.01       0.23 f
+  crc_simple_xor/U43/X (SAEDRVT14_INV_12)                 0.01       0.24 r
+  crc_simple_xor/U243/X (SAEDRVT14_ND2_5)                 0.01       0.25 f
+  crc_simple_xor/U9/X (SAEDRVT14_ND2_16)                  0.01       0.26 r
+  crc_simple_xor/U245/X (SAEDRVT14_EN2_4)                 0.03       0.29 f
+  crc_simple_xor/U325/X (SAEDRVT14_EN4_4)                 0.05       0.34 f
+  crc_simple_xor/U301/X (SAEDRVT14_EO4_2)                 0.06       0.40 r
+  crc_simple_xor/U168/X (SAEDRVT14_BUF_16)                0.02       0.42 r
+  crc_simple_xor/U314/X (SAEDRVT14_EO2_3)                 0.04       0.46 f
+  crc_simple_xor/U84/X (SAEDRVT14_EN3_3)                  0.05       0.51 r
+  crc_simple_xor/U289/X (SAEDRVT14_EN3_3)                 0.05       0.57 r
+  crc_simple_xor/U95/X (SAEDRVT14_EN3_3)                  0.05       0.61 f
+  crc_simple_xor/U78/X (SAEDRVT14_INV_S_16)               0.01       0.63 r
+  crc_simple_xor/U294/X (SAEDRVT14_EO2_1)                 0.07       0.70 f
+  crc_simple_xor/U15/X (SAEDRVT14_INV_ECO_2)              0.06       0.76 r
+  crc_simple_xor/U255/X (SAEDRVT14_EN3_3)                 0.05       0.81 f
+  crc_simple_xor/U340/X (SAEDRVT14_EO4_2)                 0.06       0.87 r
+  crc_simple_xor/U113/X (SAEDRVT14_INV_12)                0.02       0.88 f
+  crc_simple_xor/U46/X (SAEDRVT14_INV_S_8)                0.01       0.89 r
+  crc_simple_xor/U122/X (SAEDRVT14_EO4_2)                 0.05       0.94 f
+  crc_simple_xor/U230/X (SAEDRVT14_INV_12)                0.02       0.96 r
+  crc_simple_xor/U229/X (SAEDRVT14_EN2_4)                 0.04       1.00 f
+  crc_simple_xor/U202/X (SAEDRVT14_EO3_4)                 0.07       1.07 r
+  crc_simple_xor/U310/X (SAEDRVT14_EO2_3)                 0.05       1.12 f
+  crc_simple_xor/U356/X (SAEDRVT14_EO4_2)                 0.05       1.17 r
+  crc_simple_xor/U24/X (SAEDRVT14_BUF_16)                 0.02       1.19 r
+  crc_simple_xor/U358/X (SAEDRVT14_EO4_2)                 0.05       1.24 r
+  crc_simple_xor/U152/X (SAEDRVT14_BUF_16)                0.02       1.27 r
+  crc_simple_xor/U205/X (SAEDRVT14_EO2_4)                 0.05       1.31 f
+  crc_simple_xor/U219/X (SAEDRVT14_EO4_2)                 0.05       1.37 f
+  crc_simple_xor/U25/X (SAEDRVT14_BUF_16)                 0.02       1.39 f
+  crc_simple_xor/U238/X (SAEDRVT14_EO4_2)                 0.05       1.44 r
+  crc_simple_xor/U68/X (SAEDRVT14_INV_S_10)               0.01       1.45 f
+  crc_simple_xor/U288/X (SAEDRVT14_EN3_3)                 0.06       1.52 r
+  crc_simple_xor/U114/X (SAEDRVT14_BUF_3)                 0.03       1.55 r
+  crc_simple_xor/U366/X (SAEDRVT14_EO4_2)                 0.06       1.61 f
+  crc_simple_xor/U161/CKOUT (SAEDRVT14_CLKSPLT_8)         0.03       1.63 f
+  crc_simple_xor/U146/X (SAEDRVT14_EN2_4)                 0.03       1.67 f
+  crc_simple_xor/U140/X (SAEDRVT14_INV_12)                0.01       1.68 r
+  crc_simple_xor/U218/X (SAEDRVT14_EO4_2)                 0.05       1.73 f
+  crc_simple_xor/U137/X (SAEDRVT14_INV_12)                0.01       1.74 r
+  crc_simple_xor/U134/X (SAEDRVT14_INV_12)                0.01       1.75 f
+  crc_simple_xor/U133/X (SAEDRVT14_INV_S_7)               0.01       1.76 r
+  crc_simple_xor/U369/X (SAEDRVT14_EO4_2)                 0.05       1.81 f
+  crc_simple_xor/crc_out[3] (crc_atm_8bit_2)              0.00       1.81 f
+  simple_xor_crc[3] (out)                                 0.00       1.81 f
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.37
+
+
+  Startpoint: chip7_data[120]
+              (input port clocked by clk)
+  Endpoint: weighted_xor_crc[6]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip7_data[120] (in)                                    0.00       0.12 f
+  mult7_g1/data_in[56] (gf256_mult_64bit_1)               0.00       0.12 f
+  mult7_g1/mult_byte7/a[0] (gf256_mult_single_1)          0.00       0.12 f
+  mult7_g1/mult_byte7/U20/X (SAEDRVT14_EN3_3)             0.05       0.18 r
+  mult7_g1/mult_byte7/U12/X (SAEDRVT14_EO2_4)             0.07       0.25 f
+  mult7_g1/mult_byte7/U7/X (SAEDRVT14_OR2_4)              0.03       0.28 f
+  mult7_g1/mult_byte7/U147/X (SAEDRVT14_EO4_2)            0.04       0.32 r
+  mult7_g1/mult_byte7/result[7] (gf256_mult_single_1)     0.00       0.32 r
+  mult7_g1/result[63] (gf256_mult_64bit_1)                0.00       0.32 r
+  U1047/X (SAEDRVT14_EO2_3)                               0.04       0.36 f
+  U1500/X (SAEDRVT14_EO4_2)                               0.06       0.42 f
+  U775/X (SAEDRVT14_INV_S_20)                             0.02       0.43 r
+  crc_weighted_xor/data_in[127] (crc_atm_8bit_1)          0.00       0.43 r
+  crc_weighted_xor/U322/X (SAEDRVT14_INV_S_20)            0.01       0.44 f
+  crc_weighted_xor/U447/X (SAEDRVT14_EO2_3)               0.04       0.48 r
+  crc_weighted_xor/U406/X (SAEDRVT14_EO4_2)               0.07       0.55 f
+  crc_weighted_xor/U104/X (SAEDRVT14_EO2_3)               0.05       0.60 r
+  crc_weighted_xor/U514/X (SAEDRVT14_EO4_2)               0.07       0.67 f
+  crc_weighted_xor/U450/X (SAEDRVT14_EN4_4)               0.06       0.73 f
+  crc_weighted_xor/U503/X (SAEDRVT14_EN3_3)               0.06       0.79 r
+  crc_weighted_xor/U468/X (SAEDRVT14_EO3_4)               0.07       0.87 f
+  crc_weighted_xor/U333/X (SAEDRVT14_INV_ECO_2)           0.02       0.89 r
+  crc_weighted_xor/U519/X (SAEDRVT14_EO4_2)               0.07       0.96 f
+  crc_weighted_xor/U15/X (SAEDRVT14_INV_12)               0.01       0.98 r
+  crc_weighted_xor/U13/X (SAEDRVT14_INV_S_16)             0.01       0.98 f
+  crc_weighted_xor/U14/X (SAEDRVT14_INV_S_20)             0.01       1.00 r
+  crc_weighted_xor/U313/X (SAEDRVT14_EO3_4)               0.07       1.06 f
+  crc_weighted_xor/U454/X (SAEDRVT14_EN3_3)               0.07       1.14 r
+  crc_weighted_xor/U168/X (SAEDRVT14_EO2_3)               0.05       1.19 f
+  crc_weighted_xor/U428/X (SAEDRVT14_EN3_3)               0.06       1.25 r
+  crc_weighted_xor/U378/X (SAEDRVT14_EN3_3)               0.05       1.30 f
+  crc_weighted_xor/U404/X (SAEDRVT14_EN3_3)               0.06       1.35 r
+  crc_weighted_xor/U315/X (SAEDRVT14_EN2_4)               0.03       1.39 f
+  crc_weighted_xor/U547/X (SAEDRVT14_EN4_4)               0.06       1.44 r
+  crc_weighted_xor/U17/X (SAEDRVT14_BUF_3)                0.03       1.48 r
+  crc_weighted_xor/U415/X (SAEDRVT14_EO3_4)               0.07       1.55 r
+  crc_weighted_xor/U421/X (SAEDRVT14_EO4_2)               0.05       1.61 f
+  crc_weighted_xor/U235/X (SAEDRVT14_EN2_4)               0.03       1.64 f
+  crc_weighted_xor/U226/X (SAEDRVT14_INV_S_16)            0.01       1.65 r
+  crc_weighted_xor/U225/X (SAEDRVT14_INV_S_20)            0.01       1.66 f
+  crc_weighted_xor/U501/X (SAEDRVT14_EN3_3)               0.05       1.71 r
+  crc_weighted_xor/U33/X (SAEDRVT14_INV_12)               0.01       1.72 f
+  crc_weighted_xor/U384/X (SAEDRVT14_EN3_3)               0.04       1.76 f
+  crc_weighted_xor/U383/X (SAEDRVT14_EN3_3)               0.05       1.81 r
+  crc_weighted_xor/crc_out[6] (crc_atm_8bit_1)            0.00       1.81 r
+  weighted_xor_crc[6] (out)                               0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.37
+
+
+  Startpoint: chip7_data[120]
+              (input port clocked by clk)
+  Endpoint: weighted_xor_crc[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip7_data[120] (in)                                    0.00       0.12 f
+  mult7_g1/data_in[56] (gf256_mult_64bit_1)               0.00       0.12 f
+  mult7_g1/mult_byte7/a[0] (gf256_mult_single_1)          0.00       0.12 f
+  mult7_g1/mult_byte7/U20/X (SAEDRVT14_EN3_3)             0.05       0.18 r
+  mult7_g1/mult_byte7/U12/X (SAEDRVT14_EO2_4)             0.07       0.25 f
+  mult7_g1/mult_byte7/U7/X (SAEDRVT14_OR2_4)              0.03       0.28 f
+  mult7_g1/mult_byte7/U147/X (SAEDRVT14_EO4_2)            0.04       0.32 r
+  mult7_g1/mult_byte7/result[7] (gf256_mult_single_1)     0.00       0.32 r
+  mult7_g1/result[63] (gf256_mult_64bit_1)                0.00       0.32 r
+  U1047/X (SAEDRVT14_EO2_3)                               0.04       0.36 f
+  U1500/X (SAEDRVT14_EO4_2)                               0.06       0.42 f
+  U775/X (SAEDRVT14_INV_S_20)                             0.02       0.43 r
+  crc_weighted_xor/data_in[127] (crc_atm_8bit_1)          0.00       0.43 r
+  crc_weighted_xor/U322/X (SAEDRVT14_INV_S_20)            0.01       0.44 f
+  crc_weighted_xor/U447/X (SAEDRVT14_EO2_3)               0.04       0.48 r
+  crc_weighted_xor/U406/X (SAEDRVT14_EO4_2)               0.07       0.55 f
+  crc_weighted_xor/U104/X (SAEDRVT14_EO2_3)               0.05       0.60 r
+  crc_weighted_xor/U514/X (SAEDRVT14_EO4_2)               0.07       0.67 f
+  crc_weighted_xor/U450/X (SAEDRVT14_EN4_4)               0.06       0.73 f
+  crc_weighted_xor/U503/X (SAEDRVT14_EN3_3)               0.06       0.79 r
+  crc_weighted_xor/U468/X (SAEDRVT14_EO3_4)               0.07       0.87 f
+  crc_weighted_xor/U427/X (SAEDRVT14_EN2_4)               0.04       0.91 r
+  crc_weighted_xor/U523/X (SAEDRVT14_EO4_2)               0.06       0.96 f
+  crc_weighted_xor/U355/X (SAEDRVT14_EN2_4)               0.04       1.00 f
+  crc_weighted_xor/U134/X (SAEDRVT14_INV_S_16)            0.01       1.01 r
+  crc_weighted_xor/U138/X (SAEDRVT14_INV_S_20)            0.01       1.02 f
+  crc_weighted_xor/U366/X (SAEDRVT14_EN2_4)               0.05       1.08 r
+  crc_weighted_xor/U477/X (SAEDRVT14_EN3_3)               0.05       1.13 f
+  crc_weighted_xor/U150/X (SAEDRVT14_EN3_3)               0.03       1.16 r
+  crc_weighted_xor/U258/X (SAEDRVT14_EN2_4)               0.04       1.19 f
+  crc_weighted_xor/U28/X (SAEDRVT14_INV_S_20)             0.01       1.20 r
+  crc_weighted_xor/U2/X (SAEDRVT14_INV_S_16)              0.01       1.22 f
+  crc_weighted_xor/U486/X (SAEDRVT14_EN3_3)               0.07       1.29 r
+  crc_weighted_xor/U426/X (SAEDRVT14_INV_S_20)            0.02       1.31 f
+  crc_weighted_xor/U491/X (SAEDRVT14_EO2_3)               0.05       1.36 r
+  crc_weighted_xor/U156/X (SAEDRVT14_INV_12)              0.01       1.37 f
+  crc_weighted_xor/U545/X (SAEDRVT14_EO4_2)               0.06       1.43 r
+  crc_weighted_xor/U241/X (SAEDRVT14_INV_12)              0.01       1.44 f
+  crc_weighted_xor/U133/X (SAEDRVT14_EN2_3)               0.05       1.49 r
+  crc_weighted_xor/U63/X (SAEDRVT14_INV_S_20)             0.01       1.50 f
+  crc_weighted_xor/U61/X (SAEDRVT14_EN2_4)                0.04       1.53 r
+  crc_weighted_xor/U62/X (SAEDRVT14_INV_S_20)             0.01       1.54 f
+  crc_weighted_xor/U353/X (SAEDRVT14_EN3_3)               0.04       1.58 r
+  crc_weighted_xor/U402/X (SAEDRVT14_EN4_4)               0.05       1.63 f
+  crc_weighted_xor/U52/X (SAEDRVT14_INV_S_16)             0.01       1.64 r
+  crc_weighted_xor/U363/X (SAEDRVT14_EO3_4)               0.07       1.71 f
+  crc_weighted_xor/U169/X (SAEDRVT14_EN3_3)               0.05       1.76 r
+  crc_weighted_xor/U8/X (SAEDRVT14_INV_12)                0.01       1.77 f
+  crc_weighted_xor/U188/X (SAEDRVT14_EN3_3)               0.04       1.81 r
+  crc_weighted_xor/crc_out[3] (crc_atm_8bit_1)            0.00       1.81 r
+  weighted_xor_crc[3] (out)                               0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.37
+
+
+  Startpoint: chip7_data[120]
+              (input port clocked by clk)
+  Endpoint: weighted_xor_crc[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  xed_encoder_10     16000                 saed14rvt_base_tt0p8v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.12       0.12 f
+  chip7_data[120] (in)                                    0.00       0.12 f
+  mult7_g1/data_in[56] (gf256_mult_64bit_1)               0.00       0.12 f
+  mult7_g1/mult_byte7/a[0] (gf256_mult_single_1)          0.00       0.12 f
+  mult7_g1/mult_byte7/U20/X (SAEDRVT14_EN3_3)             0.05       0.18 r
+  mult7_g1/mult_byte7/U12/X (SAEDRVT14_EO2_4)             0.07       0.25 f
+  mult7_g1/mult_byte7/U7/X (SAEDRVT14_OR2_4)              0.03       0.28 f
+  mult7_g1/mult_byte7/U147/X (SAEDRVT14_EO4_2)            0.04       0.32 r
+  mult7_g1/mult_byte7/result[7] (gf256_mult_single_1)     0.00       0.32 r
+  mult7_g1/result[63] (gf256_mult_64bit_1)                0.00       0.32 r
+  U1047/X (SAEDRVT14_EO2_3)                               0.04       0.36 f
+  U1500/X (SAEDRVT14_EO4_2)                               0.06       0.42 f
+  U775/X (SAEDRVT14_INV_S_20)                             0.02       0.43 r
+  crc_weighted_xor/data_in[127] (crc_atm_8bit_1)          0.00       0.43 r
+  crc_weighted_xor/U322/X (SAEDRVT14_INV_S_20)            0.01       0.44 f
+  crc_weighted_xor/U447/X (SAEDRVT14_EO2_3)               0.04       0.48 r
+  crc_weighted_xor/U406/X (SAEDRVT14_EO4_2)               0.07       0.55 f
+  crc_weighted_xor/U104/X (SAEDRVT14_EO2_3)               0.05       0.60 r
+  crc_weighted_xor/U514/X (SAEDRVT14_EO4_2)               0.07       0.67 f
+  crc_weighted_xor/U450/X (SAEDRVT14_EN4_4)               0.06       0.73 f
+  crc_weighted_xor/U503/X (SAEDRVT14_EN3_3)               0.06       0.79 r
+  crc_weighted_xor/U468/X (SAEDRVT14_EO3_4)               0.07       0.87 f
+  crc_weighted_xor/U427/X (SAEDRVT14_EN2_4)               0.04       0.91 r
+  crc_weighted_xor/U523/X (SAEDRVT14_EO4_2)               0.06       0.96 f
+  crc_weighted_xor/U355/X (SAEDRVT14_EN2_4)               0.04       1.00 f
+  crc_weighted_xor/U134/X (SAEDRVT14_INV_S_16)            0.01       1.01 r
+  crc_weighted_xor/U138/X (SAEDRVT14_INV_S_20)            0.01       1.02 f
+  crc_weighted_xor/U366/X (SAEDRVT14_EN2_4)               0.05       1.08 r
+  crc_weighted_xor/U477/X (SAEDRVT14_EN3_3)               0.05       1.13 r
+  crc_weighted_xor/U150/X (SAEDRVT14_EN3_3)               0.03       1.16 f
+  crc_weighted_xor/U258/X (SAEDRVT14_EN2_4)               0.04       1.19 r
+  crc_weighted_xor/U28/X (SAEDRVT14_INV_S_20)             0.01       1.21 f
+  crc_weighted_xor/U471/X (SAEDRVT14_EN4_4)               0.05       1.25 r
+  crc_weighted_xor/U339/X (SAEDRVT14_EO2_3)               0.04       1.29 f
+  crc_weighted_xor/U546/X (SAEDRVT14_EN4_4)               0.07       1.36 r
+  crc_weighted_xor/U550/X (SAEDRVT14_EO4_2)               0.06       1.42 r
+  crc_weighted_xor/U354/X (SAEDRVT14_BUF_16)              0.03       1.44 r
+  crc_weighted_xor/U45/X (SAEDRVT14_INV_S_20)             0.01       1.45 f
+  crc_weighted_xor/U551/X (SAEDRVT14_EO4_2)               0.05       1.50 f
+  crc_weighted_xor/U163/X (SAEDRVT14_EN2_4)               0.04       1.54 r
+  crc_weighted_xor/U46/X (SAEDRVT14_INV_S_16)             0.01       1.55 f
+  crc_weighted_xor/U552/X (SAEDRVT14_EO4_2)               0.06       1.61 r
+  crc_weighted_xor/U105/X (SAEDRVT14_INV_S_16)            0.02       1.62 f
+  crc_weighted_xor/U356/X (SAEDRVT14_EN3_3)               0.04       1.66 r
+  crc_weighted_xor/U180/X (SAEDRVT14_INV_S_20)            0.01       1.67 f
+  crc_weighted_xor/U179/X (SAEDRVT14_EN2_4)               0.04       1.71 r
+  crc_weighted_xor/U187/X (SAEDRVT14_EN2_4)               0.04       1.75 f
+  crc_weighted_xor/U174/X (SAEDRVT14_INV_12)              0.01       1.76 r
+  crc_weighted_xor/U38/X (SAEDRVT14_INV_S_20)             0.01       1.77 f
+  crc_weighted_xor/U37/X (SAEDRVT14_EN3_3)                0.04       1.81 r
+  crc_weighted_xor/crc_out[4] (crc_atm_8bit_1)            0.00       1.81 r
+  weighted_xor_crc[4] (out)                               0.00       1.81 r
+  data arrival time                                                  1.81
+
+  clock clk (rise edge)                                   0.62       0.62
+  clock network delay (ideal)                             0.00       0.62
+  clock uncertainty                                      -0.06       0.56
+  output external delay                                  -0.12       0.44
+  data required time                                                 0.44
+  --------------------------------------------------------------------------
+  data required time                                                 0.44
+  data arrival time                                                 -1.81
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.37
+
+
+1
